@@ -170,8 +170,31 @@ div.lowerCatCard:hover #catCardButton {
   height: 198px;
 }
 .catCard img:hover {
-  border: 1px solid #bababa;
+border: 1px solid #bababa;
 }
+
+.selengkapnya{
+text-align : pointer;
+margin-top : 0px; /*Jarak dari atas*/
+margin-bottom : 20px;
+font-family: courier;
+font-size : 15 px;
+font-weight : 700;
+}
+
+.selengkapnya a{
+display : inline-block;
+padding : 10px 10px;
+background-color : #91b1d6;
+border-radius : 5px;
+font-size : 1.3em; /*ukuran font */
+text-decoration : none;
+color : #364f6b;/* warna tekx */
+} 
+
+.selengkapnya a:hover{
+color : white;
+background-color : #364f6b;
 
 /* Button 
 .......................................................................*/
@@ -264,3 +287,26 @@ h3 {
     padding: 50px 0px 50px 0px;
     margin-top: 50px;
 }
+
+.Back {
+display : flex;
+justify-content : center;
+align-items : center;
+height : 20vh; /*mengisi seluruh tinggi viewport*/
+
+.Back a{
+display : inline-block;
+padding : 10px 20px;
+background-color ; #91b1d6;
+color : #000;
+text-decoration : none;
+border-radius : 5px;
+transition : background-color 0.3s:
+cursor : pointer ;
+}
+
+.Back a:hover{
+color : white;
+background-color : #364f6b;
+}
+	
