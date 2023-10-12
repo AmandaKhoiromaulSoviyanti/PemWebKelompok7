@@ -192,6 +192,7 @@ font-size: 1.3em; /* Ukuran font */
 text-decoration: none;
 color: #364f6b; /* Warna teks */
 }
+
 .selengkapnya a:hover {
 color: white;
 background-color: #364f6b;
