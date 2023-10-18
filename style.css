@@ -16,7 +16,7 @@ body {
   position: relative;
 }
 
-.logo a {
+.title a {
   font-size: 50px;
   font-weight: 800;
   float: left;
@@ -70,7 +70,7 @@ section {
   margin-bottom: 50px;
 }
 
-.selerakitalogo {
+.logo {
   width: 35%;
   height: 40%;
 }
