@@ -60,8 +60,14 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 
 LAMPIRAN: Analisis Model
 - Flowchart
-  ![Flowchart Web Selera Kita](flowchartWeb.png)
+
+   ![Flowchart Web Selera Kita](flowchartWeb.png)
+  
 - Use Case
+
+  ![UseCase Web Selera Kita](UsecaseWeb.png)
   
 - Activity Diagram
+
+  
 
