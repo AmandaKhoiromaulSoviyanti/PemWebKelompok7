@@ -69,5 +69,6 @@ LAMPIRAN: Analisis Model
   
 - Activity Diagram
 
+  ![Activity Diagram Web Selera Kita](ActivityDiagramWeb.jpg)
   
 
