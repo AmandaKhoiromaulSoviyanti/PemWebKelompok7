@@ -58,4 +58,10 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   - Adanya perangkat lunak yang mampu mengoperasikan Website resep makanan “Selera Kita”
   - Koneksi internet untuk dapat terhubung ke server.
 
+LAMPIRAN: Analisis Model
+- Flowchart
+  
+- Use Case
+  
+- Activity Diagram
 
