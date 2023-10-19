@@ -25,4 +25,37 @@ Website Resep Makanan "Selera Kita" memiliki beragam fungsi. berikut merupakan b
     menghidangkan masakkan yang dipilih yang dapat membantu pengguna yang kurang berpengalaman dalam 
     memasak
   - Website Resep Makanan " Selera Kita" juga dapat menjadi sarana pembelajaran dan juga mengembangakan 
-    keterampilan memasak. 
+    keterampilan memasak.
+
+- KARAKTERISTIK PENGGUNA
+Karakteristik pengguna yang menggunakan perangkat lunak Task SUbmission yaitu:
+  - Pengguna
+    a. Memiliki perangkat elektronik (handphone/cp)
+    b. Memiliki akses internet
+    c. Memahami cara kerja perangkat elektronik yang digunakan
+
+- LINGKUNGAN OPERASI
+Software Website resep makanan dapat dijalankan pada:
+  - Windows
+    - Windows 7,8,8.1,10
+    - Web browser (Google Chrome, Firefox, Microsoft Edge)
+      
+  - Android
+    - Android 4.0 atau lebih baik
+    - RAM : 512 MB
+      
+- KENDALA DESAIN DAN IMPLEMENTASI
+Kendala yang dialami dalam proses pembuatan desain dan implementasi website Resep Makanan “Selera Kita” yaitu:
+  - Mengalami kesulitan dalam menemukan ide dan desain website yang pas.
+  - Kurangnya pengetahuan teknis dalam mengembangakan website, sehingga kesulitan dalam merancang dan juga mengimplementasikan fitur yang ada.
+
+- DOKUMENTASI PENGGUNA
+Dokumen untuk membantu pengguna menggunakan website resep makanan “Selera Kita” ini terbuka untuk umum dan dapat diakses melalui web Browser, Google Chrome, Firefox, Microsoft Edge dsb.
+
+- ASUMSI DAN KETERGANTUNGAN
+Kebutuhan dari website resep makanan “Selera Kita” adalah:
+  - Adanya perangkat keras yang mampu mengoperasikan Website resep makanan "Selera Kita"
+  - Adanya perangkat lunak yang mampu mengoperasikan Website resep makanan “Selera Kita”
+  - Koneksi internet untuk dapat terhubung ke server.
+
+
