@@ -15,7 +15,7 @@ Perangkat lunak yang akan dikembangakan adalah Website Resep makanan yaitu Seler
 DESKRIPSI KEBUTUHAN FUNGSIONAL 
 - PERSPEKTIF PRODUK
 Website resep makanan "Selera Kita" yaitu sebuah website yang menampilkan berbagai resep makanan. Website ini dirancang dengan tujuan untuk menginspirasi dan membantu pengguna dalam mempersiapkan hidangan yang lezat dan memuaskan. Website ini memiliki tata letak dan desain yang muda untuk dinavigasi oleh user
-Setiap resep dalam website ini disertai dengan deskripsi yang rinci, termasuk bahan - bahan yang diperlukan dan langkah - langkah memasak yang mudah untuk dipahami. Setiap resep dilengkapi dengan gambar - gambar berkualitas dari hidangan yang sudah jadi. Gambar - gambar ini memungkikan user untuk memvisualisasikan hasil akhir dan memberikan motivasi untuk mencoba.
+Setiap resep dalam website ini disertai dengan deskripsi yang rinci, termasuk bahan - bahan yang diperlukan dan langkah - langkah memasak yang mudah untuk dipahami. Setiap resep dilengkapi dengan gambar - gambar berkualitas dari hidangan yang sudah jadi. Gambar - gambar ini memungkinkan user untuk memvisualisasikan hasil akhir dan memberikan motivasi untuk mencoba.
 
 - FUNGSI PRODUK
 Website Resep Makanan "Selera Kita" memiliki beragam fungsi. berikut merupakan beberapa fungsi dari website Resep Makanan Selera Kita :
@@ -30,7 +30,7 @@ Website Resep Makanan "Selera Kita" memiliki beragam fungsi. berikut merupakan b
 - KARAKTERISTIK PENGGUNA
 Karakteristik pengguna yang menggunakan perangkat lunak Task SUbmission yaitu:
   - Pengguna
-    a. Memiliki perangkat elektronik (handphone/cp)
+    a. Memiliki perangkat elektronik (Handphone/CP)
     b. Memiliki akses internet
     c. Memahami cara kerja perangkat elektronik yang digunakan
 
