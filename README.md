@@ -43,6 +43,9 @@ Software Website resep makanan dapat dijalankan pada:
   - Android
     - Android 4.0 atau lebih baik
     - RAM : 512 MB
+   
+  - Ios
+     - iOS 9, 10, 11, 12, 13, 14, 15, atau yang lebih baru
       
 - KENDALA DESAIN DAN IMPLEMENTASI
 Kendala yang dialami dalam proses pembuatan desain dan implementasi website Resep Makanan “Selera Kita” yaitu:
