@@ -69,6 +69,7 @@ LAMPIRAN: Analisis Model
   
 - Activity Diagram
 
-  ![Activity Diagram Web Selera Kita](ActivityDiagramWeb.jpg)
+  ![Aktivity diagram web drawio](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/0bbe7b5a-b81a-4791-a71e-e38d1dcab2a6)
+
   
 
