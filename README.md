@@ -28,7 +28,7 @@ Website Resep Makanan "Selera Kita" memiliki beragam fungsi. berikut merupakan b
     keterampilan memasak.
 
 - KARAKTERISTIK PENGGUNA
-Karakteristik pengguna yang menggunakan perangkat lunak Task SUbmission yaitu:
+Karakteristik pengguna yang menggunakan perangkat lunak Task Submission yaitu:
   - Pengguna
     a. Memiliki perangkat elektronik (Handphone/CP)
     b. Memiliki akses internet
