@@ -1,0 +1,29 @@
+body {
+    font-family: "Open-sans" sans-serif;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    text-align: center;
+    color: #364f6b;
+}
+
+img {
+    width : 300px;
+    height : 20pc;
+    margin-left : auto;
+    margin-right: auto;
+    display : block;
+}
+
+.kotakresep {
+    max-width: 800px; /* Sesuaikan lebar maksimum sesuai kebutuhan Anda */
+    margin: 0 auto;
+    background-color: #fff; /* Warna latar belakang */
+    padding: 20px; /* Ruang di sekitar konten */
+    border-radius: 10px; /* Sudut elemen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
