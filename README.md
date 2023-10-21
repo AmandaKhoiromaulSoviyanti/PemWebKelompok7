@@ -68,8 +68,8 @@ LAMPIRAN: Analisis Model
 
 - Use Case
 
-  ![UseCase Web Selera Kita](UsecaseWeb.png)
-  
+  ![UsecaseWeb](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/54342a16-064d-47d8-a2f0-79a568da5b28)
+
 - Activity Diagram
 
   ![Aktivity diagram web drawio](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/0bbe7b5a-b81a-4791-a71e-e38d1dcab2a6)
