@@ -32,7 +32,9 @@ Karakteristik pengguna yang menggunakan perangkat lunak Task Submission yaitu:
   - Pengguna
     
     a. Memiliki perangkat elektronik (Handphone/CP)
+    
     b. Memiliki akses internet
+    
     c. Memahami cara kerja perangkat elektronik yang digunakan
 
 - LINGKUNGAN OPERASI
