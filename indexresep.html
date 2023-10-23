@@ -10,7 +10,13 @@
     <nav>
         <div class="navbar">
             <div class="title"><a href=''>SeleraKita.</a></div>
-    </nav>
+            <div class="search-bar">
+                <input type="text" id="recipeSearch" placeholder="Cari resep">
+                <div id="searchResults"></div>
+            </div>
+        </div>
+    </nav> 
+    <!-- section merupakan tag html, id merupakan atribut dan resep elemen  -->
     <section id="resep">
         <ul class="catCardList">
             <li class="catCardList">
@@ -20,9 +26,12 @@
                 <p>Nasi goreng adalah makanan berupa nasi yang digoreng dan dicampur dalam minyak goreng, margarin,
                     atau mentega. Biasanya ditambah dengan kecap manis, bawang merah, bawang putih, asam jawa, lada
                     dan bahan lainnya; seperti telur, daging ayam, dan kerupuk.</p>
-                <div id="catCardButton" class="button"><a href="resepnasgor.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="resepnasgor.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
-                </div>
+            </div>
             </li>
             <li class="catCardList">
                 <div class="catCard"><a href="#"><img src="fotoResep/soto.jpg" alt=""></a>
@@ -31,7 +40,10 @@
                 <p>Soto ayam adalah makanan khas Indonesia yang berupa sejenis sup ayam dengan kuah yang berwarna kekuningan. 
                     Warna kuning ini dikarenakan oleh kunyit yang digunakan sebagai bumbu. Soto ayam banyak ditemukan di daerah-
                     daerah di Indonesia dan Singapura.</p>
-                <div id="catCardButton" class="button"><a href="resep soto.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="resep soto.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -43,7 +55,10 @@
                     Hidangan ini merupakan semacam sup berwarna hitam pekat yang memiliki rasa yang khas dan kaya 
                     rempah. Bahan utama dari rawon adalah daging sapi, terutama bagian daging sapi yang empuk seperti
                     tengkleng atau iga.</p>
-                <div id="catCardButton" class="button"><a href="resep rawon.html">Lihat Resep</a></div>
+                <div id="catCardButton" class="button">
+                    <a href="resep rawon.html" onclick="showLoading(this)">Lihat Resep</a>
+                    <div class="loading"></div>
+                    <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -55,7 +70,10 @@
                     karena daging sapi yang dimasak dalam santan kelapa dan rempah-rempah hingga meresap, menciptakan cita rasa 
                     yang kaya, pedas, gurih, dan beraroma rempah. Rendang bukan hanya menjadi bagian penting dalam kuliner Indonesia 
                     tetapi juga telah mendapatkan pengakuan internasional sebagai salah satumakanan terenak di dunia.</p>
-                <div id="catCardButton" class="button"><a href="resep rendang.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="resep rendang.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -67,7 +85,10 @@
                     yang khas, menciptakan kombinasi cita rasa yang unik. Ayam dimasak dalam bumbu ini hingga meresap, 
                     emberikan rasa yang kaya dan memuaskan. Tidak hanya memikat lidah orang Indonesia tetapi juga populer 
                     di kalangan pecinta kuliner di berbagai belahan dunia.</p>
-                <div id="catCardButton" class="button"><a href="resepayambumburujak.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="resepayambumburujak.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -80,7 +101,10 @@
                     dan gurih yang khas. Dalam hidangan ini, mie yang direbus dengan sempurna disajikan dengan potongan 
                     daging sapi atau kerang, irisan bawang merah, dan ditaburi daun bawang cincang. Mie Aceh menjadi salah satu 
                     kuliner favorit di Indonesia. </p>
-                <div id="catCardButton" class="button"><a href="resepMieAceh.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="resepMieAceh.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -92,7 +116,10 @@
                     Daging kambing yang dipotong-potong dimasak dalam kuah santan yang kental dan diperkaya dengan berbagai 
                     rempah yang memberikan gulai kambing karakteristiknya yang kaya dan aromatik yang menjadikan gulai kambing 
                     menajdi favorit di berbagai daerah di Indonesia. </p>
-                <div id="catCardButton" class="button"><a href="resep gulai.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="resep gulai.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -105,7 +132,10 @@
                     yang dimasak dengan bumbu pedas dan rempah-rempah.  Keunikan rasa rica-rica terletak pada kepedasannya yang menyengat 
                     dan paduan bumbu rempah yang memberikan sentuhan gurih dan harum. Rica-rica biasanya disajikan bersama nasi putih 
                     dan sayuran sebagai pelengkap. </p>
-                <div id="catCardButton" class="button"><a href="reseprica.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="reseprica.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -116,7 +146,10 @@
                 <p>Ayam Suwir adalah hidangan Indonesia yang terbuat dari daging ayam direbus atau dipanggang, lalu dipetik menjadi serat halus. 
                     Disajikan dengan bumbu khas seperti cabai, bawang, dan rempah, memberikan cita rasa gurih, pedas, dan harum. Cocok sebagai lauk 
                     nasi atau isian untuk mi goreng.</p>
-                <div id="catCardButton" class="button"><a href="ResepAyamSuwir.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="ResepAyamSuwir.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -126,7 +159,10 @@
                 <h3>Opor Ayam</h3>
                 <p> Opor Ayam adalah hidangan Indonesia dengan daging ayam direbus dalam kuah santan kental dan rempah-rempah. 
                     Rasanya gurih, lembut, dan sedikit manis. Cocok disajikan dengan nasi putih atau ketupat.</p>
-                <div id="catCardButton" class="button"><a href="ResepOporAyam.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="ResepOporAyam.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -135,7 +171,10 @@
                 <div class="lowerCatCard">
                 <h3>Ketoprak</h3>
                 <p> Ketoprak adalah hidangan Indonesia berbasis tahu dan sayuran segar yang disajikan dengan saus kacang khas.</p>
-                <div id="catCardButton" class="button"><a href="ResepKetoprak.html">Lihat Resep</a></div>
+                <div id="catCardButton" class="button">
+                    <a href="ResepKetoprak.html" onclick="showLoading(this)">Lihat Resep</a>
+                    <div class="loading"></div>
+                    <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -146,7 +185,10 @@
                 <p>Garang Asem adalah hidangan Indonesia yang menggabungkan daging ayam dengan campuran asam dari buah asem dan rempah-rempah khas. 
                     Rasanya unik, menciptakan perpaduan pedas, asam, dan gurih yang khas. Potongan ayam dimasak dalam kuah kental dengan tambahan 
                     sayuran. Garang Asem adalah hidangan yang lezat dan populer di berbagai daerah di Indonesia. </p>
-                <div id="catCardButton" class="button"><a href="ResepGarangAsem.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="ResepGarangAsem.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -157,7 +199,10 @@
                 <p>Gurame adalah hidangan Indonesia yang memakai ikan gurame sebagai bahan utama. Ikan ini digoreng hingga 
                     kulitnya kriuk, lalu disajikan dengan saus pedas manis yang menggugah selera. Rasanya gurih, pedas, dan 
                     sedikit manis, menciptakan kombinasi yang lezat. Gurame goreng adalah hidangan yang populer di masakan Indonesia.</p>
-                <div id="catCardButton" class="button"><a href="ResepGurame.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="ResepGurame.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -168,7 +213,10 @@
                 <p>Bihun adalah hidangan Asia yang terdiri dari mie tipis dari tepung beras. Mie ini sangat serbaguna dan cepat dimasak. 
                     Biasanya digunakan dalam berbagai hidangan seperti sup, tumis, atau salad. Bihun memiliki tekstur lembut dan rasa 
                     netral yang memungkinkannya menyerap cita rasa bumbu dengan sempurna, menjadikannya pilihan populer dalam masakan Asia.</p>
-                <div id="catCardButton" class="button"><a href="ResepBihun.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="ResepBihun.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -180,7 +228,10 @@
                      dan rempah khas. Ceker ayam direbus hingga lunak, lalu dicampur dengan cabai, bawang putih, daun bawang, dan bumbu lainnya. 
                      Hasilnya adalah hidangan pedas, gurih, dan penuh cita rasa. Seblak Ceker sering disajikan sebagai makanan ringan atau
                       hidangan pendamping nasi.</p>
-                <div id="catCardButton" class="button"><a href="ResepSeblak.html">Lihat Resep</a></div>
+                      <div id="catCardButton" class="button">
+                        <a href="ResepSeblak.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -191,7 +242,10 @@
                 <p>Bakmi Goreng adalah hidangan Indonesia yang terdiri dari mie goreng dengan berbagai bumbu dan 
                     bahan seperti sayuran, daging, dan telur. Cita rasanya gurih dengan sentuhan pedas, berkat kecap 
                     manis dan cabai. Disajikan dengan pelengkap seperti irisan timun segar dan kerupuk.</p>
-                <div id="catCardButton" class="button"><a href="resep bakmi goreng.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="resep bakmi goreng.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -203,7 +257,10 @@
                     dibumbui dengan rempah-rempah seperti daun salam, lengkuas, dan garam. Hasilnya adalah hidangan 
                     manis gurih dengan tekstur yang lembut. Gudeg sering disajikan dengan nasi, ayam suwir, telur rebus, 
                     dan sambal sebagai pelengkap.</p>
-                <div id="catCardButton" class="button"><a href="resep gudeg.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="resep gudeg.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -215,7 +272,10 @@
                     kemudian dibungkus dalam daun pisang sebelum dikukus. Nasi ini sering disajikan dengan lauk-pauk seperti ayam, 
                     ikan, atau tempe, serta sambal dan sayuran segar. Rasanya gurih dan aromatik, dengan tekstur nasi yang lembut dan 
                     harum khas daun pisang. Nasi Timbel merupakan hidangan tradisional yang populer di Jawa Barat, Indonesia.</p>
-                <div id="catCardButton" class="button"><a href="resep nasi timbel.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="resep nasi timbel.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -226,7 +286,10 @@
                 <p>Ayam Kecap adalah hidangan Asia Tenggara yang terdiri dari potongan ayam yang dimasak dengan kecap manis, bawang, 
                     bawang putih, dan bumbu lainnya. Rasanya gurih, manis, dan sedikit pedas. Hidangan ini sering disajikan dengan 
                     nasi putih dan sayuran sebagai pelengkap..</p>
-                <div id="catCardButton" class="button"><a href="resep ayam kecap.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="resep ayam kecap.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
@@ -236,13 +299,17 @@
                 <h3>Ayam Betutu</h3>
                 <p>Ayam Betutu adalah hidangan khas Bali dengan ayam dan rempah-rempah khas Bali. Ayam diisi atau diolesi dengan 
                     campuran rempah, lalu dipanggang atau direbus hingga empuk. Disajikan dengan nasi dan sayuran...</p>
-                <div id="catCardButton" class="button"><a href="resep ayam betutu.html">Lihat Resep</a></div>
+                    <div id="catCardButton" class="button">
+                        <a href="resep ayam betutu.html" onclick="showLoading(this)">Lihat Resep</a>
+                        <div class="loading"></div>
+                        <script src="script.js"></script>
                 </div>
                 </div>
             </li>
         </ul>
-        </section>
-        <div class="Back">
-            <a href="index.html">Back to Home</a>
-        </div>
+    </section>
+    <div class="Back">
+        <a href="index.html">Back to Home</a>
+    </div>
 </body>
+</html>
