@@ -26,6 +26,9 @@ body {
 
 .menu {
   float: right;
+  font-family: courier;
+  font-size : 20px;
+  font-weight : 800
 }
 
 nav {
@@ -310,6 +313,81 @@ cursor : pointer;
 .Back a:hover {
 color:white;
 background-color: #364f6b;
+}
+
+/* CSS untuk Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center; /* Mengatur elemen vertikal tengah */
+  background-color: #fff; /* Warna background putih */
+  border: 2px solid #364f6b; /* Garis pinggir dengan warna oranye */
+  border-radius: 25px;
+  padding: 5px; /* Mengurangi padding agar lebih pendek */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  height: 40px; /* Mengatur tinggi (height) search bar */
+  margin-left: auto; /* Menggeser search bar ke kanan */
+}
+
+.search-bar input[type="text"] {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  width: 100%;
+  background: transparent; /* Latar belakang transparan */
+}
+
+.search-bar input[type="text"]::placeholder {
+  color: #777;
+}
+
+.search-bar button {
+  background-color: 364f6b;
+  color: #fff;
+  border: none;
+  top: auto;
+  border-radius: 25px;
+  height: auto;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* CSS untuk hasil pencarian */
+#searchResults {
+  background-color: #fff; /* Warna background putih */
+  border: 2px solid #364f6b; /* Garis pinggir dengan warna oranye */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 100%; /* Lebar sesuai dengan search bar */
+  max-height: 300px; /* Tinggi maksimum hasil pencarian */
+  overflow-y: auto; /* Menambahkan scroll jika hasil pencarian terlalu panjang */
+  display: none; /* Sembunyikan secara default */
+  z-index: 1; /* Menempatkan hasil pencarian di atas elemen lainnya */
+  top: 60px; /* Sesuaikan dengan tinggi search bar dan margin-top */
+  position: absolute;
+}
+
+#searchResults a {
+  display: block;
+  padding: 0; /* Menghilangkan padding agar tombol lebih sesuai dengan tampilan tombol di indexresep.html */
+  text-decoration: none;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+  width: auto; /* Membiarkan tombol menyesuaikan ukuran kontennya */
+  height: auto; /* Membiarkan tombol menyesuaikan ukuran kontennya */
+  background-color: #364f6b;
+  color: #fff; /* Mengubah warna teks tombol agar terlihat lebih jelas */
+  text-align: center;
+  line-height: 30px; /* Menyesuaikan garis tinggi tombol untuk mempertahankan ukuran tombol */
+  font-size: 16px; /* Menyesuaikan ukuran teks tombol */
+}
+
+#searchResults a:hover {
+  background-color: #364f6b;
 }
 
 .loading {
