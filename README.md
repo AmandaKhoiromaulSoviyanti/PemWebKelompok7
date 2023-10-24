@@ -375,13 +375,13 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - margin-right: 0; untuk mengatur margin bagian kanan menjadi 0 piksel
     - width:225px; untuk mengatur lebar elemen menjadi 225 piksel
   - ul.catCardList selector kelas yang digunakan untuk menargetkan elemen-elemen ul yang memiliki kelas "catCardList."
-    - margin: 0; mengatur margin (luar) dari elemen-elemen <ul> dengan kelas "catCardList" menjadi 0 piksel.
+    - margin: 0; mengatur margin (luar) dari elemen-elemen ul dengan kelas "catCardList" menjadi 0 piksel.
   - catCardButton sebuah selector id yang digunakan untuk menargetkan elemen dengan id "catCardButton."
     - position: absolute; untuk mengatur posisi elemen menajdi absolut
     - width: 190px; untuk mengatur lebar elemen menjadi 190piksel
     - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
 
-  <img width="383" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/355bf13c-ae7c-4877-9893-df262fd4d53f"> 
+<img width="383" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/355bf13c-ae7c-4877-9893-df262fd4d53f"> 
 
   - div.lowerCatCard:hover #catCardButton selector yang mengarah pada elemen dengan id "catCardButton" ketika elemen "lowerCatCard"  dalam elemen "catCard" sedang dalam keadaan "hover."
     - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
@@ -392,7 +392,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   - .catCard img:hover merupakan selector pseudo-class yang mengarah pada gambar dalam elemen "catCard" ketika gambar tersebut sedang dalam keadaan "hover."
     - border: 1px solid #bababa; untuk mengubah tampilan border  menjadi 1 piksel dengan solid warna abu-abu muda
  
-  <img width="385" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/09434dac-2181-40fa-b39c-c26ef4c4789d"> 
+<img width="385" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/09434dac-2181-40fa-b39c-c26ef4c4789d"> 
 
   - .selengkapnya a merupakan selector yang digunakan untuk menargetkan tautan yang berada dalam elemen dengan kelas "selengkapnya."
     - display: inline-block; mengatur tampilan tautan-tautan untuk ditampilkan sebagai elemen inline-block.
@@ -432,6 +432,28 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   - box-shadow: 0 2px 3px #a8a8a8; menambahkan bayangan (shadow). Bayangan ini akan berupa bayangan dengan posisi vertikal 2 piksel, posisi horizontal 0 piksel, dan kabur sejauh 3 piksel, dengan warna #a8a8a8 (abu-abu).
   - transform: scale(1.04); untuk menggunakan transformasi untuk mengubah skala tombol. Tombol akan diperbesar sebesar 4% dari ukuran aslinya
   - Prefix transformasi: Beberapa browser mungkin memerlukan prefix tertentu, seperti `-webkit-transform`, `-moz-transform`, `-o-transform`, dan `-ms-transform`, untuk mendukung transformasi
+
+![Gambar WhatsApp 2023-10-24 pukul 22 47 06_2d3f5904](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/c32198db-3d49-44e1-b7dc-d9faae19a50a)
+  - .button:active: selector pseudo-class yang mengarah pada tombol dengan kelas "button" ketika tombol tersebut sedang dalam keadaan "active," 
+    - background: #000; untuk mengubah warna latar belakang tombol menjadi hitam (#000) ketika tombol dalam keadaan "active" atau saat ditekan oleh pengguna.
+  - .button a: selector yang digunakan untuk menargetkan tautan yang berada di dalam tombol dengan kelas "button."
+    - color: #ffffff; untuk mengatur warna teks tautan dalam tombol menjadi putih (#ffffff).
+    - padding: 7px 30px !important; untuk mengatur ruang dalam (padding) menjadi 7 piksel di atas dan bawah serta 30 piksel di sisi kiri dan kanan. Tanda             !important digunakan untuk memberikan prioritas tertinggi pada aturan ini.
+    - text-decoration: none; untuk menghilangkan dekorasi tautan dalam tombol, seperti garis bawah.
+  - .button a:hover: selector pseudo-class yang mengarah pada tautan dalam tombol dengan kelas "button" ketika tautan tersebut sedang dalam keadaan "hover."
+    - color: #ffffff; untuk mengatur warna teks tautan dalam tombol menjadi putih (#ffffff).
+  - .button:hover: Ini adalah selector pseudo-class yang mengarah pada tombol dengan kelas "button" ketika tombol tersebut sedang dalam keadaan "hover."
+    - color: #fff; untuk mengatur warna teks tautan dalam tombol menjadi putih (#fff).
+  - p: Ini adalah selector elemen yang digunakan untuk menargetkan semua elemen paragraf (p) dalam halaman web.
+    - margin: 10px 0px 10px 0px; untuk mengatur margin pada elemen paragraf menjadi 10 piksel di atas dan bawah, 0 piksel di kanan dan kiri.
+    - padding: 0px 0px 0px 0px; untuk mengatur padding ke 0 piksel di semua sisi (atas, kanan, bawah, kiri), sehingga tidak ada ruang dalam di sekitar elemen paragraf.
+  - .tengah Ini adalah selector kelas yang digunakan untuk menargetkan elemen-elemen yang memiliki kelas "tengah"
+    - text-align: center;mengatur perataan teks di dalam elemen dengan kelas "tengah" menjadi tengah (center). 
+    - width: 100%;untuk mengatur lebar elemen-elemen dengan kelas "tengah" menjadi 100% 
+
+
+
+
 
 - PENJELASAN SCRIPT RESEP
 
