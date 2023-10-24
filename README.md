@@ -381,18 +381,18 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - width: 190px; untuk mengatur lebar elemen menjadi 190piksel
     - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
 
-<img width="383" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/355bf13c-ae7c-4877-9893-df262fd4d53f"> 
+  <img width="383" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/355bf13c-ae7c-4877-9893-df262fd4d53f"> 
 
-  - div.lowerCatCard:hover #catCardButton selector yang mengarah pada elemen dengan id "catCardButton" ketika elemen "lowerCatCard"  dalam elemen "catCard" sedang dalam keadaan "hover."
-    - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
-  - .catCard img digunakan untuk menargetkan gambar-gambar yang berada dalam elemen
-    - border: 1px solid #dddddd; untuk mengatur ketebalan border menjadi 1 piksel dengan warna abu-abu muda
-    - width: 219px; untuk mngatur lebar gambar menjadi 219 piksel
-    - height: 198px; untuk mengatur tinggi gambar menjadi 198 piksel
-  - .catCard img:hover merupakan selector pseudo-class yang mengarah pada gambar dalam elemen "catCard" ketika gambar tersebut sedang dalam keadaan "hover."
-    - border: 1px solid #bababa; untuk mengubah tampilan border  menjadi 1 piksel dengan solid warna abu-abu muda
+    - div.lowerCatCard:hover #catCardButton selector yang mengarah pada elemen dengan id "catCardButton" ketika elemen "lowerCatCard"  dalam elemen "catCard" sedang dalam keadaan "hover."
+      - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
+    - .catCard img digunakan untuk menargetkan gambar-gambar yang berada dalam elemen
+      - border: 1px solid #dddddd; untuk mengatur ketebalan border menjadi 1 piksel dengan warna abu-abu muda
+      - width: 219px; untuk mngatur lebar gambar menjadi 219 piksel
+      - height: 198px; untuk mengatur tinggi gambar menjadi 198 piksel
+    - .catCard img:hover merupakan selector pseudo-class yang mengarah pada gambar dalam elemen "catCard" ketika gambar tersebut sedang dalam keadaan "hover."
+      - border: 1px solid #bababa; untuk mengubah tampilan border  menjadi 1 piksel dengan solid warna abu-abu muda
  
-<img width="385" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/09434dac-2181-40fa-b39c-c26ef4c4789d"> 
+  <img width="385" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/09434dac-2181-40fa-b39c-c26ef4c4789d"> 
 
   - .selengkapnya a merupakan selector yang digunakan untuk menargetkan tautan yang berada dalam elemen dengan kelas "selengkapnya."
     - display: inline-block; mengatur tampilan tautan-tautan untuk ditampilkan sebagai elemen inline-block.
