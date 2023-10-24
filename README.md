@@ -1,6 +1,8 @@
 <div align="center">
-<h1>Software Requirements Specification</h1>
-<h1>Website Resep Makanan: Selera Kita)</h1>
+<h1>
+  Software Requirements Specification
+  Website Resep Makanan: Selera Kita)
+</h1>
   
 <P>1. Melani Silvia P      (22091397038) </P>
 <P>2. Amanda Khoiroma'ul S (22091397063) </P> 
@@ -80,6 +82,8 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 ![Screenshot (833)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/6e409aff-e4f1-41d1-a8e6-a21a5dd47835)
 
 ![Screenshot (834)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/13e60758-0d7a-49f6-bdbd-564d0cac4f7b)
+
+![image](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/76683d4d-774f-4bc9-af18-886aec50a7d8)
 
 
 <h1> LAMPIRAN: ANALISIS MODEL </h1>
@@ -221,8 +225,9 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
       - box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Memberikan efek bayangan pada elemen dengan kelas "kotakresep". Efek bayangan adalah bayangan lembut yang memberikan kedalaman dan dimensi pada elemen.
 
 - PENJELASAN SCRIPT JS
-    ![Screenshot (827)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/97fccc33-7ac2-4ec3-a7a5-aac39eb3c5e3)
-    ![Screenshot (828)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/ea2ae230-9a19-43a3-b725-9eb444e56690)
+  ![Screenshot (827)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/97fccc33-7ac2-4ec3-a7a5-aac39eb3c5e3)
+  ![Screenshot (828)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/ea2ae230-9a19-43a3-b725-9eb444e56690)
+  
     - document.addEventListener("DOMContentLoaded", function() { ... }); merupakan event listener yang akan menjalankan fungsi saat DOM sepenuhnya dimuat
     - Const recipeSearchinput = document.getElementById(“recipeSearch”): untuk mendapatkan elemen input dengan ID “recipeSearch”
     - const searchResults = document.getElementById("searchResults"); digunakan untuk mendapatkan elemen dengan ID “searchResults” yang digunakan untuk tempat dimana hasil pencarian ditampilkan 
@@ -240,7 +245,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 
 - PENJELASAN SCRIPT STYLE.CSS
   
-    <img width="359" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/504afca6-39ee-468e-b772-95521d8abc57"> 
+  <img width="359" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/504afca6-39ee-468e-b772-95521d8abc57"> 
     
    - (*) adalah aturan CSS yang didefinisikan dibawahnya dan akan berlaku untuk semua elemen HTML pada halaman web.
    - {}  digunakan untuk mengelompokkan aturan CSS.
@@ -261,7 +266,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
      - font-family: courier; digunakan untuk mengatur jenis huruf menjadi ‘courier’ (tampilan monospasi)
      - color: #364f6b; digunakan untuk mengatur warna teks menjadi #364f6b (biru)
  
-    <img width="444" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/7cdd0d6a-cb0a-4863-978e-517d56b6afd2"> 
+  <img width="444" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/7cdd0d6a-cb0a-4863-978e-517d56b6afd2"> 
   
   - .menu : merupakan selektor class yang digunakan untuk menargetkan elemen yang memiliki kelas ‘menu’
     - float: right; digunakan untuk mengatur tulisan agar menempati sisi kanan
@@ -280,7 +285,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - z-index: 1; digunakan untuk mengatur z-index ‘nav’ menjadi 1 
     - border-bottom: 1px solid #364f6b;  digunakan untuk menambahkan garis bawah pada elemen ‘nav’ yang memiliki ketebalan 1 piksel dan warna solid dengan kode warna #364f6b
  
-    <img width="349" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/b75f00c6-be1b-4d5b-8f8c-74e1a03bdcb2"> 
+  <img width="349" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/b75f00c6-be1b-4d5b-8f8c-74e1a03bdcb2"> 
 
   - nav ul merupakan selektor gabungan yang mengarah pada elemen ‘ul’ yang ada dalam elemen ‘nav’
     - list-style-type: none; digunakan untuk menghilangkan  tanda pada item daftar list pada elemen ‘ul’
@@ -298,126 +303,126 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   - nav ul li a: hover merupakam selektor yang mengarah pada tautan ‘a’ yang sedang dalam keadaan hover atau ketika kursor mouse ada diatasnya
     - text-decoration: underline; digunakan untuk mengatur dekorasi teks dalam keadaan hover, yang mana tautan akan memiliki underline
 
-    <img width="334" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/164379f6-293a-41c5-ad62-2302c644b814"> 
+  <img width="334" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/164379f6-293a-41c5-ad62-2302c644b814"> 
 
   - section digunakan untuk mengelompokkankonten dalam sebuah halaman web
-  - margin: auto; digunakan untuk mengatur elemen ‘section’ menjadi auto
-  - display: flex; digunakan untuk mengatur ‘section’ menggunakan model tata letak flexbox (penataan elemen dalam 1 baris atau kolom)
-  - margin-bottom: 50px; digunakan untuk mengatur margin bagian bawah menjadi 50 piksel
+    - margin: auto; digunakan untuk mengatur elemen ‘section’ menjadi auto
+    - display: flex; digunakan untuk mengatur ‘section’ menggunakan model tata letak flexbox (penataan elemen dalam 1 baris atau kolom)
+    - margin-bottom: 50px; digunakan untuk mengatur margin bagian bawah menjadi 50 piksel
   - .logo merupakan selektor kelas yang digunakan untuk menargetkan elemen yang memiliki kelas ‘logo’
-  - width: 35%; digunakan untuk mengatur lebar elemen ‘logo’ menjadi 35% dari lebar elemen yang mengelilinginya
-  - height: 40; digunakan untuk mengatur tinggi elemen ‘logo’ menjadi 40% dari tinggi elemen yang mengelilinginya
+    - width: 35%; digunakan untuk mengatur lebar elemen ‘logo’ menjadi 35% dari lebar elemen yang mengelilinginya
+    - height: 40; digunakan untuk mengatur tinggi elemen ‘logo’ menjadi 40% dari tinggi elemen yang mengelilinginya
   - .kolom merupakan selektor kelas yang digunakan untuk menargetkan elemen kelas ‘kolom’
-  - margin-top: 50px; digunakan untuk mengatur margin bagian atas menjadi 50 piksel
-  - margin-bottom: 50px; digunakan untuk mengatur margin bagian bawah menajadi 50 piksel
+    - margin-top: 50px; digunakan untuk mengatur margin bagian atas menjadi 50 piksel
+    - margin-bottom: 50px; digunakan untuk mengatur margin bagian bawah menajadi 50 piksel
   - .kolom .deskripsi merupakan selektor gabungan yang mengarah pada elemen yang memiliki kelas ‘deskripsi’ yang ada dalan kelas ‘kolom’
-  - font-size: 20px; digunakan untuk mengatur ukuran font menjadi 20 piksel
-  - font-weight: bold; digunakan untuk mengatur ketebalan teks menjadi bold
-  - font-family: ‘comic sans ms’; digunakan untuk mengatur jenis huruf menjadi ‘comic sans ms’
-  - color: #000000; digunakan untuk mengatur warna menjadi kode #000000 (hitam)
+    - font-size: 20px; digunakan untuk mengatur ukuran font menjadi 20 piksel
+    - font-weight: bold; digunakan untuk mengatur ketebalan teks menjadi bold
+    - font-family: ‘comic sans ms’; digunakan untuk mengatur jenis huruf menjadi ‘comic sans ms’
+    - color: #000000; digunakan untuk mengatur warna menjadi kode #000000 (hitam)
 
-    <img width="305" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/e9373a53-a05c-4432-9de8-33127888df60"> 
+  <img width="305" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/e9373a53-a05c-4432-9de8-33127888df60"> 
 
   - h2, h3 digunakan untuk heading tingkat 2, umumnya judul dan heading tingkat 3 untuk subjudul
-  - font-family: ‘comic sans ms’; digunakan untuk mengatur jenis font-family menjadi ‘comic sans ms’
-  - font-weight: 800; digunakan untuk mengatur ketebalan teks menajadi 800
-  - font-size: 45px; digunakan untuk mengatur ukuran font menjadi 45n piksel
-  - margin-bottom: 50px digunakan untuk mengatur margin bawah menjadi 50 piksel
-  - color: #364f6b; digunakan untuk mengatur warna teks menjadi #364f6b (biru tua)
-  - width: 100%; digunakan untuk mengatur lebar menjadi 100% dari lebar yang mengelilinginya
-  - line-height: 20px; digunakan untuk mengatur tinggi gari menjadi 20 piksel
-  - font-size: 1.3em; digunakan untuk mengatur font menjadi 1.3 kali ukuran font asli
-  - margin: 0; digunakan untuk mengatur margin menjadi 0 piksel
+    - font-family: ‘comic sans ms’; digunakan untuk mengatur jenis font-family menjadi ‘comic sans ms’
+    - font-weight: 800; digunakan untuk mengatur ketebalan teks menajadi 800
+    - font-size: 45px; digunakan untuk mengatur ukuran font menjadi 45n piksel
+    - margin-bottom: 50px digunakan untuk mengatur margin bawah menjadi 50 piksel
+    - color: #364f6b; digunakan untuk mengatur warna teks menjadi #364f6b (biru tua)
+    - width: 100%; digunakan untuk mengatur lebar menjadi 100% dari lebar yang mengelilinginya
+    - line-height: 20px; digunakan untuk mengatur tinggi gari menjadi 20 piksel
+    - font-size: 1.3em; digunakan untuk mengatur font menjadi 1.3 kali ukuran font asli
+    - margin: 0; digunakan untuk mengatur margin menjadi 0 piksel
   - p digunakan untuk menampillan paragraf dalam dokumen HTML
-  - font-size: 0.9em; digunakan untuk mengatur ukuran font menjadi 0.9 kali ukuran font aslinya
+    - font-size: 0.9em; digunakan untuk mengatur ukuran font menjadi 0.9 kali ukuran font aslinya
 
-    <img width="366" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/ee72abc9-6344-4e24-9fe6-e5c916a984aa"> 
+  <img width="366" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/ee72abc9-6344-4e24-9fe6-e5c916a984aa"> 
 
   - div.catCard merupakan selektor kelas untuk menargetkan elemen ‘div’ yang kmemiliki kelas ‘catCard’
-  - border: solid 5px #e9e9e9; digunakan untuk mengatur garis tepi yang berupa solid dengan lebar 5 piksel dan warna abu-abu muda
-  - background: #d8d8d8; untuk mengatur warna background menjadi abu-abu tua
-  - width: 221px; untuk mengatur lebar elemen menjadi 221 piksel
-  - height: 400px; untuk mengatur tinggi elemen menjadi 400 piksel
-  - display: block; mengatur elemen ‘catCard’ untuk ditampilkan sebagai blok (mengisi seluruh lebar dalam elemen)
-  - position: relative; untuk mengatur posisi elemen menjadi relatif terhadap posisi aslinya
-  - overflow: hidden; untuk mengatur overflow elemen manjadi hidden, jika melebihi akan tidak terlihat
+    - border: solid 5px #e9e9e9; digunakan untuk mengatur garis tepi yang berupa solid dengan lebar 5 piksel dan warna abu-abu muda
+    - background: #d8d8d8; untuk mengatur warna background menjadi abu-abu tua
+    - width: 221px; untuk mengatur lebar elemen menjadi 221 piksel
+    - height: 400px; untuk mengatur tinggi elemen menjadi 400 piksel
+    - display: block; mengatur elemen ‘catCard’ untuk ditampilkan sebagai blok (mengisi seluruh lebar dalam elemen)
+    - position: relative; untuk mengatur posisi elemen menjadi relatif terhadap posisi aslinya
+    - overflow: hidden; untuk mengatur overflow elemen manjadi hidden, jika melebihi akan tidak terlihat
   - div.lowerCatCard digunakan untuk menargetkan elemen ‘div’ yang memiliki kelas ‘lowerCatCard’
-  - font-family: 'comic sans ms'; digunakan untuk mengatur jenis font-family menjadi ‘comic sans ms’
-  - position: absolute; untuk mengatur posisi elemen ‘lowerCatCard’ menjadi absolut
-  - background: #e9e9e9; untuk mengatur warna background menjadi abu-abu tua
-  - padding: 5px 5px; digunakan untuk mengatur padding menjadi 5 piksel pada sisi atas, bawah, kanan, dan kiri
-  - height: 200px; untuk mengatur tinggi elemen menjadi 200 piksel
-  - -webkit-transition: all 0.6s ease; , -moz-transition: all 0.6s ease;, -o-transition: all 0.6s ease;, transition:  all 0.6s ease; untuk mengatur transisi yang berdurasi 0.6 detik dengan efek ease yang memberikan perubahan yang halus dan lambat
+    - font-family: 'comic sans ms'; digunakan untuk mengatur jenis font-family menjadi ‘comic sans ms’
+    - position: absolute; untuk mengatur posisi elemen ‘lowerCatCard’ menjadi absolut
+    - background: #e9e9e9; untuk mengatur warna background menjadi abu-abu tua
+    - padding: 5px 5px; digunakan untuk mengatur padding menjadi 5 piksel pada sisi atas, bawah, kanan, dan kiri
+    - height: 200px; untuk mengatur tinggi elemen menjadi 200 piksel
+    - -webkit-transition: all 0.6s ease; , -moz-transition: all 0.6s ease;, -o-transition: all 0.6s ease;, transition:  all 0.6s ease; untuk mengatur transisi yang berdurasi 0.6 detik dengan efek ease yang memberikan perubahan yang halus dan lambat
   - div.lowerCatCard:hover  merupakan selector pseudo-class yang mengarah pada elemen <div> yang memiliki kelas "lowerCatCard" ketika elemen sedang dalam keadaan "hover."
-  - Pseudo-class :hover digunakan untuk menargetkan elemen ketika pengguna mengarahkan kursor mouse ke atasnya.
-  - opacity: 0.95; untuk mengatur tingkat kejernihan elemen "lowerCatCard" ketika dalam keadaan "hover." dengan nilai 0.95
-  - bottom: 0; untuk mengatur posisi bagian bawah menjadi 0piksel
-  - height: 390px; untuk mengatur tinggi elemen menjadi 390 piksel
+    - Pseudo-class :hover digunakan untuk menargetkan elemen ketika pengguna mengarahkan kursor mouse ke atasnya.
+    - opacity: 0.95; untuk mengatur tingkat kejernihan elemen "lowerCatCard" ketika dalam keadaan "hover." dengan nilai 0.95
+    - bottom: 0; untuk mengatur posisi bagian bawah menjadi 0piksel
+    - height: 390px; untuk mengatur tinggi elemen menjadi 390 piksel
 
-    <img width="364" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/de4a8ab9-8a6f-4c21-8370-a8c310514f33"> 
+  <img width="364" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/de4a8ab9-8a6f-4c21-8370-a8c310514f33"> 
 
-  - div.lowerCatCard:hover merupakan selector yang mengarah pada elemen <div> yang memiliki kelas "lowerCatCard" yang berada dalam elemen <div> yang memiliki kelas "catCard." Dalam HTML, ini mengacu pada elemen-elemen "lowerCatCard" yang ada sebagai anak dari elemen "catCard."
-  - left: 0; untuk mengatur posisi kiri menjadi 0 piksel
-  - bottom: -3%; mengatur posisi bawah menjadi -3% dari tinggi elemen
-  - width: 215px; untuk mengatur lebar menajdi 215 piksel
+  - div.lowerCatCard:hover merupakan selector yang mengarah pada elemen div yang memiliki kelas "lowerCatCard" yang berada dalam elemen div yang memiliki kelas "catCard." Dalam HTML, ini mengacu pada elemen-elemen "lowerCatCard" yang ada sebagai anak dari elemen "catCard."
+    - left: 0; untuk mengatur posisi kiri menjadi 0 piksel
+    - bottom: -3%; mengatur posisi bawah menjadi -3% dari tinggi elemen
+    - width: 215px; untuk mengatur lebar menajdi 215 piksel
   - div.catCard:hover div.lowerCatCard  selector yang mengarah pada elemen <div> yang memiliki kelas "lowerCatCard" yang berada di dalam elemen <div> yang memiliki kelas "catCard.". Diterapkan ketika elemen "catCard" sedang dalam keadaan "hover
-  - bottom: 0; mengatur posisi bawah menjadi 0 piksel
-  - li.catCardList digunakan untuk menargetkan elemen <li> yang memiliki kelas "catCardList."
-  - width:225px; mengatur lebar elemen menajdi 225 piksel
-  - display: inline-block; mengatur elemen <li> dengan kelas "catCardList" untuk ditampilkan sebagai inline-block, membuat elemen berperilaku seperti elemen inline, tetapi dengan kemampuan untuk mengatur lebar dan tinggi serta menerima margin.
-  - margin-right: 19px; untuk mengatur margin sebelah kanan menjadi 19 piksel
-  - margin-top: 25px; untuk mengatur margin bagian atas menjadi 25 piksel
+    - bottom: 0; mengatur posisi bawah menjadi 0 piksel
+    - li.catCardList digunakan untuk menargetkan elemen <li> yang memiliki kelas "catCardList."
+    - width:225px; mengatur lebar elemen menajdi 225 piksel
+    - display: inline-block; mengatur elemen <li> dengan kelas "catCardList" untuk ditampilkan sebagai inline-block, membuat elemen berperilaku seperti elemen inline, tetapi dengan kemampuan untuk mengatur lebar dan tinggi serta menerima margin.
+    - margin-right: 19px; untuk mengatur margin sebelah kanan menjadi 19 piksel
+    - margin-top: 25px; untuk mengatur margin bagian atas menjadi 25 piksel
   - li.catCardList-last selector kelas yang digunakan untuk menargetkan elemen dengan kelas "catCardList-last."
-  - margin-right: 0; untuk mengatur margin bagian kanan menjadi 0 piksel
-  - width:225px; untuk mengatur lebar elemen menjadi 225 piksel
+    - margin-right: 0; untuk mengatur margin bagian kanan menjadi 0 piksel
+    - width:225px; untuk mengatur lebar elemen menjadi 225 piksel
   - ul.catCardList selector kelas yang digunakan untuk menargetkan elemen-elemen <ul> yang memiliki kelas "catCardList."
-  - margin: 0; mengatur margin (luar) dari elemen-elemen <ul> dengan kelas "catCardList" menjadi 0 piksel.
+    - margin: 0; mengatur margin (luar) dari elemen-elemen <ul> dengan kelas "catCardList" menjadi 0 piksel.
   - #catCardButton sebuah selector id yang digunakan untuk menargetkan elemen dengan id "catCardButton."
-  - position: absolute; untuk mengatur posisi elemen menajdi absolut
-  - width: 190px; untuk mengatur lebar elemen menjadi 190piksel
-  - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
+    - position: absolute; untuk mengatur posisi elemen menajdi absolut
+    - width: 190px; untuk mengatur lebar elemen menjadi 190piksel
+    - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
 
-    <img width="383" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/355bf13c-ae7c-4877-9893-df262fd4d53f"> 
+  <img width="383" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/355bf13c-ae7c-4877-9893-df262fd4d53f"> 
 
   - div.lowerCatCard:hover #catCardButton selector yang mengarah pada elemen dengan id "catCardButton" ketika elemen "lowerCatCard"  dalam elemen "catCard" sedang dalam keadaan "hover."
-  - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
+    - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
   - .catCard img digunakan untuk menargetkan gambar-gambar yang berada dalam elemen
-  - border: 1px solid #dddddd; untuk mengatur ketebalan border menjadi 1 piksel dengan warna abu-abu muda
-  - width: 219px; untuk mngatur lebar gambar menjadi 219 piksel
-  - height: 198px; untuk mengatur tinggi gambar menjadi 198 piksel
+    - border: 1px solid #dddddd; untuk mengatur ketebalan border menjadi 1 piksel dengan warna abu-abu muda
+    - width: 219px; untuk mngatur lebar gambar menjadi 219 piksel
+    - height: 198px; untuk mengatur tinggi gambar menjadi 198 piksel
   - .catCard img:hover merupakan selector pseudo-class yang mengarah pada gambar dalam elemen "catCard" ketika gambar tersebut sedang dalam keadaan "hover."
-  - border: 1px solid #bababa; untuk mengubah tampilan border  menjadi 1 piksel dengan solid warna abu-abu muda
+    - border: 1px solid #bababa; untuk mengubah tampilan border  menjadi 1 piksel dengan solid warna abu-abu muda
  
-<img width="385" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/09434dac-2181-40fa-b39c-c26ef4c4789d"> 
+  <img width="385" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/09434dac-2181-40fa-b39c-c26ef4c4789d"> 
 
   - .selengkapnya a merupakan selector yang digunakan untuk menargetkan tautan yang berada dalam elemen dengan kelas "selengkapnya."
-  - display: inline-block; mengatur tampilan tautan-tautan untuk ditampilkan sebagai elemen inline-block.
-  - padding: 10px 10px; mengatur padding pada semua sisi menjadi 10 piksel
-  - background-color: #91b1d6; untuk mengatur warna background menajdi biru muda
-  - border-radius: 5px;  mengatur radius sudut (border radius) tautan-tautan sehingga memiliki sudut yang melengkung
-  - font-size: 1.3em; mengatur ukuran font menjadi 1.3 em, membuat teks lebih besar dari ukuran font standar.
-  - text-decoration: none; menghilangkan dekorasi tautan, seperti garis bawah yang umumnya muncul pada tautan.
-  - color: #364f6b; mengatur warna teks menjadi #364f6b (biru tua).
+    - display: inline-block; mengatur tampilan tautan-tautan untuk ditampilkan sebagai elemen inline-block.
+    - padding: 10px 10px; mengatur padding pada semua sisi menjadi 10 piksel
+    - background-color: #91b1d6; untuk mengatur warna background menajdi biru muda
+    - border-radius: 5px;  mengatur radius sudut (border radius) tautan-tautan sehingga memiliki sudut yang melengkung
+    - font-size: 1.3em; mengatur ukuran font menjadi 1.3 em, membuat teks lebih besar dari ukuran font standar.
+    - text-decoration: none; menghilangkan dekorasi tautan, seperti garis bawah yang umumnya muncul pada tautan.
+    - color: #364f6b; mengatur warna teks menjadi #364f6b (biru tua).
   - .selengkapnya a:hover selector pseudo-class yang mengarah pada tautan dalam elemen "selengkapnya" ketika tautan tersebut sedang dalam keadaan "hover."
-  - color: white; mengubah teks tautan menjadi warna putih
-  - background-color: #364f6b;  mengubah warna latar belakang tautan menjadi #364f6b (biru tua) 
+    - color: white; mengubah teks tautan menjadi warna putih
+    - background-color: #364f6b;  mengubah warna latar belakang tautan menjadi #364f6b (biru tua) 
 
-<img width="354" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/655a2972-0696-481b-904b-e293902d39ad"> 
+  <img width="354" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/655a2972-0696-481b-904b-e293902d39ad"> 
 
-  - button digunakan untuk menargetkan tombol yang memiliki kelas "button."
-  - cursor: pointer mengatur tampilan kursor mouse saat berada di atas tombol. "pointer" mengubah kursor menjadi ikon tangan, menandakan bahwa tombol tersebut dapat diklik.
-  - font-size: 14px mengatur ukuran font menjadi 14 piksel.
-  - color: #ffffff; mengatur warna teks pada tombol menjadi putih.
-  - padding: 7px 10px  mengatur ruang dalam (padding) tombol sebesar 7 piksel di atas dan bawah serta 10 piksel di sisi kiri dan kanan.
-  - text-decoration: none untuk menghilangkan dekorasi tautan, seperti garis bawah, pada teks tombol.
-  - text-transform: uppercase mengubah teks pada tombol menjadi huruf kapital.
-  - letter-spacing: 0  menghilangkan jarak antara huruf pada teks tombol.
-  - background: #000; mengatur warna latar belakang tombol menjadi hitam (#000).
-  - border: none; untuk menghilangkan border (garis tepi) tombol.
-  - border-bottom: solid 1px #c90c12; menambahkan border di bagian bawah tombol dengan ketebalan 1 piksel dan warna #c90c12 (merah tua).
-  - text-align: center; untuk mengatur perataan teks di tengah tombol.
-  - margin-top: 10px; untuk mengatur margin di bagian atas tombol sebesar 10 piksel.
-  - !important; Tanda `!important` digunakan untuk memberikan prioritas tertinggi pada aturan ini,
+  - button digunakan untuk menargetkan tombol yang memiliki class "button."
+    - cursor: pointer mengatur tampilan kursor mouse saat berada di atas tombol. "pointer" mengubah kursor menjadi ikon tangan, menandakan bahwa tombol tersebut dapat diklik.
+    - font-size: 14px mengatur ukuran font menjadi 14 piksel.
+    - color: #ffffff; mengatur warna teks pada tombol menjadi putih.
+    - padding: 7px 10px  mengatur ruang dalam (padding) tombol sebesar 7 piksel di atas dan bawah serta 10 piksel di sisi kiri dan kanan.
+    - text-decoration: none untuk menghilangkan dekorasi tautan, seperti garis bawah, pada teks tombol.
+    - text-transform: uppercase mengubah teks pada tombol menjadi huruf kapital.
+    - letter-spacing: 0  menghilangkan jarak antara huruf pada teks tombol.
+    - background: #000; mengatur warna latar belakang tombol menjadi hitam (#000).
+    - border: none; untuk menghilangkan border (garis tepi) tombol.
+    - border-bottom: solid 1px #c90c12; menambahkan border di bagian bawah tombol dengan ketebalan 1 piksel dan warna #c90c12 (merah tua).
+    - text-align: center; untuk mengatur perataan teks di tengah tombol.
+    - margin-top: 10px; untuk mengatur margin di bagian atas tombol sebesar 10 piksel.
+    - !important; Tanda !important digunakan untuk memberikan prioritas tertinggi pada aturan ini,
 
 <img width="323" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/3ccc7f13-3dec-4018-a1e4-7a8279851427"> 
 
@@ -431,7 +436,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 
 - PENJELASAN SCRIPT RESEP
 
-![Screenshot (838)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/6439b2de-29c8-4645-b35d-84045dba053a)
+  ![Screenshot (838)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/6439b2de-29c8-4645-b35d-84045dba053a)
   - !DOCTYPE html digunakan untuk mendeklarasikan atau memberi tau browser bahwa halaman ini merupakan halaman dokumen html5
   - html lang = “en”  menunjukkan bahwa bahasa yang digunakan pada halaman merupakan bahasa inggris 
   - head digunakan untuk menandakan bahwa awal dari kepala dokumen HTML.
