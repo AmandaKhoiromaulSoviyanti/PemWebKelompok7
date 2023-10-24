@@ -1,11 +1,11 @@
 <center>
 <h1>Software Requirements Specification</h1>
 </center>
-1. 
-2. 
-3. 
+<P>1. </P>
+<P>2. </P> 
+<P>3. </P> 
 
-<h2>Website Resep Makanan: Selera Kita)</h2>h2>
+<h2>Website Resep Makanan: Selera Kita)</h2>
 
 <h3>PENDAHULUAN </h3>
 - TUJUAN
@@ -69,8 +69,16 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   - Adanya perangkat keras yang mampu mengoperasikan Website resep makanan "Selera Kita"
   - Adanya perangkat lunak yang mampu mengoperasikan Website resep makanan “Selera Kita”
   - Koneksi internet untuk dapat terhubung ke server.
+    
+<h5>ANTAR MUKA</h5>
+![Screenshot (832)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/5afc8db4-7510-40f9-8a34-6dde297eb916)
 
-<h5>LAMPIRAN: Analisis Model</h5>
+![Screenshot (833)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/6e409aff-e4f1-41d1-a8e6-a21a5dd47835)
+
+![Screenshot (834)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/13e60758-0d7a-49f6-bdbd-564d0cac4f7b)
+
+
+<h6>LAMPIRAN: ANALISIS MODEL</h6>
 - Flowchart
 
    ![FlowchartFix](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/376d8df4-e950-4074-9dbf-475e2d659067)
@@ -83,7 +91,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 
   ![Aktivity diagram web drawio](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/0bbe7b5a-b81a-4791-a71e-e38d1dcab2a6)
 
-PENJELASAN SCRIPT
+<h7>PENJELASAN SCRIPT</h7>
 
 - PEJELASAN SCRIPT INDEX HTML
 
