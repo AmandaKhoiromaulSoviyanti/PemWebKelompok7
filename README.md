@@ -128,8 +128,20 @@ LAMPIRAN: Analisis Model
  - p …..konten media sosial…p digunakan untuk paragraf yang nantinya akan menampilkan akun sosial media seperti YouTube, Instagram, dan Facebook 
 
 ![Screenshot (824)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/296bcfbd-8077-4b94-bf2c-a86a594c6454)
- - div id = “copyright” div yang memiliki ID “copyright” digunakan untuk mengelompokkan informasi mengenai hak cipta situs web dan id “copyright” yang nantinya akan digunakan di css
- - div class = “wrapper” div  di dalamnya terdapat  kelas “wrapper” yang nantinya kelas “wrapper” dapat digunakan di css 
+ - div id = “copyright” div yang memiliki ID “copyright” digunakan untuk mengelompokkan informasi mengenai hak cipta situs web dan id “copyright” yang nantinya       akan digunakan di css
+ - div class = “wrapper” div  di dalamnya terdapat  kelas “wrapper” yang nantinya kelas “wrapper” dapat digunakan di css
+
+-PENJELASAN SCRIPT INDEXRESEP HTML
+
+![ss indexresep 1](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/389ecf17-7f46-40ea-9039-2c483ee1b332)
+- <!DOCTYPE html> merupakan deklarasi tipe dokumen yang memberitahu browser bahwa halaman ini menggunakan versi HTML5.
+- <html lang="en"> menandakan awal dari dokumen HTML. Elemen ini juga mengandung atribut ‘lang’ yang menunjukkan bahwa bahasa kontennya adalah bahasa inggris.
+- <head> merupakan bagian kepala dokumen yang biasanya diisi informasi-informasi mengenai halaman web seperti judul, tautan stylesheet, dan meta informasi:
+- <meta charset="UTF-8"> yaitu untuk menentukan pengkodean karakter yang digunakan, dalam hal ini UTF-8
+- <meta name="viewport" content="width=device-width, initial-scale=1.0"> mendefinisikan cara browser menampilkan halaman pada perangkat dengan berbagai ukuran       layar.
+- <title>SeleraKita.</title> untuk menentukan judul halaman web yang akan ditampilkan pada tab browser.
+- <link rel="stylesheet" href="style.css"> Menghubungkan halaman dengan file stylesheet (CSS) yang bernama “style.css”
+
 
 
 
