@@ -223,6 +223,7 @@ PENJELASAN SCRIPT
 - PENJELASAN SCRIPT STYLE.CSS
   
     <img width="359" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/504afca6-39ee-468e-b772-95521d8abc57"> 
+    
    - (*) adalah aturan CSS yang didefinisikan dibawahnya dan akan berlaku untuk semua elemen HTML pada halaman web.
    - {}  digunakan untuk mengelompokkan aturan CSS.
    - text-decoration: none; digunakan untuk menghilangkan dekorasi teks seperti underline pada tautan link
