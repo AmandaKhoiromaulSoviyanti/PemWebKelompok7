@@ -258,7 +258,26 @@ PENJELASAN SCRIPT
   - top: 0; berarti elemen ‘nav’ akan selalu melekat pada bagian atas elemen yang menjadi induknya 
   - background: #FFFFFF; digunakan untuk mengatur latar belakang elemen ‘nav’ menjadi putih
   - z-index: 1; digunakan untuk mengatur z-index ‘nav’ menjadi 1 
-  - border-bottom: 1px solid #364f6b;  digunakan untuk menambahkan garis bawah pada elemen ‘nav’ yang memiliki ketebalan 1 piksel dan warna solid dengan kode warna #364f6b 
+  - border-bottom: 1px solid #364f6b;  digunakan untuk menambahkan garis bawah pada elemen ‘nav’ yang memiliki ketebalan 1 piksel dan warna solid dengan kode warna #364f6b
+ 
+<img width="349" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/b75f00c6-be1b-4d5b-8f8c-74e1a03bdcb2">
+   - nav ul merupakan selektor gabungan yang mengarah pada elemen ‘ul’ yang ada dalam elemen ‘nav’
+   - list-style-type: none; digunakan untuk menghilangkan  tanda pada item daftar list pada elemen ‘ul’
+   - margin: 0; digunakan untuk mengatur elemen ‘ul’ menjadi 0 piksel
+   - padding: 0; digunakan untuk mengatur padding pada elemen ‘ul’  menjadi 0 piksel
+   - overflow: hidden; untuk mengatur perilaku overflow elemen ‘ul’ menjadi hidden. jika elemen ‘ul’ melebihi batas ukuran, maka iss batas tsb akan tidak terlihat
+   - nav ul li merupakan selektor gabungan yang mengarah pada elemen ‘li’ yang berada dalam elemen ‘ul’ yang terdapat dalam elemen ‘nav’
+   - float: left; digunakan untuk mengatur elemen ‘li’ supaya melayang pada sisi kiri
+   - nav ul li a merupakan selektor gabungan yang mengarah pada tautan yang berada pada elemen ‘li’ yang berada dalam ‘ul’ yang berada pada ‘nav’
+   - color: black; digunakan untuk mengatur warna teks menjadi hitam
+   - font-weight: bold; digunakan untuk mengatur ketebalan teks menjadi tebal
+   - text-align: center; digunakan untuk mengatur teks agar berpusat secara horizontal 
+   - padding: 0px 16 px 0 px 16px; digunakan untuk mengatur padding 0 piksel pada atas dan bawah dan 16 piksel di sisi kanan dan kiri
+   - text-decoration: none; digunakan untuk menghilangkan dekorasi teks
+
+
+
+ 
 
 
 
