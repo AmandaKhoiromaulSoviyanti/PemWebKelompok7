@@ -374,9 +374,9 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   - li.catCardList-last selector kelas yang digunakan untuk menargetkan elemen dengan kelas "catCardList-last."
     - margin-right: 0; untuk mengatur margin bagian kanan menjadi 0 piksel
     - width:225px; untuk mengatur lebar elemen menjadi 225 piksel
-  - ul.catCardList selector kelas yang digunakan untuk menargetkan elemen-elemen <ul> yang memiliki kelas "catCardList."
+  - ul.catCardList selector kelas yang digunakan untuk menargetkan elemen-elemen ul yang memiliki kelas "catCardList."
     - margin: 0; mengatur margin (luar) dari elemen-elemen <ul> dengan kelas "catCardList" menjadi 0 piksel.
-  - #catCardButton sebuah selector id yang digunakan untuk menargetkan elemen dengan id "catCardButton."
+  - catCardButton sebuah selector id yang digunakan untuk menargetkan elemen dengan id "catCardButton."
     - position: absolute; untuk mengatur posisi elemen menajdi absolut
     - width: 190px; untuk mengatur lebar elemen menjadi 190piksel
     - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
