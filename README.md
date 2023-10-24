@@ -91,9 +91,9 @@ LAMPIRAN: Analisis Model
     - <html lang = “en”  menunjukkan bahwa bahasa yang digunakan pada halaman merupakan bahasa inggris 
     - <head> digunakan untuk menandakan bahwa awal dari kepala dokumen HTML.
     - <meta charset = “UTF - 8” > digunakan untuk memberi tahu browser bahwa dokumen yang digunakan menggunakan set karakter UTF - 8 yang merupakan standar umum untuk encoding karakter.
-    - <meta name = “viewport” content=”width=device-width initial-scale = 1.0” digunakan untuk mengontrol tampilan halaman di perangkat dengan mengatur tampilan lebar dan mengatur skala         awal 
+    - <meta name = “viewport” content=”width=device-width initial-scale = 1.0” digunakan untuk mengontrol tampilan halaman di perangkat dengan mengatur tampilan lebar dan mengatur skala awal 
     - <title>SeleraKita.</title> digunakan untuk menetapkan judul dokumen yang nantinya akan muncul di web browser 
-    - <link rel=”stylesheet” href=”style.css”> digunakan untuk menautkan file stylesheet yang disebut “style.css” sehingga mudah untuk memodifikasi tata letak halaman dengan mengedit           file CSS terpisah
+    - <link rel=”stylesheet” href=”style.css”> digunakan untuk menautkan file stylesheet yang disebut “style.css” sehingga mudah untuk memodifikasi tata letak halaman dengan mengedit file CSS terpisah
     
 <body>  
 <nav>
@@ -110,8 +110,8 @@ LAMPIRAN: Analisis Model
     </nav>
     - <body> menandakan awal dari elemen tubuh dari elemen halaman HTML 
     - <nav> menunjukkan bahwa bagian ini merupakan bagian navigasi dari halaman web
-    - <div class = “navbar”> div merupakan elemen divisi yang mempunyai class “navbar” yang digunakan  untuk mengelompokkan elemen navigasi dan class “navbar” nantinya akan digunakan di        css
-    - <div class = “Title”><a href =’ ‘>SeleraKita.</a></div> element divisi (div) yang memiliki class “Title” yang berisi tautan dengan teks “SeleraKita. “  dan teks ini merupakan judul       atau nama situs web.
+    - <div class = “navbar”> div merupakan elemen divisi yang mempunyai class “navbar” yang digunakan  untuk mengelompokkan elemen navigasi dan class “navbar” nantinya akan digunakan di css
+    - <div class = “Title”><a href =’ ‘>SeleraKita.</a></div> element divisi (div) yang memiliki class “Title” yang berisi tautan dengan teks “SeleraKita. “  dan teks ini merupakan judul atau nama situs web.
     - <div class =”menu” merupakan div dengan class “menu” yang digunakan untuk mengelompokkan elemen menu 
     - <ul> merupakan unordered list jenis daftar yang berbentuk poin poin , tidak memiliki urutan khusus biasanya digunakan untuk menampilkan daftar item yang sejajar
     - <li><a href =”#home”>Home</a></li> merupakan daftar item yang berurutan yang berisi Home yang mengarah ke elemen dengan id “home” pada halaman tersebut 
@@ -253,8 +253,8 @@ LAMPIRAN: Analisis Model
 <div class="selengkapnya">
       <a href="indexresep.html">Selengkapnya...</a>
 </div>
-    - <div class = “selengkapnya”> merupakan elemen div yang memiliki class “selengkapnya”. elemen div digunakan untuk membuat kotak terpisah dalam dokumen HTML dan digunakan untuk             mengatur gaya elemen menggunakan css
-    - <a href = “indexresep.html”>Selengkapnya…</a> merupakan tautan yang memiliki atribut href yang menunjukkan tujuan tautan pada halaman “indexresep.html”. “Selengkapnya…” akan              ditampilkan di halaman web sebagai tautan yang dapat di klik oleh pengguna dan beralih ke halaman yang ditentukan dalam herf
+    - <div class = “selengkapnya”> merupakan elemen div yang memiliki class “selengkapnya”. elemen div digunakan untuk membuat kotak terpisah dalam dokumen HTML dan digunakan untuk mengatur gaya elemen menggunakan css
+    - <a href = “indexresep.html”>Selengkapnya…</a> merupakan tautan yang memiliki atribut href yang menunjukkan tujuan tautan pada halaman “indexresep.html”. “Selengkapnya…” akan ditampilkan di halaman web sebagai tautan yang dapat di klik oleh pengguna dan beralih ke halaman yang ditentukan dalam herf
 
       <section id="about">
 <div id="contact">
