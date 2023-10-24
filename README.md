@@ -311,6 +311,32 @@ PENJELASAN SCRIPT
   - p digunakan untuk menampillan paragraf dalam dokumen HTML
   - font-size: 0.9em; digunakan untuk mengatur ukuran font menjadi 0.9 kali ukuran font aslinya
 
+<img width="366" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/ee72abc9-6344-4e24-9fe6-e5c916a984aa"> 
+
+  - div.catCard merupakan selektor kelas untuk menargetkan elemen ‘div’ yang kmemiliki kelas ‘catCard’
+  - border: solid 5px #e9e9e9; digunakan untuk mengatur garis tepi yang berupa solid dengan lebar 5 piksel dan warna abu-abu muda
+  - background: #d8d8d8; untuk mengatur warna background menjadi abu-abu tua
+  - width: 221px; untuk mengatur lebar elemen menjadi 221 piksel
+  - height: 400px; untuk mengatur tinggi elemen menjadi 400 piksel
+  - display: block; mengatur elemen ‘catCard’ untuk ditampilkan sebagai blok (mengisi seluruh lebar dalam elemen)
+  - position: relative; untuk mengatur posisi elemen menjadi relatif terhadap posisi aslinya
+  - overflow: hidden; untuk mengatur overflow elemen manjadi hidden, jika melebihi akan tidak terlihat
+  - div.lowerCatCard digunakan untuk menargetkan elemen ‘div’ yang memiliki kelas ‘lowerCatCard’
+  - font-family: 'comic sans ms'; digunakan untuk mengatur jenis font-family menjadi ‘comic sans ms’
+  - position: absolute; untuk mengatur posisi elemen ‘lowerCatCard’ menjadi absolut
+  - background: #e9e9e9; untuk mengatur warna background menjadi abu-abu tua
+  - padding: 5px 5px; digunakan untuk mengatur padding menjadi 5 piksel pada sisi atas, bawah, kanan, dan kiri
+  - height: 200px; untuk mengatur tinggi elemen menjadi 200 piksel
+  - -webkit-transition: all 0.6s ease; , -moz-transition: all 0.6s ease;, -o-transition: all 0.6s ease;, transition:  all 0.6s ease; untuk mengatur transisi yang berdurasi 0.6 detik dengan efek ease yang memberikan perubahan yang halus dan lambat
+  - div.lowerCatCard:hover  merupakan selector pseudo-class yang mengarah pada elemen <div> yang memiliki kelas "lowerCatCard" ketika elemen sedang dalam keadaan "hover."
+  - Pseudo-class :hover digunakan untuk menargetkan elemen ketika pengguna mengarahkan kursor mouse ke atasnya.
+  - opacity: 0.95; untuk mengatur tingkat kejernihan elemen "lowerCatCard" ketika dalam keadaan "hover." dengan nilai 0.95
+  - bottom: 0; untuk mengatur posisi bagian bawah menjadi 0piksel
+  - height: 390px; untuk mengatur tinggi elemen menjadi 390 piksel
+
+
+
+
 
 
 
