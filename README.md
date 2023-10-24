@@ -171,6 +171,10 @@ LAMPIRAN: Analisis Model
 - a href="index.html" Back to Home /a : Sebuah tombol/ tautan menuju halaman utama dengan teks "Back to Home".
 - script src="Script.js"  /script : Sebuah skrip JavaScript yang akan dijalankan oleh browser untuk memberikan/ memanggil fungsionalitas tambahan.
 
+- PENJELASAN SCRIPT STYLERESEP CSS
+
+  
+
 
 
 
