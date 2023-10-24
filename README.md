@@ -222,7 +222,7 @@ PENJELASAN SCRIPT
 - PENJELASAN SCRIPT STYLE.CSS
 <img width="359" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/504afca6-39ee-468e-b772-95521d8abc57">
 
-  - * adalah aturan CSS yang didefinisikan dibawahnya dan akan berlaku untuk semua elemen HTML pada halaman web.
+  - (*) adalah aturan CSS yang didefinisikan dibawahnya dan akan berlaku untuk semua elemen HTML pada halaman web.
   - {}  digunakan untuk mengelompokkan aturan CSS.
   - text-decoration: none; digunakan untuk menghilangkan dekorasi teks seperti underline pada tautan link
   - margin: 0px; digunakan untuk mengatur margin(ruang pada sekitar elemen) elemen HTML menjadi 0 piksel atau tidak ada jarak tambahan
@@ -240,6 +240,26 @@ PENJELASAN SCRIPT
   - float: left; digunakan untuk mengatur tulisan agar menempati sisi kiri
   - font-family: courier; digunakan untuk mengatur jenis huruf menjadi ‘courier’ (tampilan monospasi)
   - color: #364f6b; digunakan untuk mengatur warna teks menjadi #364f6b (biru)
+ 
+  <img width="444" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/7cdd0d6a-cb0a-4863-978e-517d56b6afd2">
+  - .menu merupakan selektor class yang digunakan untuk menargetkan elemen yang memiliki kelas ‘menu’
+  - float: right; digunakan untuk mengatur tulisan agar menempati sisi kanan
+  - font-family: courier; digunakan untuk mengatur jenis huruf menjadi ‘courier’ (tampilan monospasi)
+  - font-size: 20px; digunakan untuk mengatur ukuran font menjadi 20 piksel.
+  - font-weight: 800; digunakan untuk mengatur ketebalan font menjadi 800
+  - nav merupakan selektor elemen yang digunakan untuk menargetkan elemen ‘nav’ pada HTML 
+  - width: 100%; digunakan untuk mengatur lebar elemen ‘nav’ menjadi 100% dari lebar yang mengelilinginya
+  -margin: auto; digunakan untuk mengatur elemen ‘nav’ menjadi auto
+  -display: flex; digunakan untuk mengatur ‘nav’ menggunakan model tata letak flexbox (penataan elemen dalam 1 baris atau kolom)
+  - line-height: 80px; digunakan untuk mengatur tinggi baru menjadi 80 piksel 
+  - position: #sticky; digunakan untuk mengatur posisi ‘nav’ menjadi sticky atau melekat di bagian atas jendela browser saat user memindah halaman
+  - position: -webkit-sticky; digunakan untuk mendukung pada browser berbasis webkit (seperti safari)
+  - top: 0; berarti elemen ‘nav’ akan selalu melekat pada bagian atas elemen yang menjadi induknya 
+  - background: #FFFFFF; digunakan untuk mengatur latar belakang elemen ‘nav’ menjadi putih
+  - z-index: 1; digunakan untuk mengatur z-index ‘nav’ menjadi 1 
+  - border-bottom: 1px solid #364f6b;  digunakan untuk menambahkan garis bawah pada elemen ‘nav’ yang memiliki ketebalan 1 piksel dan warna solid dengan kode warna #364f6b 
+
+
 
 
 
