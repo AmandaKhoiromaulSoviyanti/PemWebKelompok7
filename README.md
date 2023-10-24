@@ -1,5 +1,7 @@
+<center
 Software Requirements Specification
 (Website Resep Makanan: Selera Kita)
+</center>
 
 PENDAHULUAN 
 - TUJUAN
