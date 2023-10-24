@@ -78,8 +78,8 @@ LAMPIRAN: Analisis Model
   ![Aktivity diagram web drawio](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/0bbe7b5a-b81a-4791-a71e-e38d1dcab2a6)
 
 - Penjelasan Coding Index HTML
-  
-  ![Screenshot (816)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/54f89e35-3e6e-46cf-9aa3-5402b5ddc2e9)
+
+  ![Screenshot1 (816)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/785a3f90-0788-4bf7-8ea0-790a0a752ddc)
   - <!DOCTYPE html> digunakan untuk mendeklarasikan atau memberi tau browser bahwa halaman ini merupakan halaman dokumen html5
   - <html lang = “en”  menunjukkan bahwa bahasa yang digunakan pada halaman merupakan bahasa inggris 
   - <head> digunakan untuk menandakan bahwa awal dari kepala dokumen HTML.
@@ -88,16 +88,14 @@ LAMPIRAN: Analisis Model
   - <title>SeleraKita.</title> digunakan untuk menetapkan judul dokumen yang nantinya akan muncul di web browser 
   - <link rel=”stylesheet” href=”style.css”> digunakan untuk menautkan file stylesheet yang disebut “style.css” sehingga mudah untuk memodifikasi tata letak halaman dengan mengedit file CSS terpisah
 
-  ![Screenshot (817)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/2d8689f6-72f7-46f2-ad6d-9f29a205235d)
+![Screenshot1 (817)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/bd3c5ccb-2110-4ae3-9638-0dfab31c0468)
   - <body> menandakan awal dari elemen tubuh dari elemen halaman HTML 
   - <nav> menunjukkan bahwa bagian ini merupakan bagian navigasi dari halaman web
   - <div class = “navbar”> div merupakan elemen divisi yang mempunyai class “navbar” yang digunakan  untuk mengelompokkan elemen navigasi dan class “navbar” nantinya akan digunakan di css
   - <div class = “Title”><a href =’ ‘>SeleraKita.</a></div> element divisi (div) yang memiliki class “Title” yang berisi tautan dengan teks “SeleraKita. “  dan teks ini merupakan judul atau nama situs web.
   - <div class =”menu” merupakan div dengan class “menu” yang digunakan untuk mengelompokkan elemen menu 
   - <ul> merupakan unordered list jenis daftar yang berbentuk poin poin , tidak memiliki urutan khusus biasanya digunakan untuk menampilkan daftar item yang sejajar
-  - <li><a href =”#home”>Home</a></li> merupakan daftar item yang berurutan yang berisi Home yang mengarah ke elemen dengan id “home” pada halaman tersebut 
-  - <li><a href =”#resep”>Resep</a></li> merupakan daftar item yang berurutan yang berisi Resep yang mengarah ke elemen dengan id “resep” pada halaman tersebut 
-  - <li><a href =”#about”>About</a></li>  merupakan daftar item yang berurutan yang berisi About yang mengarah ke elemen dengan id “about” pada halaman tersebut 
+  - pada line 16 - 18  merupakan daftar item yang berurutan yang berisi Home,Resep, About yang akan  mengarah ke elemen dengan id “home”, id " Resep", id "About " iyo pada halaman tersebut  
 
   
 
