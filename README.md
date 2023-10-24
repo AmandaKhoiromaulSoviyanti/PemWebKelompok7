@@ -80,21 +80,21 @@ LAMPIRAN: Analisis Model
 - Penjelasan Coding Index HTML
 
   ![Screenshot1 (816)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/785a3f90-0788-4bf7-8ea0-790a0a752ddc)
-  - <!DOCTYPE html> digunakan untuk mendeklarasikan atau memberi tau browser bahwa halaman ini merupakan halaman dokumen html5
-  - <html lang = “en”  menunjukkan bahwa bahasa yang digunakan pada halaman merupakan bahasa inggris 
-  - <head> digunakan untuk menandakan bahwa awal dari kepala dokumen HTML.
-  - <meta charset = “UTF - 8” > digunakan untuk memberi tahu browser bahwa dokumen yang digunakan menggunakan set karakter UTF - 8 yang merupakan standar umum untuk encoding karakter.
-  - <meta name = “viewport” content=”width=device-width initial-scale = 1.0” digunakan untuk mengontrol tampilan halaman di perangkat dengan mengatur tampilan lebar dan mengatur skala     awal 
-  - <title>SeleraKita.</title> digunakan untuk menetapkan judul dokumen yang nantinya akan muncul di web browser 
-  - <link rel=”stylesheet” href=”style.css”> digunakan untuk menautkan file stylesheet yang disebut “style.css” sehingga mudah untuk memodifikasi tata letak halaman dengan mengedit file CSS terpisah
+  - DOCTYPE html digunakan untuk mendeklarasikan atau memberi tau browser bahwa halaman ini merupakan halaman dokumen html5
+  - html lang = “en”  menunjukkan bahwa bahasa yang digunakan pada halaman merupakan bahasa inggris 
+  - head digunakan untuk menandakan bahwa awal dari kepala dokumen HTML.
+  - meta charset = “UTF - 8” digunakan untuk memberi tahu browser bahwa dokumen yang digunakan menggunakan set karakter UTF - 8 yang merupakan standar umum untuk encoding karakter.
+  - meta name = “viewport” content=”width=device-width initial-scale = 1.0” digunakan untuk mengontrol tampilan halaman di perangkat dengan mengatur tampilan lebar dan mengatur skala     awal 
+  - title SeleraKita. title digunakan untuk menetapkan judul dokumen yang nantinya akan muncul di web browser 
+  - link rel=”stylesheet” href=”style.css” digunakan untuk menautkan file stylesheet yang disebut “style.css” sehingga mudah untuk memodifikasi tata letak halaman dengan mengedit file CSS terpisah
 
 ![Screenshot1 (817)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/bd3c5ccb-2110-4ae3-9638-0dfab31c0468)
-  - <body> menandakan awal dari elemen tubuh dari elemen halaman HTML 
-  - <nav> menunjukkan bahwa bagian ini merupakan bagian navigasi dari halaman web
-  - <div class = “navbar”> div merupakan elemen divisi yang mempunyai class “navbar” yang digunakan  untuk mengelompokkan elemen navigasi dan class “navbar” nantinya akan digunakan di css
-  - <div class = “Title”><a href =’ ‘>SeleraKita.</a></div> element divisi (div) yang memiliki class “Title” yang berisi tautan dengan teks “SeleraKita. “  dan teks ini merupakan judul atau nama situs web.
-  - <div class =”menu” merupakan div dengan class “menu” yang digunakan untuk mengelompokkan elemen menu 
-  - <ul> merupakan unordered list jenis daftar yang berbentuk poin poin , tidak memiliki urutan khusus biasanya digunakan untuk menampilkan daftar item yang sejajar
+  - body menandakan awal dari elemen tubuh dari elemen halaman HTML 
+  - nav menunjukkan bahwa bagian ini merupakan bagian navigasi dari halaman web
+  - div class = “navbar” div merupakan elemen divisi yang mempunyai class “navbar” yang digunakan  untuk mengelompokkan elemen navigasi dan class “navbar” nantinya akan digunakan di css
+  - div class = “Title”<a href =’ ‘>SeleraKita.a div element divisi (div) yang memiliki class “Title” yang berisi tautan dengan teks “SeleraKita. “  dan teks ini merupakan judul atau nama situs web.
+  - div class =”menu” merupakan div dengan class “menu” yang digunakan untuk mengelompokkan elemen menu 
+  - ul merupakan unordered list jenis daftar yang berbentuk poin poin , tidak memiliki urutan khusus biasanya digunakan untuk menampilkan daftar item yang sejajar
   - pada line 16 - 18  merupakan daftar item yang berurutan yang berisi Home,Resep, About yang akan  mengarah ke elemen dengan id “home”, id " Resep", id "About " iyo pada halaman tersebut  
 
   
