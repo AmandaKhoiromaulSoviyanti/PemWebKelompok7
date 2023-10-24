@@ -260,20 +260,46 @@ PENJELASAN SCRIPT
   - z-index: 1; digunakan untuk mengatur z-index ‘nav’ menjadi 1 
   - border-bottom: 1px solid #364f6b;  digunakan untuk menambahkan garis bawah pada elemen ‘nav’ yang memiliki ketebalan 1 piksel dan warna solid dengan kode warna #364f6b
  
-<img width="349" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/b75f00c6-be1b-4d5b-8f8c-74e1a03bdcb2">
-   - nav ul merupakan selektor gabungan yang mengarah pada elemen ‘ul’ yang ada dalam elemen ‘nav’
-   - list-style-type: none; digunakan untuk menghilangkan  tanda pada item daftar list pada elemen ‘ul’
-   - margin: 0; digunakan untuk mengatur elemen ‘ul’ menjadi 0 piksel
-   - padding: 0; digunakan untuk mengatur padding pada elemen ‘ul’  menjadi 0 piksel
-   - overflow: hidden; untuk mengatur perilaku overflow elemen ‘ul’ menjadi hidden. jika elemen ‘ul’ melebihi batas ukuran, maka iss batas tsb akan tidak terlihat
-   - nav ul li merupakan selektor gabungan yang mengarah pada elemen ‘li’ yang berada dalam elemen ‘ul’ yang terdapat dalam elemen ‘nav’
-   - float: left; digunakan untuk mengatur elemen ‘li’ supaya melayang pada sisi kiri
-   - nav ul li a merupakan selektor gabungan yang mengarah pada tautan yang berada pada elemen ‘li’ yang berada dalam ‘ul’ yang berada pada ‘nav’
-   - color: black; digunakan untuk mengatur warna teks menjadi hitam
-   - font-weight: bold; digunakan untuk mengatur ketebalan teks menjadi tebal
-   - text-align: center; digunakan untuk mengatur teks agar berpusat secara horizontal 
-   - padding: 0px 16 px 0 px 16px; digunakan untuk mengatur padding 0 piksel pada atas dan bawah dan 16 piksel di sisi kanan dan kiri
-   - text-decoration: none; digunakan untuk menghilangkan dekorasi teks
+<img width="349" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/b75f00c6-be1b-4d5b-8f8c-74e1a03bdcb2"> 
+
+  - nav ul merupakan selektor gabungan yang mengarah pada elemen ‘ul’ yang ada dalam elemen ‘nav’
+  - list-style-type: none; digunakan untuk menghilangkan  tanda pada item daftar list pada elemen ‘ul’
+  - margin: 0; digunakan untuk mengatur elemen ‘ul’ menjadi 0 piksel
+  - padding: 0; digunakan untuk mengatur padding pada elemen ‘ul’  menjadi 0 piksel
+  - overflow: hidden; untuk mengatur perilaku overflow elemen ‘ul’ menjadi hidden. jika elemen ‘ul’ melebihi batas ukuran, maka iss batas tsb akan tidak terlihat
+  - nav ul li merupakan selektor gabungan yang mengarah pada elemen ‘li’ yang berada dalam elemen ‘ul’ yang terdapat dalam elemen ‘nav’
+  - float: left; digunakan untuk mengatur elemen ‘li’ supaya melayang pada sisi kiri
+  - nav ul li a merupakan selektor gabungan yang mengarah pada tautan yang berada pada elemen ‘li’ yang berada dalam ‘ul’ yang berada pada ‘nav’
+  - color: black; digunakan untuk mengatur warna teks menjadi hitam
+  - font-weight: bold; digunakan untuk mengatur ketebalan teks menjadi tebal
+  - text-align: center; digunakan untuk mengatur teks agar berpusat secara horizontal 
+  - padding: 0px 16 px 0 px 16px; digunakan untuk mengatur padding 0 piksel pada atas dan bawah dan 16 piksel di sisi kanan dan kiri
+  - text-decoration: none; digunakan untuk menghilangkan dekorasi teks
+  - nav ul li a: hover merupakam selektor yang mengarah pada tautan ‘a’ yang sedang dalam keadaan hover atau ketika kursor mouse ada diatasnya
+  - text-decoration: underline; digunakan untuk mengatur dekorasi teks dalam keadaan hover, yang mana tautan akan memiliki underline
+
+<img width="334" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/164379f6-293a-41c5-ad62-2302c644b814"> 
+
+  - section digunakan untuk mengelompokkankonten dalam sebuah halaman web
+  - margin: auto; digunakan untuk mengatur elemen ‘section’ menjadi auto
+  - display: flex; digunakan untuk mengatur ‘section’ menggunakan model tata letak flexbox (penataan elemen dalam 1 baris atau kolom)
+  - margin-bottom: 50px; digunakan untuk mengatur margin bagian bawah menjadi 50 piksel
+  - .logo merupakan selektor kelas yang digunakan untuk menargetkan elemen yang memiliki kelas ‘logo’
+  - width: 35%; digunakan untuk mengatur lebar elemen ‘logo’ menjadi 35% dari lebar elemen yang mengelilinginya
+  - height: 40; digunakan untuk mengatur tinggi elemen ‘logo’ menjadi 40% dari tinggi elemen yang mengelilinginya
+  - .kolom merupakan selektor kelas yang digunakan untuk menargetkan elemen kelas ‘kolom’
+  - margin-top: 50px; digunakan untuk mengatur margin bagian atas menjadi 50 piksel
+  - margin-bottom: 50px; digunakan untuk mengatur margin bagian bawah menajadi 50 piksel
+  - .kolom .deskripsi merupakan selektor gabungan yang mengarah pada elemen yang memiliki kelas ‘deskripsi’ yang ada dalan kelas ‘kolom’
+  - font-size: 20px; digunakan untuk mengatur ukuran font menjadi 20 piksel
+  - font-weight: bold; digunakan untuk mengatur ketebalan teks menjadi bold
+  - font-family: ‘comic sans ms’; digunakan untuk mengatur jenis huruf menjadi ‘comic sans ms’
+  - color: #000000; digunakan untuk mengatur warna menjadi kode #000000 (hitam)
+
+
+
+
+
 
 
 
