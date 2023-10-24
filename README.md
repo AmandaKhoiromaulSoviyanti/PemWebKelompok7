@@ -148,7 +148,7 @@ PENJELASAN SCRIPT
     - body : yaitu bagian tubuh dokumen untuk menempatkan konten utama dari halaman web.
     - nav : bagian navigasi yang berisi menu atau tautan-tautan yang mengarahkan pengguna ke halaman-halaman lain di situs.
     - div class=”navbar” : sebuah div dengan kelas CSS “navbar” yang berisi elemen-elemen terkait navigasi.
-    - div class="title" a href='' SeleraKita. /a  /div : sebuah div dengan class CSS “title” yang berisi tautan menuju halaman utama (<a href=''>SeleraKita.</a>).
+    - div class="title" a href='' SeleraKita. /a  /div : sebuah div dengan class CSS “title” yang berisi tautan menuju halaman utama (a href=''>SeleraKita. /a).
     - div class="search-bar" : sebuah div dengan class CSS “search-bar” yang berisi elemen pencarian.
     - input type="text" id="recipeSearch" placeholder="Cari resep" : sebuah kotak input teks untuk user memasukkan kata kunci pencarian.
     - div id="searchResults" /div  Sebuah div kosong yang akan digunakan untuk menampilkan hasil pencarian.
@@ -179,11 +179,11 @@ PENJELASAN SCRIPT
 
   Script styleresep.css diatas merupakan CSS untuk bagian dalam HTML setiap resep
     - body: Gaya untuk elemen <body> di halaman HTML masing-masing resep
-      - font-family: "Open-sans", sans-serif; mengatur jenis font yang akan digunakan dalam elemen body. Disini menggunaka font "Open-sans", jika tidak tersedia, maka menggunakan font sans-serif default.
-      - margin: 0 auto;  Memberikan margin pada sisi kiri dan kanan elemen body sehingga konten akan terpusat di tengah halaman. Nol pada sisi atas dan bawah.
+      - font-family: "Open-sans", sans-serif; : mengatur jenis font yang akan digunakan dalam elemen body. Disini menggunaka font "Open-sans", jika tidak tersedia, maka menggunakan font sans-serif default.
+      - margin: 0 auto; : Memberikan margin pada sisi kiri dan kanan elemen body sehingga konten akan terpusat di tengah halaman. Nol pada sisi atas dan bawah.
       - max-width: 800px; : Menentukan lebar maksimum elemen body, sehingga konten tidak melebar terlalu lebar pada layar besar.
-      - padding: 20px;: Memberikan ruang padding sebesar 20 piksel di sekitar konten di dalam elemen body.
-      - background-color: #f8f8f8;: Memberikan warna latar belakang untuk seluruh halaman dengan kode warna #f8f8f8 (hampir putih).
+      - padding: 20px; : Memberikan ruang padding sebesar 20 piksel di sekitar konten di dalam elemen body.
+      - background-color: #364f6b; : Memberikan warna latar belakang untuk seluruh halaman dengan kode warna #364f6b (biru tua).
     - h1: Gaya untuk elemen heading level 1 (h1).
       - text-align: center;: Mengatur teks pada heading untuk berada di tengah.
       - color: #364f6b;: Mengatur warna teks pada heading dengan kode warna #364f6b (biru tua).
@@ -204,23 +204,23 @@ PENJELASAN SCRIPT
 - PENJELASAN SCRIPT JS
     ![Screenshot (827)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/97fccc33-7ac2-4ec3-a7a5-aac39eb3c5e3)
     ![Screenshot (828)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/ea2ae230-9a19-43a3-b725-9eb444e56690)
-  - document.addEventListener("DOMContentLoaded", function() { ... }); merupakan event listener yang akan menjalankan fungsi saat DOM sepenuhnya dimuat
-  - Const recipeSearchinput = document.getElementById(“recipeSearch”): untuk mendapatkan elemen input dengan ID “recipeSearch”
-  - const searchResults = document.getElementById("searchResults"); digunakan untuk mendapatkan elemen dengan ID “searchResults” yang digunakan untuk tempat dimana hasil pencarian            ditampilkan 
-  - const catCardList = document.querySelectorAll(".catCardList");  digunakan untuk mengumpulkan daftar elemen yang memiliki kelas “catCardList” berisi tentang kumpulan resep 
-  - recipeSearchInput.addEventListener("input", function() { ... }); menambah event listener untuk input pada elemen “recipeSearch”
-  - if (searchTerm.length === 0) { jika searchTerm.length ==0  maka searchResults.style.display = "none"; menyembunyikan daftar hadir jika tidak ada di dalam resep pencarian
-  - return; digunakan untuk mengakhiri eksekusi fungsi saat ini dan mengembalikan kontrol ke pemanggil fungsi
-  - document.getElementById("recipeSearch").style.width = "500px" digunakan untuk mengatur lebar recipeSearch 
-  - document.getElementById("recipeSearch").style.padding = "10px" digunakan untuk mengatur padding recipeSearch 
-  - catCardList.forEach(function(card) { ... }); digunakan untuk melakukan iterasi (perulangan ) melalui setiap resep
-  - const h3 = card.querySelector("h3"); mendapatkan elemen judul resep di setiap  resep 
-  - if (recipeTitle.includes(searchTerm)) digunakan jika memeriksa apakah input pencarian yang ada dalam judul resep maka results.push(card.outerHTML) untuk menyimpan HTML dari               setiap kartu resep yang cocok dengan pencarian 
-  - if (results.length > 0) jika results.legth>0 maka searchResults.innerHTML = results.join("") menampilkan hasil pencarian ke dalam elemen dengan ID”searchResults” dan                      searchResults.style.display = "block"; digunakan menampilkan elemen hasil pencarian 
-  - else jika tidak searchResults.innerHTML = "Tidak ada hasil ditemukan."; digunakan menampilkan pesan jika tidak ada hasil yang ditemukan dan searchResults.style.display = "block";         digunakan untuk menampilkan elemen hasil pencarian yang jika tidak ada hasil yang ditemukan
+    - document.addEventListener("DOMContentLoaded", function() { ... }); merupakan event listener yang akan menjalankan fungsi saat DOM sepenuhnya dimuat
+    - Const recipeSearchinput = document.getElementById(“recipeSearch”): untuk mendapatkan elemen input dengan ID “recipeSearch”
+    - const searchResults = document.getElementById("searchResults"); digunakan untuk mendapatkan elemen dengan ID “searchResults” yang digunakan untuk tempat dimana hasil pencarian ditampilkan 
+    - const catCardList = document.querySelectorAll(".catCardList");  digunakan untuk mengumpulkan daftar elemen yang memiliki kelas “catCardList” berisi tentang kumpulan resep 
+    - recipeSearchInput.addEventListener("input", function() { ... }); menambah event listener untuk input pada elemen “recipeSearch”
+    - if (searchTerm.length === 0) { jika searchTerm.length ==0  maka searchResults.style.display = "none"; menyembunyikan daftar hadir jika tidak ada di dalam resep pencarian
+    - return; digunakan untuk mengakhiri eksekusi fungsi saat ini dan mengembalikan kontrol ke pemanggil fungsi
+    - document.getElementById("recipeSearch").style.width = "500px" digunakan untuk mengatur lebar recipeSearch 
+    - document.getElementById("recipeSearch").style.padding = "10px" digunakan untuk mengatur padding recipeSearch 
+    - catCardList.forEach(function(card) { ... }); digunakan untuk melakukan iterasi (perulangan ) melalui setiap resep
+    - const h3 = card.querySelector("h3"); mendapatkan elemen judul resep di setiap  resep 
+    - if (recipeTitle.includes(searchTerm)) digunakan jika memeriksa apakah input pencarian yang ada dalam judul resep maka results.push(card.outerHTML) untuk menyimpan HTML dari setiap kartu resep yang cocok dengan pencarian 
+    - if (results.length > 0) jika results.legth>0 maka searchResults.innerHTML = results.join("") menampilkan hasil pencarian ke dalam elemen dengan ID”searchResults” dan                      searchResults.style.display = "block"; digunakan menampilkan elemen hasil pencarian 
+    - else jika tidak searchResults.innerHTML = "Tidak ada hasil ditemukan."; digunakan menampilkan pesan jika tidak ada hasil yang ditemukan dan searchResults.style.display = "block"; digunakan untuk menampilkan elemen hasil pencarian yang jika tidak ada hasil yang ditemukan
 
 - PENJELASAN SCRIPT STYLE.CSS
-<img width="359" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/504afca6-39ee-468e-b772-95521d8abc57"> 
+    <img width="359" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/504afca6-39ee-468e-b772-95521d8abc57"> 
 
    - (*) adalah aturan CSS yang didefinisikan dibawahnya dan akan berlaku untuk semua elemen HTML pada halaman web.
    - {}  digunakan untuk mengelompokkan aturan CSS.
@@ -241,7 +241,7 @@ PENJELASAN SCRIPT
    - font-family: courier; digunakan untuk mengatur jenis huruf menjadi ‘courier’ (tampilan monospasi)
    - color: #364f6b; digunakan untuk mengatur warna teks menjadi #364f6b (biru)
  
-  <img width="444" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/7cdd0d6a-cb0a-4863-978e-517d56b6afd2"> 
+    <img width="444" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/7cdd0d6a-cb0a-4863-978e-517d56b6afd2"> 
   
   - .menu merupakan selektor class yang digunakan untuk menargetkan elemen yang memiliki kelas ‘menu’
   - float: right; digunakan untuk mengatur tulisan agar menempati sisi kanan
@@ -260,7 +260,7 @@ PENJELASAN SCRIPT
   - z-index: 1; digunakan untuk mengatur z-index ‘nav’ menjadi 1 
   - border-bottom: 1px solid #364f6b;  digunakan untuk menambahkan garis bawah pada elemen ‘nav’ yang memiliki ketebalan 1 piksel dan warna solid dengan kode warna #364f6b
  
-<img width="349" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/b75f00c6-be1b-4d5b-8f8c-74e1a03bdcb2"> 
+    <img width="349" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/b75f00c6-be1b-4d5b-8f8c-74e1a03bdcb2"> 
 
   - nav ul merupakan selektor gabungan yang mengarah pada elemen ‘ul’ yang ada dalam elemen ‘nav’
   - list-style-type: none; digunakan untuk menghilangkan  tanda pada item daftar list pada elemen ‘ul’
@@ -278,7 +278,7 @@ PENJELASAN SCRIPT
   - nav ul li a: hover merupakam selektor yang mengarah pada tautan ‘a’ yang sedang dalam keadaan hover atau ketika kursor mouse ada diatasnya
   - text-decoration: underline; digunakan untuk mengatur dekorasi teks dalam keadaan hover, yang mana tautan akan memiliki underline
 
-<img width="334" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/164379f6-293a-41c5-ad62-2302c644b814"> 
+    <img width="334" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/164379f6-293a-41c5-ad62-2302c644b814"> 
 
   - section digunakan untuk mengelompokkankonten dalam sebuah halaman web
   - margin: auto; digunakan untuk mengatur elemen ‘section’ menjadi auto
@@ -296,7 +296,7 @@ PENJELASAN SCRIPT
   - font-family: ‘comic sans ms’; digunakan untuk mengatur jenis huruf menjadi ‘comic sans ms’
   - color: #000000; digunakan untuk mengatur warna menjadi kode #000000 (hitam)
 
-<img width="305" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/e9373a53-a05c-4432-9de8-33127888df60"> 
+    <img width="305" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/e9373a53-a05c-4432-9de8-33127888df60"> 
 
   - h2, h3 digunakan untuk heading tingkat 2, umumnya judul dan heading tingkat 3 untuk subjudul
   - font-family: ‘comic sans ms’; digunakan untuk mengatur jenis font-family menjadi ‘comic sans ms’
@@ -311,7 +311,7 @@ PENJELASAN SCRIPT
   - p digunakan untuk menampillan paragraf dalam dokumen HTML
   - font-size: 0.9em; digunakan untuk mengatur ukuran font menjadi 0.9 kali ukuran font aslinya
 
-<img width="366" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/ee72abc9-6344-4e24-9fe6-e5c916a984aa"> 
+    <img width="366" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/ee72abc9-6344-4e24-9fe6-e5c916a984aa"> 
 
   - div.catCard merupakan selektor kelas untuk menargetkan elemen ‘div’ yang kmemiliki kelas ‘catCard’
   - border: solid 5px #e9e9e9; digunakan untuk mengatur garis tepi yang berupa solid dengan lebar 5 piksel dan warna abu-abu muda
@@ -334,7 +334,7 @@ PENJELASAN SCRIPT
   - bottom: 0; untuk mengatur posisi bagian bawah menjadi 0piksel
   - height: 390px; untuk mengatur tinggi elemen menjadi 390 piksel
 
-<img width="364" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/de4a8ab9-8a6f-4c21-8370-a8c310514f33"> 
+    <img width="364" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/de4a8ab9-8a6f-4c21-8370-a8c310514f33"> 
 
   - div.lowerCatCard:hover merupakan selector yang mengarah pada elemen <div> yang memiliki kelas "lowerCatCard" yang berada dalam elemen <div> yang memiliki kelas "catCard." Dalam HTML, ini mengacu pada elemen-elemen "lowerCatCard" yang ada sebagai anak dari elemen "catCard."
   - left: 0; untuk mengatur posisi kiri menjadi 0 piksel
@@ -357,7 +357,7 @@ PENJELASAN SCRIPT
   - width: 190px; untuk mengatur lebar elemen menjadi 190piksel
   - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
 
-<img width="383" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/355bf13c-ae7c-4877-9893-df262fd4d53f"> 
+    <img width="383" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/355bf13c-ae7c-4877-9893-df262fd4d53f"> 
 
   - div.lowerCatCard:hover #catCardButton selector yang mengarah pada elemen dengan id "catCardButton" ketika elemen "lowerCatCard"  dalam elemen "catCard" sedang dalam keadaan "hover."
   - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
