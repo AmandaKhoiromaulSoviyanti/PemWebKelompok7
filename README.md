@@ -78,6 +78,7 @@ LAMPIRAN: Analisis Model
   ![Aktivity diagram web drawio](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/0bbe7b5a-b81a-4791-a71e-e38d1dcab2a6)
 
 - Penjelasan Coding Index HTML
+  
   ![Screenshot (816)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/54f89e35-3e6e-46cf-9aa3-5402b5ddc2e9)
 
   - <!DOCTYPE html> digunakan untuk mendeklarasikan atau memberi tau browser bahwa halaman ini merupakan halaman dokumen html5
