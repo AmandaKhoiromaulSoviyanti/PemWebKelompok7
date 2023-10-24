@@ -369,6 +369,22 @@ PENJELASAN SCRIPT
   - height: 198px; untuk mengatur tinggi gambar menjadi 198 piksel
   - .catCard img:hover merupakan selector pseudo-class yang mengarah pada gambar dalam elemen "catCard" ketika gambar tersebut sedang dalam keadaan "hover."
   - border: 1px solid #bababa; untuk mengubah tampilan border  menjadi 1 piksel dengan solid warna abu-abu muda
+ 
+<img width="385" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/09434dac-2181-40fa-b39c-c26ef4c4789d"> 
+
+  - .selengkapnya a merupakan selector yang digunakan untuk menargetkan tautan yang berada dalam elemen dengan kelas "selengkapnya."
+  - display: inline-block; mengatur tampilan tautan-tautan untuk ditampilkan sebagai elemen inline-block.
+  - padding: 10px 10px; mengatur padding pada semua sisi menjadi 10 piksel
+  - background-color: #91b1d6; untuk mengatur warna background menajdi biru muda
+  - border-radius: 5px;  mengatur radius sudut (border radius) tautan-tautan sehingga memiliki sudut yang melengkung
+  - font-size: 1.3em; mengatur ukuran font menjadi 1.3 em, membuat teks lebih besar dari ukuran font standar.
+  - text-decoration: none; menghilangkan dekorasi tautan, seperti garis bawah yang umumnya muncul pada tautan.
+  - color: #364f6b; mengatur warna teks menjadi #364f6b (biru tua).
+  - .selengkapnya a:hover selector pseudo-class yang mengarah pada tautan dalam elemen "selengkapnya" ketika tautan tersebut sedang dalam keadaan "hover."
+  - color: white; mengubah teks tautan menjadi warna putih
+  - background-color: #364f6b;  mengubah warna latar belakang tautan menjadi #364f6b (biru tua) 
+
+
 
 
 
