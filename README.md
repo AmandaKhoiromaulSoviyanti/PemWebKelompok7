@@ -89,13 +89,13 @@ LAMPIRAN: Analisis Model
   - link rel=”stylesheet” href=”style.css” digunakan untuk menautkan file stylesheet yang disebut “style.css” sehingga mudah untuk memodifikasi tata letak halaman dengan mengedit file CSS terpisah
 
 ![Screenshot1 (817)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/bd3c5ccb-2110-4ae3-9638-0dfab31c0468)
-  - body menandakan awal dari elemen tubuh dari elemen halaman HTML 
-  - nav menunjukkan bahwa bagian ini merupakan bagian navigasi dari halaman web
-  - div class = “navbar” div merupakan elemen divisi yang mempunyai class “navbar” yang digunakan  untuk mengelompokkan elemen navigasi dan class “navbar” nantinya akan digunakan di css
-  - div class = “Title”<a href =’ ‘>SeleraKita.a div element divisi (div) yang memiliki class “Title” yang berisi tautan dengan teks “SeleraKita. “  dan teks ini merupakan judul atau nama situs web.
-  - div class =”menu” merupakan div dengan class “menu” yang digunakan untuk mengelompokkan elemen menu 
-  - ul merupakan unordered list jenis daftar yang berbentuk poin poin , tidak memiliki urutan khusus biasanya digunakan untuk menampilkan daftar item yang sejajar
-  - pada line 16 - 18  merupakan daftar item yang berurutan yang berisi Home,Resep, About yang akan  mengarah ke elemen dengan id “home”, id " Resep", id "About " iyo pada halaman tersebut  
+    -  body menandakan awal dari elemen tubuh dari elemen halaman HTML 
+    - nav menunjukkan bahwa bagian ini merupakan bagian navigasi dari halaman web
+    - div class = “navbar” div merupakan elemen divisi yang mempunyai class “navbar” yang digunakan  untuk mengelompokkan elemen navigasi dan class “navbar” nantinya akan digunakan di css
+    - div class = “Title”<a href =’ ‘>SeleraKita.a div element divisi (div) yang memiliki class “Title” yang berisi tautan dengan teks “SeleraKita. “  dan teks ini merupakan judul atau         nama situs web.
+    - div class =”menu” merupakan div dengan class “menu” yang digunakan untuk mengelompokkan elemen menu 
+    - ul merupakan unordered list jenis daftar yang berbentuk poin poin , tidak memiliki urutan khusus biasanya digunakan untuk menampilkan daftar item yang sejajar
+    - pada line 16 - 18  merupakan daftar item yang berurutan yang berisi Home,Resep, About yang akan  mengarah ke elemen dengan id “home”, id " Resep", id "About " iyo pada halaman            tersebut  
 
   
 
