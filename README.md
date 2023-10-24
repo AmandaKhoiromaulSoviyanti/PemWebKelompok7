@@ -134,13 +134,22 @@ LAMPIRAN: Analisis Model
 -PENJELASAN SCRIPT INDEXRESEP HTML
 
 ![ss indexresep 1](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/389ecf17-7f46-40ea-9039-2c483ee1b332)
-- <!DOCTYPE html> merupakan deklarasi tipe dokumen yang memberitahu browser bahwa halaman ini menggunakan versi HTML5.
-- <html lang="en"> menandakan awal dari dokumen HTML. Elemen ini juga mengandung atribut ‘lang’ yang menunjukkan bahwa bahasa kontennya adalah bahasa inggris.
-- <head> merupakan bagian kepala dokumen yang biasanya diisi informasi-informasi mengenai halaman web seperti judul, tautan stylesheet, dan meta informasi:
-- <meta charset="UTF-8"> yaitu untuk menentukan pengkodean karakter yang digunakan, dalam hal ini UTF-8
-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> mendefinisikan cara browser menampilkan halaman pada perangkat dengan berbagai ukuran       layar.
-- <title>SeleraKita.</title> untuk menentukan judul halaman web yang akan ditampilkan pada tab browser.
-- <link rel="stylesheet" href="style.css"> Menghubungkan halaman dengan file stylesheet (CSS) yang bernama “style.css”
+- !DOCTYPE html: merupakan deklarasi tipe dokumen yang memberitahu browser bahwa halaman ini menggunakan versi HTML5.
+- html lang="en" : menandakan awal dari dokumen HTML. Elemen ini juga mengandung atribut ‘lang’ yang menunjukkan bahwa bahasa kontennya adalah bahasa inggris.
+- head merupakan bagian kepala dokumen yang biasanya diisi informasi-informasi mengenai halaman web seperti judul, tautan stylesheet, dan meta informasi:
+- meta charset="UTF-8" : yaitu untuk menentukan pengkodean karakter yang digunakan, dalam hal ini UTF-8
+- meta name="viewport" content="width=device-width, initial-scale=1.0": mendefinisikan cara browser menampilkan halaman pada perangkat dengan berbagai ukuran       layar.
+- title>SeleraKita.</title : untuk menentukan judul halaman web yang akan ditampilkan pada tab browser.
+- link rel="stylesheet" href="style.css" : Menghubungkan halaman dengan file stylesheet (CSS) yang bernama “style.css”
+
+![ss indexresep 2](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/bc39636d-ac40-4882-a783-1642e1340b1a)
+- body : yaitu bagian tubuh dokumen untuk menempatkan konten utama dari halaman web.
+- nav : bagian navigasi yang berisi menu atau tautan-tautan yang mengarahkan pengguna ke halaman-halaman lain di situs.
+- div class=”navbar” : sebuah div dengan kelas CSS “navbar” yang berisi elemen-elemen terkait navigasi.
+- div class="title"><a href=''>SeleraKita.</a></div> : sebuah div dengan class CSS “title” yang berisi tautan menuju halaman utama (<a href=''>SeleraKita.</a>).
+- div class="search-bar"> : sebuah div dengan class CSS “search-bar” yang berisi elemen pencarian.
+- input type="text" id="recipeSearch" placeholder="Cari resep">: sebuah kotak input teks untuk user memasukkan kata kunci pencarian.
+- div id="searchResults"></div> Sebuah div kosong yang akan digunakan untuk menampilkan hasil pencarian.
 
 
 
