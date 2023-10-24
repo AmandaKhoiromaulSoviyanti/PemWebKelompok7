@@ -401,6 +401,16 @@ PENJELASAN SCRIPT
   - margin-top: 10px; untuk mengatur margin di bagian atas tombol sebesar 10 piksel.
   - !important; Tanda `!important` digunakan untuk memberikan prioritas tertinggi pada aturan ini,
 
+<img width="323" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/3ccc7f13-3dec-4018-a1e4-7a8279851427"> 
+
+  - .button:hover: selector pseudo-class yang mengarah pada tombol dengan kelas "button" ketika tombol tersebut sedang dalam keadaan "hover."
+  - background-color: #c90c12; mengubah warna latar belakang tombol menjadi #c90c12 (merah tua) ketika tombol dalam keadaan "hover."
+  - border: none; untuk menghilangkan border (garis tepi) tombol saat dalam keadaan "hover."
+  - border-bottom: solid 1px #000; menambahkan border di bagian bawah tombol dengan ketebalan 1 piksel dan warna #000 (hitam) saat tombol dalam keadaan "hover."
+  - box-shadow: 0 2px 3px #a8a8a8; menambahkan bayangan (shadow). Bayangan ini akan berupa bayangan dengan posisi vertikal 2 piksel, posisi horizontal 0 piksel, dan kabur sejauh 3 piksel, dengan warna #a8a8a8 (abu-abu).
+  - transform: scale(1.04); untuk menggunakan transformasi untuk mengubah skala tombol. Tombol akan diperbesar sebesar 4% dari ukuran aslinya
+  - Prefix transformasi: Beberapa browser mungkin memerlukan prefix tertentu, seperti `-webkit-transform`, `-moz-transform`, `-o-transform`, dan `-ms-transform`, untuk mendukung transformasi
+
 
 
 
