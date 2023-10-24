@@ -20,10 +20,10 @@ img {
 }
 
 .kotakresep {
-    max-width: 800px; /* Sesuaikan lebar maksimum sesuai kebutuhan Anda */
+    max-width: 800px;
     margin: 0 auto;
-    background-color: #fff; /* Warna latar belakang */
-    padding: 20px; /* Ruang di sekitar konten */
-    border-radius: 10px; /* Sudut elemen */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
