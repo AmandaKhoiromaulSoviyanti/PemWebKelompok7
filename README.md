@@ -384,6 +384,23 @@ PENJELASAN SCRIPT
   - color: white; mengubah teks tautan menjadi warna putih
   - background-color: #364f6b;  mengubah warna latar belakang tautan menjadi #364f6b (biru tua) 
 
+<img width="354" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/655a2972-0696-481b-904b-e293902d39ad"> 
+
+  - button digunakan untuk menargetkan tombol yang memiliki kelas "button."
+  - cursor: pointer mengatur tampilan kursor mouse saat berada di atas tombol. "pointer" mengubah kursor menjadi ikon tangan, menandakan bahwa tombol tersebut dapat diklik.
+  - font-size: 14px mengatur ukuran font menjadi 14 piksel.
+  - color: #ffffff; mengatur warna teks pada tombol menjadi putih.
+  - padding: 7px 10px  mengatur ruang dalam (padding) tombol sebesar 7 piksel di atas dan bawah serta 10 piksel di sisi kiri dan kanan.
+  - text-decoration: none untuk menghilangkan dekorasi tautan, seperti garis bawah, pada teks tombol.
+  - text-transform: uppercase mengubah teks pada tombol menjadi huruf kapital.
+  - letter-spacing: 0  menghilangkan jarak antara huruf pada teks tombol.
+  - background: #000; mengatur warna latar belakang tombol menjadi hitam (#000).
+  - border: none; untuk menghilangkan border (garis tepi) tombol.
+  - border-bottom: solid 1px #c90c12; menambahkan border di bagian bawah tombol dengan ketebalan 1 piksel dan warna #c90c12 (merah tua).
+  - text-align: center; untuk mengatur perataan teks di tengah tombol.
+  - margin-top: 10px; untuk mengatur margin di bagian atas tombol sebesar 10 piksel.
+  - !important; Tanda `!important` digunakan untuk memberikan prioritas tertinggi pada aturan ini,
+
 
 
 
