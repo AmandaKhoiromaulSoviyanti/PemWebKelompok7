@@ -1,6 +1,6 @@
 <div align="center">
 <h1>Software Requirements Specification</h1>
-<h1>Website Resep Makanan: Selera Kita)</h1>
+<h1>Website Resep Makanan: (Selera Kita)</h1>
   
 <P>1. Melani Silvia P      (22091397038) </P>
 <P>2. Amanda Khoiroma'ul S (22091397063) </P> 
