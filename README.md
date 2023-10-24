@@ -219,6 +219,32 @@ PENJELASAN SCRIPT
   - if (results.length > 0) jika results.legth>0 maka searchResults.innerHTML = results.join("") menampilkan hasil pencarian ke dalam elemen dengan ID”searchResults” dan                      searchResults.style.display = "block"; digunakan menampilkan elemen hasil pencarian 
   - else jika tidak searchResults.innerHTML = "Tidak ada hasil ditemukan."; digunakan menampilkan pesan jika tidak ada hasil yang ditemukan dan searchResults.style.display = "block";         digunakan untuk menampilkan elemen hasil pencarian yang jika tidak ada hasil yang ditemukan
 
+- PENJELASAN SCRIPT STYLE.CSS
+<img width="359" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/504afca6-39ee-468e-b772-95521d8abc57">
+  - * adalah aturan CSS yang didefinisikan dibawahnya dan akan berlaku untuk semua elemen HTML pada halaman web.
+  - {}  digunakan untuk mengelompokkan aturan CSS.
+  - text-decoration: none; digunakan untuk menghilangkan dekorasi teks seperti underline pada tautan link
+  - margin: 0px; digunakan untuk mengatur margin(ruang pada sekitar elemen) elemen HTML menjadi 0 piksel atau tidak ada jarak tambahan
+  - padding: 0px; digunakan untuk mengatur padding (ruang disekitar konten dalam elemen HTML yang memisahkan konten dari batas elemen) menjadi 0 piksel atau tidak ada   
+    ruang tambahan.
+  - body merupakan selektor yang digunakan untuk menargetkan elemen <body>  dalam HTML
+  - font-family: ‘Open Sans’,sans-serif; digunakan untuk mengatur jenis huruf open sans dengan cadangan sans-serif
+  - navbar merupakan selektor class yang digunakan untuk menargetkan elemen yang memiliki kelas ‘navbar’
+  - width: 1100px; digunakan untuk mengatur lebar elemen dengan class navbar menjadi 1100 piksel
+  - margin: auto;  digunakan untuk mengatur margin elemen dengan kelas navbar menjadi auto
+  - position: relative; digunakan untuk mengatur posisi elemen sebagai ‘relative’ yang merupakan posisi default
+  - .title a merupakan selektor yang menggabungkan 2 selektor, seperti menargetkan (anchor atau <a>) dalam elemen yang memiliki kelas ‘title’
+  - font-size: 50px; digunakan untuk mengatur ukuran font menjadi 50piksel.
+  - font-weght: 800; digunakan untuk mengatur ketebalan font menjadi 800
+  - float: left; digunakan untuk mengatur tulisan agar menempati sisi kiri
+  - font-family: courier; digunakan untuk mengatur jenis huruf menjadi ‘courier’ (tampilan monospasi)
+  - color: #364f6b; digunakan untuk mengatur warna teks menjadi #364f6b (biru)
+
+
+
+
+
+
 
   
 
