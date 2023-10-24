@@ -240,13 +240,12 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - catCardList.forEach(function(card) { ... }); digunakan untuk melakukan iterasi (perulangan ) melalui setiap resep
     - const h3 = card.querySelector("h3"); mendapatkan elemen judul resep di setiap  resep 
     - if (recipeTitle.includes(searchTerm)) digunakan jika memeriksa apakah input pencarian yang ada dalam judul resep maka results.push(card.outerHTML) untuk menyimpan HTML dari setiap kartu resep yang cocok dengan pencarian 
-    - if (results.length > 0) jika results.legth>0 maka searchResults.innerHTML = results.join("") menampilkan hasil pencarian ke dalam elemen dengan ID”searchResults” dan                      searchResults.style.display = "block"; digunakan menampilkan elemen hasil pencarian 
+    - if (results.length > 0) jika results.legth>0 maka searchResults.innerHTML = results.join("") menampilkan hasil pencarian ke dalam elemen dengan ID”searchResults” dan searchResults.style.display = "block"; digunakan menampilkan elemen hasil pencarian 
     - else jika tidak searchResults.innerHTML = "Tidak ada hasil ditemukan."; digunakan menampilkan pesan jika tidak ada hasil yang ditemukan dan searchResults.style.display = "block"; digunakan untuk menampilkan elemen hasil pencarian yang jika tidak ada hasil yang ditemukan
 
 - PENJELASAN SCRIPT STYLE.CSS
   
-  <img width="359" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/504afca6-39ee-468e-b772-95521d8abc57"> 
-    
+  ![Gambar WhatsApp 2023-10-24 pukul 22 57 15_15c14877](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/0973086c-7a48-4cca-8e31-341321ea9ff2)
    - (*) adalah aturan CSS yang didefinisikan dibawahnya dan akan berlaku untuk semua elemen HTML pada halaman web.
    - {}  digunakan untuk mengelompokkan aturan CSS.
    - text-decoration: none; digunakan untuk menghilangkan dekorasi teks seperti underline pada tautan link
