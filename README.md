@@ -1,9 +1,9 @@
 <center>
 <h1>Software Requirements Specification</h1>
 </center>
-<P>1. </P>
-<P>2. </P> 
-<P>3. </P> 
+<P>1. Melani Silvia P      (22091397038) </P>
+<P>2. Amanda Khoiroma'ul S (22091397063) </P> 
+<P>3. Shabrina Zahra A     (22091397066) </P> 
 
 <h2>Website Resep Makanan: Selera Kita)</h2>
 
@@ -71,7 +71,8 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   - Koneksi internet untuk dapat terhubung ke server.
     
 <h5>ANTAR MUKA</h5>
-![Screenshot (832)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/5afc8db4-7510-40f9-8a34-6dde297eb916)
+
+![Screenshot (841)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/4a95ce7a-1815-46c8-bc2f-fad5e64a31cd)
 
 ![Screenshot (833)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/6e409aff-e4f1-41d1-a8e6-a21a5dd47835)
 
@@ -425,6 +426,30 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   - transform: scale(1.04); untuk menggunakan transformasi untuk mengubah skala tombol. Tombol akan diperbesar sebesar 4% dari ukuran aslinya
   - Prefix transformasi: Beberapa browser mungkin memerlukan prefix tertentu, seperti `-webkit-transform`, `-moz-transform`, `-o-transform`, dan `-ms-transform`, untuk mendukung transformasi
 
+- PENJELASAN SCRIPT RESEP
+
+  ![Screenshot (838)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/6439b2de-29c8-4645-b35d-84045dba053a)
+    - !DOCTYPE html digunakan untuk mendeklarasikan atau memberi tau browser bahwa halaman ini merupakan halaman dokumen html5
+    - html lang = “en”  menunjukkan bahwa bahasa yang digunakan pada halaman merupakan bahasa inggris 
+    - head digunakan untuk menandakan bahwa awal dari kepala dokumen HTML.
+    - meta charset = “UTF - 8” digunakan untuk memberi tahu browser bahwa dokumen yang digunakan menggunakan set karakter UTF - 8 yang merupakan standar umum untuk encoding karakter.
+    - meta name = “viewport” content=”width=device-width initial-scale = 1.0” digunakan untuk mengontrol tampilan halaman di perangkat dengan mengatur tampilan lebar dan mengatur skala awal 
+    - meta http - equiv =”X-UA-Compatible” content = “ie=edge” digunakan untuk mengintruksi browser untuk menggunakan mode rendering terbaru yang terbaru yang tersedia 
+    - title RESEP MAKANAN title digunakan untuk menetapkan judul halaman yang akan ditampilkan di tab atau judul jendela browser
+    - link rel=”stylesheet” href=”style.css” digunakan untuk menautkan file stylesheet yang disebut “style.css” sehingga mudah untuk memodifikasi tata letak halaman dengan mengedit file CSS terpisah
+
+
+  ![Screenshot (839)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/3bd836d8-9ac1-481e-958d-5bf996a8ba9e)
+  ![Screenshot (840)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/275fe063-0b2f-4d48-99b7-95871825fd51)
+
+    - body menandakan awal dari elemen tubuh dari elemen halaman HTML 
+    - div class “kotakresep” merupakan elemen div dengan kelas “kotakresep” yang berfungsi untuk mengelompokkan elemen - elemen resep Rawon. kotakresep juga berfungsi untuk pemanggilan class di css
+    - h1 Resep Rawon h1, h1 menandakan judul utama yang menampilkan teks “Rawon”
+    - img scr = “fotoResep/Rawon.png” alt  = “rawon.png” img digunakan untuk elemen gambar yang menampilkan rawon,src merupakan menunjukkan lokasi file gambar, dan alt memberikan deskripsi alternatif untuk gambar
+    - p ….. p merupakan elemen paragraf yang memberikan deskripsi tentang resep rawon
+    - ol digunakan untuk menandai awal dari daftar yang terurut (ordered list )
+    - li> ….li  merupakan elemen daftar list item yang mewakili setiap bahan yang dibutuhkan dalam resep setelah itu, pola yang sama diulangi pada bagian “bumbu halus”, “bahan pelengkap” dan “cara membuat rawon”
+    
 
 
 
