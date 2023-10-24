@@ -99,16 +99,16 @@ LAMPIRAN: Analisis Model
 
 ![Screenshot1 (821)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/96d3a268-f5cf-4d31-9d50-e946be74f642)
   Script diatas merupakan salah satu codingan untuk melihat resep yang ada di dalam halaman index HTML. Berikut penjerlasannya :
-    - section id = “resep” menandakan awal dari bagian “resep” di halaman web yang berisi daftar atau kartu resep yang akan ditampilkan kepada pengguna 
-    - ul class = “catCardList” ul (unordered list) merupakan daftar yang tak berurut yang memiliki class “catCardlist”
-    - li class =”catCardlist” li(list item) yang memiliki class “catCardList”.
-    - div class =”catCard” div yang memiliki class “catCard yang digunakan untuk menampilkan resep tertentu 
-    - a href =”#”  mengarah ke tautan yang kosong 
-    - img src =”fotoResep/nasgor.png” alt=”” merupakan tag gambar (img) yang menampilkan gambar resep nasi goreng.
-    - div class =”lowerCatCard” div yang memiliki class “loweCatCard” yang digunakan untuk menampilkan detail resep lebih lanjut 
-    - h3 Nasi Goreng h3 elemen judul level 3 yang menampilkan judul resep “Nasi Goreng”
-    - p ….kontendeskripsi..p paragraf yang menjelaskan mengenai nasi goreng 
-    - div id="catCardButton" class="button" a href="resepnasgor.html" Lihat Resep a div div dengan id “catCardButton” dan kelas “button” yang berisi tautan             “Lihat Resep”. tautan ini akan mengarah ke halaman yang berisi resep nasi goreng secara lebih rinci 
+  - section id = “resep” menandakan awal dari bagian “resep” di halaman web yang berisi daftar atau kartu resep yang akan ditampilkan kepada pengguna 
+  - ul class = “catCardList” ul (unordered list) merupakan daftar yang tak berurut yang memiliki class “catCardlist”
+  - li class =”catCardlist” li(list item) yang memiliki class “catCardList”.
+  - div class =”catCard” div yang memiliki class “catCard yang digunakan untuk menampilkan resep tertentu 
+  - a href =”#”  mengarah ke tautan yang kosong 
+  - img src =”fotoResep/nasgor.png” alt=”” merupakan tag gambar (img) yang menampilkan gambar resep nasi goreng.
+  - div class =”lowerCatCard” div yang memiliki class “loweCatCard” yang digunakan untuk menampilkan detail resep lebih lanjut 
+  - h3 Nasi Goreng h3 elemen judul level 3 yang menampilkan judul resep “Nasi Goreng”
+  - p ….kontendeskripsi..p paragraf yang menjelaskan mengenai nasi goreng 
+  - div id="catCardButton" class="button" a href="resepnasgor.html" Lihat Resep a div div dengan id “catCardButton” dan kelas “button” yang berisi tautan             “Lihat Resep”. tautan ini akan mengarah ke halaman yang berisi resep nasi goreng secara lebih rinci 
 
 ![Screenshot (822)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/ecce0596-d431-4adc-9a8e-4d6397c05bad)
   - div class = “selengkapnya” merupakan elemen div yang memiliki class “selengkapnya”. elemen div digunakan untuk membuat kotak terpisah dalam dokumen HTML dan       digunakan untuk mengatur gaya elemen menggunakan css
