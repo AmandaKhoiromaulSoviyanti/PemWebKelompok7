@@ -336,7 +336,8 @@ PENJELASAN SCRIPT
 
 <img width="364" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/de4a8ab9-8a6f-4c21-8370-a8c310514f33"> 
 
-  - div.lowerCatCard:hover merupakan selector yang mengarah pada elemen <div> yang memiliki kelas "lowerCatCard" yang berada dalam elemen <div> yang memiliki kelas "catCard." Dalam HTML, ini mengacu pada elemen-elemen "lowerCatCard" yang ada sebagai anak dari elemen "catCard."
+  - div.lowerCatCard:hover merupakan selector yang mengarah pada elemen <div> yang memiliki kelas "lowerCatCard" yang berada dalam elemen <div> yang memiliki kelas 
+ "catCard." Dalam HTML, ini mengacu pada elemen-elemen "lowerCatCard" yang ada sebagai anak dari elemen "catCard."
   - left: 0; untuk mengatur posisi kiri menjadi 0 piksel
   - bottom: -3%; mengatur posisi bawah menjadi -3% dari tinggi elemen
   - width: 215px; untuk mengatur lebar menajdi 215 piksel
