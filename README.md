@@ -1,5 +1,5 @@
 <center>
-Software Requirements Specification 
+<h1>Software Requirements Specification</h1>
 </center>
 
 (Website Resep Makanan: Selera Kita)
