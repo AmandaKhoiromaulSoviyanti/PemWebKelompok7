@@ -447,13 +447,115 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - p: Ini adalah selector elemen yang digunakan untuk menargetkan semua elemen paragraf (p) dalam halaman web.
       - margin: 10px 0px 10px 0px; untuk mengatur margin pada elemen paragraf menjadi 10 piksel di atas dan bawah, 0 piksel di kanan dan kiri.
       - padding: 0px 0px 0px 0px; untuk mengatur padding ke 0 piksel di semua sisi (atas, kanan, bawah, kiri), sehingga tidak ada ruang dalam di sekitar elemen paragraf.
-    - .tengah Ini adalah selector kelas yang digunakan untuk menargetkan elemen-elemen yang memiliki kelas "tengah"
+    - .tengah :  Ini adalah selector kelas yang digunakan untuk menargetkan elemen-elemen yang memiliki kelas "tengah"
       - text-align: center;mengatur perataan teks di dalam elemen dengan kelas "tengah" menjadi tengah (center). 
-      - width: 100%;untuk mengatur lebar elemen-elemen dengan kelas "tengah" menjadi 100% 
+      - width: 100%;untuk mengatur lebar elemen-elemen dengan kelas "tengah" menjadi 100%
+        
+  ![Gambar WhatsApp 2023-10-24 pukul 22 47 05_7d896b53](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/50607cd0-c0c3-4b9d-a7e5-d2803a3ec6d3)
+    - #contact: selector ID yang digunakan untuk menargetkan elemen dengan ID "contact" dalam halaman web.
+      - background: #dedede;: Properti CSS ini mengatur warna latar belakang elemen dengan ID "contact" menjadi #dedede (abu-abu muda).
+      - padding: 50px 0px 50px 0px;mengatur padding menjadi 50 piksel di atas dan bawah, dan 0 piksel adalah padding di kanan dan kiri.
+    - .footer adalah selector kelas yang digunakan untuk menargetkan elemen-elemen dengan kelas "footer" 
+      - width: 100%; untuk mengatur lebar (width) elemen-elemen dengan kelas "footer" menjadi 100% 
+      - position: relative;mengatur posisi elemen-elemen dengan kelas "footer" sebagai "relative. 
+      - display: flex;untuk mengatur elemen-elemen dengan kelas "footer" untuk menggunakan model tata letak Flexbox.
+      - flex-wrap: wrap;untuk mengatur elemen-elemen dengan kelas "footer" agar dapat dibungkus ke baris baru jika lebar wadah tidak cukup.
+      - margin: auto;untuk mengatur margin elemen-elemen dengan kelas "footer" menjadi otomatis
+    - .footer-section adalah selector kelas yang digunakan untuk menargetkan elemen-elemen dengan kelas "footer-section" 
+      - width: 20%; untuk mengatur lebar (width) elemen-elemen dengan kelas "footer-section" menjadi 20% 
+      - margin: 0 auto;untuk mengatur margin elemen-elemen dengan kelas "footer-section" di sisi atas dan bawahnya menjadi 0
+    - h3  digunakan untuk menargetkan semua elemen dengan tag "h3" 
+      - font-family: 'comic sans ms';: Properti CSS ini mengatur jenis font (font-family) untuk teks dalam elemen "h3" menjadi "Comic Sans MS."
+      - font-weight: 800; digunakan untuk mengatur ketebalan menjadi 800
+      - font-size: 30px; digunakan untuk mengatur ukuran font menjadi 30 piksel
+      - margin-bottom: 20px; digunakan untuk mengatur margin bagian bawah menajdi 20 piksel
+      - color: #364f6b; untuk mengatur warna teks dalam elemen "h3" menjadi #364f6b (biru tua).
+      - width: 100%; untuk mengatur lebar elemen "h3" menjadi 100% dari lebar wadahnya
+      - line-height: 50px; untuk mengatur jarak antar baris menajdi 50 piksel
+        
+  ![Gambar WhatsApp 2023-10-24 pukul 22 47 07_f1050294](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/ac0615e2-31f1-43f9-9ebd-d8b9304acac7)
+    - .Back adalah selector kelas yang digunakan untuk menargetkan elemen-elemen dengan kelas "Back" 
+      - display: flex;untuk mengatur elemen-elemen dengan kelas "Back" untuk menggunakan model tata letak Flexbox. 
+      - justify-content: center;untuk mengatur penataan elemen-elemen secara horizontal sehingga terpusat
+      - align-items: center;untuk mengatur penataan elemen-elemen secara vertikal sehingga terpusat secara vertikal 
+      - height: 20vh; untuk mengatur tinggi elemen-elemen dengan kelas "Back" menjadi 20% dari tinggi viewport (vh).
+    - .Back a adalah selector yang digunakan untuk menargetkan tautan (link) yang berada di dalam elemen-elemen dengan kelas "Back."
+      - display: inline-block; untuk  mengatur tautan untuk menjadi inline-block, yang memungkinkan untuk memberikan lebar dan tinggi
+      - padding: 10px 20px; untuk mengatur padding menjadi 10 piksel di atas dan bawah serta 20 piksel di sisi kiri dan kanan.
+      - background-color: #91b1d6; untuk mengatur warna latar belakang tautan menjadi #91b1d6 (biru muda).
+      - color: #000; untuk mengatur warna teks tautan menjadi hitam (#000).
+      - text-decoration: none; untuk menghilangkan dekorasi tautan, seperti garis bawah.
+      - border-radius: 5px; untuk mengatur sudut border tautan sehingga tautan memiliki sudut yang membulat (border-radius) sebesar 5 piksel.
+      - transition: background-color 0.3s; untuk mengatur transisi untuk perubahan warna latar belakang tautan dengan durasi transisi sebesar 0.3 detik.
+      - cursor: pointer;  untuk mengubah kursor mouse menjadi ikon tangan ketika diarahkan ke tautan
+    - .Back a:hover adalah selector pseudo-class yang mengarah pada tautan dalam elemen dengan kelas "Back" ketika tautan sedang dalam keadaan "hover."
+      - color: white; untuk mengubah warna teks tautan menjadi putih saat tautan dihover.
+      - background-color: #364f6b; untuk mengubah warna latar belakang tautan menjadi #364f6b (biru tua)
 
+  ![Gambar WhatsApp 2023-10-24 pukul 23 38 27_5cd53fa1](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/5f92130c-0657-4586-af5d-5c2be249be0c)
+    - .search-bar adalah selector kelas yang digunakan untuk menargetkan elemen dengan kelas "search-bar"
+      - display: flex; digunakan untuk mengatur elemen dengan kelas "search-bar" untuk menggunakan model tata letak Flexbox.
+      - align-items: center; digunakan untuk mengatur penataan elemen-elemen secara vertikal sehingga elemen "search-bar" terpusat secara vertikal
+      - background-color: #fff; untuk mengatur warna latar belakang elemen "search-bar" menjadi putih
+      - border: 2px solid #364f6b; digunakan untuk mengatur garis pinggir elemen dengan ketebalan 2 piksel dan warna #364f6b (biru tua). 
+      - border-radius: 25px; digunakan untuk mengatur sudut border sehingga elemen ini memiliki sudut yang membulat (border-radius) sebesar 25 piksel.
+      - padding: 5px; untuk mengatur padding pada elemen menjadi 5 piksel 
+      - box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);digunakan untuk menambahkan efek bayangan dengan 0 piksel perpindahan vertikal, 2 piksel perpindahan horizontal, 4 piksel blur, dan warna bayangan dengan opasitas 0.1.
+      - position: relative; untuk mengatur posisi elemen sebagai "relative." 
+      - height: 40px; untuk mengatur tinggi (height) elemen menjadi 40 piksel.
+      - margin-left: auto; digunakan untuk margin sisi kiri menjadi auto       
+    - .search-bar input[type="text"] digunakan untuk menargetkan elemen input dengan tipe "text" yang berada dalam elemen 
+      - border: none; digunakan untuk menghilangkan border (garis pinggir) 
+      - outline: none;digunakan untuk menghilangkan outline (garis luar) dari elemen 
+      - padding: 10px;untuk mengatur padding (ruang dalam) pada elemen input sebesar 10 piksel
+      - border-radius: 25px;untuk mengatur sudut border elemen sehingga memiliki sudut yang membulat (border-radius) sebesar 25 piksel.
+      - width: 100%;: Properti CSS ini mengatur lebar elemen input menjadi 100%
+      - background: transparent;: Properti CSS ini mengatur latar belakang elemen input menjadi transparan
+    - .search-bar input[type="text"]::placeholder merupakan selector pseudo-element yang digunakan untuk menargetkan teks placeholder (teks panduan) pada elemen        - input dengan tipe "text" yang berada dalam elemen 
+      - color: #777;untuk mengatur warna teks placeholder menjadi #777 (abu-abu tua).
+  ![Gambar WhatsApp 2023-10-24 pukul 23 40 26_f258a045](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/4990001c-9eba-4ff0-9aa2-0f9c0cc700a3)
+    - .search-bar button merupakan selector yang digunakan untuk menargetkan elemen tombol
+      - background-color: 364f6b; digubnakan untukmengatur warna latar belakang tombol menjadi #364f6b (biru tua).
+      - color: #fff; digunakan mengatur warna teks tombol menjadi putih (#fff).
+      - border: none; digunakan menghilangkan border (garis pinggir) dari tombol, sehingga tombol tidak memiliki border.
+      - top: auto; digunakan untuk mengatur posisi elemen manjadi auto
+      - border-radius: 25px; untuk mengatur sudut border sehingga memiliki sudut yang membulat sebesar 25 piksel.
+      - height: auto; digunakan untuk mengubah tinggi tombol menajdi auto
+      - padding: 10px 20px; untuk mengatur padding menjadi 10 piksel di atas dan bawah serta 20 piksel di sisi kiri dan kanan.
+      - margin-left: 10px; digunakan untuk mengatur margin sisi kiri menjadi 10 piksel
+      - cursor: pointer; untuk mengubah kursor mouse menjadi ikon tangan ketika diarahkan ke tombol, menunjukkan bahwa tombol dapat diklik.
 
+  ![Gambar WhatsApp 2023-10-24 pukul 23 41 17_e3fd3e74](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/678134f2-44fa-4881-bdb2-f8b30fab110d)
+    - #searchResults digunakan untuk menargetkan elemen dengan ID "searchResults"
+      - background-color: #fff; untuk mengatur warna latar belakang elemen "searchResults" menjadi putih (#fff).
+      - border: 2px solid #364f6b; untuk mengatur garis pinggir dengan ketebalan 2 piksel dan warna #364f6b (biru tua).
+      - border-radius: 5px; untuk mengatur sudut border sehingga elemen memiliki sudut yang membulat (border-radius) sebesar 5 piksel.
+      - box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); digunakan untuk menambahkan efek bayangan (box shadow)  dengan 0 piksel perpindahan vertikal, 2 piksel perpindahan horizontal, 4 piksel blur, dan warna bayangan dengan opasitas 0.1.
+      - position: absolute; untuk mengatur posisi elemen "searchResults" sebagai "absolute." 
+      - width: 100%; untuk mengatur lebar elemen menjadi 100% 
+      - max-height: 300px; untuk mengatur tinggi maksimum menjadi 300 piksel.
+      - overflow-y: auto; digunakan untuk mengatur elemen "searchResults" untuk menambahkan bilah gulir vertikal (scroll) jika hasil pencarian melebihi tinggi maksimumnya. 
+      - display: none; untuk mengatur elemen untuk dapat disembunyikan secara default (display: none).
+      - z-index: 1 digunakan untuk mengatur z-indeks elemen "searchResults" menjadi 1. 
+      - top: 60px; digunakan untuk mengatur posisi elemen sejauh 60 piksel dari atas. 
+  ![Gambar WhatsApp 2023-10-24 pukul 23 44 44_9de77778](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/c864a777-00f8-4a1a-9b36-34ac89319e76)
 
-
+    - searchResults a digunakan untuk menargetkan elemen tautan (link) yang berada dalam elemen 
+      - display: block; untuk mengatur elemen tautan agar ditampilkan sebagai blok
+      - padding: 0;digunakan untuk menghilangkan padding pada elemen
+      - text-decoration: none; digunakan untuk menghilangkan dekorasi tautan, seperti garis bawah
+      - margin: 5px 0; digunakan untuk mengatur margin menjadi 5 piksel di atas dan bawah
+      - border-radius: 5px; digunakan untuk mengatur sudut border elemen tautan sehingga elemen ini memiliki sudut yang membulat sebesar 5 piksel.
+      - transition: background-color 0.2s; untuk menambahkan transisi ke properti   background-color dengan durasi 0.2 detik.
+      - width: auto; digunakan untuk menyesuaikan lebar 
+      - height: auto; digunakan untuk menyesuaikan tinggi
+      - background-color: #364f6b; untuk mengatur warna latar belakang elemen tautan menjadi #364f6b (biru tua).
+      - color: #fff; untuk mengatur warna teks tautan menjadi putih 
+      - text-align: center; digunakan untuk mengatur teks di dalam elemen tautan agar terpusat secara horizontal.
+      - line-height: 30px; digunakn untuk mengatur garis tinggi elemen tautan sebesar 30 piksel.
+      - font-size: 16px ;digunakan untuk mengatur ukuran teks tautan menjadi 16 piksel.
+    - #searchResults a:hover digunakan untuk menargetkan elemen tautan (link) yang berada dalam elemen dengan ID "searchResults" ketika tautan dihover (diklik).
+      - background-color: #364f6b; digunakan untuk mengatur latar belakang elemen tautan menjadi #364f6b (biru tua)
 
 - PENJELASAN SCRIPT RESEP
 
