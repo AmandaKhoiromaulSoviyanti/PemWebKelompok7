@@ -220,7 +220,7 @@ PENJELASAN SCRIPT
   - else jika tidak searchResults.innerHTML = "Tidak ada hasil ditemukan."; digunakan menampilkan pesan jika tidak ada hasil yang ditemukan dan searchResults.style.display = "block";         digunakan untuk menampilkan elemen hasil pencarian yang jika tidak ada hasil yang ditemukan
 
 - PENJELASAN SCRIPT STYLE.CSS
-<img width="359" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/504afca6-39ee-468e-b772-95521d8abc57">
+<img width="359" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/504afca6-39ee-468e-b772-95521d8abc57"> 
 
     - (*) adalah aturan CSS yang didefinisikan dibawahnya dan akan berlaku untuk semua elemen HTML pada halaman web.
     - {}  digunakan untuk mengelompokkan aturan CSS.
@@ -241,7 +241,8 @@ PENJELASAN SCRIPT
     - font-family: courier; digunakan untuk mengatur jenis huruf menjadi ‘courier’ (tampilan monospasi)
     - color: #364f6b; digunakan untuk mengatur warna teks menjadi #364f6b (biru)
  
-  <img width="444" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/7cdd0d6a-cb0a-4863-978e-517d56b6afd2">
+  <img width="444" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/7cdd0d6a-cb0a-4863-978e-517d56b6afd2"> 
+  
     - .menu merupakan selektor class yang digunakan untuk menargetkan elemen yang memiliki kelas ‘menu’
     - float: right; digunakan untuk mengatur tulisan agar menempati sisi kanan
     - font-family: courier; digunakan untuk mengatur jenis huruf menjadi ‘courier’ (tampilan monospasi)
