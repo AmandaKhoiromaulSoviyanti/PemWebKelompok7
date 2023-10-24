@@ -176,7 +176,8 @@ PENJELASAN SCRIPT
 - PENJELASAN SCRIPT STYLERESEP CSS
 
   ![ss styleresep](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/a4d35607-84d6-41fa-b8cd-9a11aa498d71)
-    Script styleresep.css diatas merupakan CSS untuk bagian dalam HTML setiap resep
+
+  Script styleresep.css diatas merupakan CSS untuk bagian dalam HTML setiap resep
     - body: Gaya untuk elemen <body> di halaman HTML masing-masing resep
       - font-family: "Open-sans", sans-serif; mengatur jenis font yang akan digunakan dalam elemen body. Disini menggunaka font "Open-sans", jika tidak tersedia, maka menggunakan font sans-serif default.
       - margin: 0 auto;  Memberikan margin pada sisi kiri dan kanan elemen body sehingga konten akan terpusat di tengah halaman. Nol pada sisi atas dan bawah.
