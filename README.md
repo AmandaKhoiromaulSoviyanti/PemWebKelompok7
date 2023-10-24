@@ -167,35 +167,35 @@ LAMPIRAN: Analisis Model
 - kemudian penjelasan untuk daftar resep lain yang ada di dalam section penjelasannya sama.
 
   ![image](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/7a619ef7-a61b-4a1e-8534-a359248773db)
-- div class="Back" : Sebuah div dengan kelas CSS "Back" yang berisi tautan kembali ke halaman utama.
-- a href="index.html" Back to Home /a : Sebuah tombol/ tautan menuju halaman utama dengan teks "Back to Home".
-- script src="Script.js"  /script : Sebuah skrip JavaScript yang akan dijalankan oleh browser untuk memberikan/ memanggil fungsionalitas tambahan.
+    - div class="Back" : Sebuah div dengan kelas CSS "Back" yang berisi tautan kembali ke halaman utama.
+    - a href="index.html" Back to Home /a : Sebuah tombol/ tautan menuju halaman utama dengan teks "Back to Home".
+    - script src="Script.js"  /script : Sebuah skrip JavaScript yang akan dijalankan oleh browser untuk memberikan/ memanggil fungsionalitas tambahan.
 
 - PENJELASAN SCRIPT STYLERESEP CSS
 
   ![ss styleresep](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/a4d35607-84d6-41fa-b8cd-9a11aa498d71)
-- body: Gaya untuk elemen <body> di halaman HTML masing-masing resep
-- font-family: "Open-sans", sans-serif; mengatur jenis font yang akan digunakan dalam elemen body. Disini menggunaka font "Open-sans", jika tidak tersedia, maka menggunakan font sans-serif default.
-- margin: 0 auto;  Memberikan margin pada sisi kiri dan kanan elemen body sehingga konten akan terpusat di tengah halaman. Nol pada sisi atas dan bawah.
-- max-width: 800px; : Menentukan lebar maksimum elemen body, sehingga konten tidak melebar terlalu lebar pada layar besar.
-- padding: 20px;: Memberikan ruang padding sebesar 20 piksel di sekitar konten di dalam elemen body.
-- background-color: #f8f8f8;: Memberikan warna latar belakang untuk seluruh halaman dengan kode warna #f8f8f8 (hampir putih).
-- h1: Gaya untuk elemen heading level 1 (<h1>).
-- text-align: center;: Mengatur teks pada heading untuk berada di tengah.
-- color: #364f6b;: Mengatur warna teks pada heading dengan kode warna #364f6b (biru tua).
-- img: Gaya untuk elemen gambar (<img>).
-- width: 300px; Menentukan lebar gambar sebesar 300 piksel.
-- height: 20pc; Menentukan tinggi gambar sebesar 20 pica (1 pica = 12 piksel).
-- margin-left: auto; Meletakkan gambar di bagian kiri halaman (auto untuk mengatur otomatis).
-- margin-right: auto; Meletakkan gambar di bagian kanan halaman (auto untuk mengatur otomatis).
-- display: block; Menjadikan gambar sebagai blok elemen, sehingga akan menempati seluruh lebar yang tersedia.
-- .kotakresep: Gaya untuk elemen dengan kelas CSS "kotakresep".
-- max-width: 800px; Menentukan lebar maksimum dari elemen dengan kelas "kotakresep" menjadi 800 piksel.
-- margin: 0 auto; Mengatur elemen dengan kelas "kotakresep" menjadi terpusat di tengah halaman.
-- background-color: #fff; Memberikan warna latar belakang putih untuk elemen dengan kelas "kotakresep".
-- padding: 20px; Memberikan ruang padding sebesar 20 piksel di sekitar konten di dalam elemen dengan kelas "kotakresep".
-- border-radius: 10px; Memberikan sudut melengkung pada elemen dengan kelas "kotakresep", sehingga memiliki tampilan lebih estetis.
-- box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Memberikan efek bayangan pada elemen dengan kelas "kotakresep". Efek bayangan adalah bayangan lembut yang memberikan kedalaman dan dimensi pada elemen.
+    - body: Gaya untuk elemen <body> di halaman HTML masing-masing resep
+      - font-family: "Open-sans", sans-serif; mengatur jenis font yang akan digunakan dalam elemen body. Disini menggunaka font "Open-sans", jika tidak tersedia, maka menggunakan font sans-serif default.
+      - margin: 0 auto;  Memberikan margin pada sisi kiri dan kanan elemen body sehingga konten akan terpusat di tengah halaman. Nol pada sisi atas dan bawah.
+      - max-width: 800px; : Menentukan lebar maksimum elemen body, sehingga konten tidak melebar terlalu lebar pada layar besar.
+      - padding: 20px;: Memberikan ruang padding sebesar 20 piksel di sekitar konten di dalam elemen body.
+      - background-color: #f8f8f8;: Memberikan warna latar belakang untuk seluruh halaman dengan kode warna #f8f8f8 (hampir putih).
+    - h1: Gaya untuk elemen heading level 1 (h1).
+      - text-align: center;: Mengatur teks pada heading untuk berada di tengah.
+      - color: #364f6b;: Mengatur warna teks pada heading dengan kode warna #364f6b (biru tua).
+    - img: Gaya untuk elemen gambar (img).
+      - width: 300px; Menentukan lebar gambar sebesar 300 piksel.
+      - height: 20pc; Menentukan tinggi gambar sebesar 20 pica (1 pica = 12 piksel).
+      - margin-left: auto; Meletakkan gambar di bagian kiri halaman (auto untuk mengatur otomatis).
+      - margin-right: auto; Meletakkan gambar di bagian kanan halaman (auto untuk mengatur otomatis).
+      - display: block; Menjadikan gambar sebagai blok elemen, sehingga akan menempati seluruh lebar yang tersedia.
+    - .kotakresep: Gaya untuk elemen dengan kelas CSS "kotakresep".
+      - max-width: 800px; Menentukan lebar maksimum dari elemen dengan kelas "kotakresep" menjadi 800 piksel.
+      - margin: 0 auto; Mengatur elemen dengan kelas "kotakresep" menjadi terpusat di tengah halaman.
+      - background-color: #fff; Memberikan warna latar belakang putih untuk elemen dengan kelas "kotakresep".
+      - padding: 20px; Memberikan ruang padding sebesar 20 piksel di sekitar konten di dalam elemen dengan kelas "kotakresep".
+      - border-radius: 10px; Memberikan sudut melengkung pada elemen dengan kelas "kotakresep", sehingga memiliki tampilan lebih estetis.
+      - box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Memberikan efek bayangan pada elemen dengan kelas "kotakresep". Efek bayangan adalah bayangan lembut yang memberikan kedalaman dan dimensi pada elemen.
 
   
 
