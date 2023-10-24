@@ -1,10 +1,10 @@
-<center>
+<div align="center">
 <h1>Software Requirements Specification</h1>
-</center>
+
 <P>1. Melani Silvia P      (22091397038) </P>
 <P>2. Amanda Khoiroma'ul S (22091397063) </P> 
 <P>3. Shabrina Zahra A     (22091397066) </P> 
-
+</div>
 <h1>Website Resep Makanan: Selera Kita)</h1>
 
 <h1>PENDAHULUAN </h1>
