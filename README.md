@@ -296,6 +296,26 @@ PENJELASAN SCRIPT
   - font-family: ‘comic sans ms’; digunakan untuk mengatur jenis huruf menjadi ‘comic sans ms’
   - color: #000000; digunakan untuk mengatur warna menjadi kode #000000 (hitam)
 
+<img width="305" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/e9373a53-a05c-4432-9de8-33127888df60"> 
+
+  - h2, h3 digunakan untuk heading tingkat 2, umumnya judul dan heading tingkat 3 untuk subjudul
+  - font-family: ‘comic sans ms’; digunakan untuk mengatur jenis font-family menjadi ‘comic sans ms’
+  - font-weight: 800; digunakan untuk mengatur ketebalan teks menajadi 800
+  - font-size: 45px; digunakan untuk mengatur ukuran font menjadi 45n piksel
+  - margin-bottom: 50px digunakan untuk mengatur margin bawah menjadi 50 piksel
+  - color: #364f6b; digunakan untuk mengatur warna teks menjadi #364f6b (biru tua)
+  - width: 100%; digunakan untuk mengatur lebar menjadi 100% dari lebar yang mengelilinginya
+  - line-height: 20px; digunakan untuk mengatur tinggi gari menjadi 20 piksel
+  - font-size: 1.3em; digunakan untuk mengatur font menjadi 1.3 kali ukuran font asli
+  - margin: 0; digunakan untuk mengatur margin menjadi 0 piksel
+  - p digunakan untuk menampillan paragraf dalam dokumen HTML
+  - font-size: 0.9em; digunakan untuk mengatur ukuran font menjadi 0.9 kali ukuran font aslinya
+
+
+
+
+
+
 
 
 
