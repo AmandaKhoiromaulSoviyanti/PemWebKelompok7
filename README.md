@@ -334,6 +334,36 @@ PENJELASAN SCRIPT
   - bottom: 0; untuk mengatur posisi bagian bawah menjadi 0piksel
   - height: 390px; untuk mengatur tinggi elemen menjadi 390 piksel
 
+<img width="364" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/de4a8ab9-8a6f-4c21-8370-a8c310514f33"> 
+
+  - div.lowerCatCard:hover merupakan selector yang mengarah pada elemen <div> yang memiliki kelas "lowerCatCard" yang berada dalam elemen <div> yang memiliki kelas "catCard." Dalam HTML, ini mengacu pada elemen-elemen "lowerCatCard" yang ada sebagai anak dari elemen "catCard."
+  - left: 0; untuk mengatur posisi kiri menjadi 0 piksel
+  - bottom: -3%; mengatur posisi bawah menjadi -3% dari tinggi elemen
+  - width: 215px; untuk mengatur lebar menajdi 215 piksel
+  - div.catCard:hover div.lowerCatCard  selector yang mengarah pada elemen <div> yang memiliki kelas "lowerCatCard" yang berada di dalam elemen <div> yang memiliki kelas "catCard.". Diterapkan ketika elemen "catCard" sedang dalam keadaan "hover
+  - bottom: 0; mengatur posisi bawah menjadi 0 piksel
+  - li.catCardList digunakan untuk menargetkan elemen <li> yang memiliki kelas "catCardList."
+  - width:225px; mengatur lebar elemen menajdi 225 piksel
+  - display: inline-block; mengatur elemen <li> dengan kelas "catCardList" untuk ditampilkan sebagai inline-block, membuat elemen berperilaku seperti elemen inline, tetapi dengan kemampuan untuk mengatur lebar dan tinggi serta menerima margin.
+  - margin-right: 19px; untuk mengatur margin sebelah kanan menjadi 19 piksel
+  - margin-top: 25px; untuk mengatur margin bagian atas menjadi 25 piksel
+  - li.catCardList-last selector kelas yang digunakan untuk menargetkan elemen dengan kelas "catCardList-last."
+  - margin-right: 0; untuk mengatur margin bagian kanan menjadi 0 piksel
+  - width:225px; untuk mengatur lebar elemen menjadi 225 piksel
+  - ul.catCardList selector kelas yang digunakan untuk menargetkan elemen-elemen <ul> yang memiliki kelas "catCardList."
+  - margin: 0; mengatur margin (luar) dari elemen-elemen <ul> dengan kelas "catCardList" menjadi 0 piksel.
+  - #catCardButton sebuah selector id yang digunakan untuk menargetkan elemen dengan id "catCardButton."
+  - position: absolute; untuk mengatur posisi elemen menajdi absolut
+  - width: 190px; untuk mengatur lebar elemen menjadi 190piksel
+  - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
+
+
+
+
+
+
+
+
 
 
 
