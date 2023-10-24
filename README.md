@@ -336,8 +336,7 @@ PENJELASAN SCRIPT
 
 <img width="364" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/de4a8ab9-8a6f-4c21-8370-a8c310514f33"> 
 
-  - div.lowerCatCard:hover merupakan selector yang mengarah pada elemen <div> yang memiliki kelas "lowerCatCard" yang berada dalam elemen <div> yang memiliki kelas 
- "catCard." Dalam HTML, ini mengacu pada elemen-elemen "lowerCatCard" yang ada sebagai anak dari elemen "catCard."
+  - div.lowerCatCard:hover merupakan selector yang mengarah pada elemen <div> yang memiliki kelas "lowerCatCard" yang berada dalam elemen <div> yang memiliki kelas "catCard." Dalam HTML, ini mengacu pada elemen-elemen "lowerCatCard" yang ada sebagai anak dari elemen "catCard."
   - left: 0; untuk mengatur posisi kiri menjadi 0 piksel
   - bottom: -3%; mengatur posisi bawah menjadi -3% dari tinggi elemen
   - width: 215px; untuk mengatur lebar menajdi 215 piksel
@@ -357,6 +356,20 @@ PENJELASAN SCRIPT
   - position: absolute; untuk mengatur posisi elemen menajdi absolut
   - width: 190px; untuk mengatur lebar elemen menjadi 190piksel
   - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
+
+<img width="383" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/355bf13c-ae7c-4877-9893-df262fd4d53f"> 
+
+  - div.lowerCatCard:hover #catCardButton selector yang mengarah pada elemen dengan id "catCardButton" ketika elemen "lowerCatCard"  dalam elemen "catCard" sedang dalam keadaan "hover."
+  - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
+  - .catCard img digunakan untuk menargetkan gambar-gambar yang berada dalam elemen
+  - border: 1px solid #dddddd; untuk mengatur ketebalan border menjadi 1 piksel dengan warna abu-abu muda
+  - width: 219px; untuk mngatur lebar gambar menjadi 219 piksel
+  - height: 198px; untuk mengatur tinggi gambar menjadi 198 piksel
+  - .catCard img:hover merupakan selector pseudo-class yang mengarah pada gambar dalam elemen "catCard" ketika gambar tersebut sedang dalam keadaan "hover."
+  - border: 1px solid #bababa; untuk mengubah tampilan border  menjadi 1 piksel dengan solid warna abu-abu muda
+
+
+
 
 
 
