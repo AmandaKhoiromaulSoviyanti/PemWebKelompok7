@@ -201,11 +201,12 @@ PENJELASAN SCRIPT
       - border-radius: 10px; Memberikan sudut melengkung pada elemen dengan kelas "kotakresep", sehingga memiliki tampilan lebih estetis.
       - box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Memberikan efek bayangan pada elemen dengan kelas "kotakresep". Efek bayangan adalah bayangan lembut yang memberikan kedalaman dan dimensi pada elemen.
 
+- PENJELASAN SCRIPT JS
     ![Screenshot (827)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/97fccc33-7ac2-4ec3-a7a5-aac39eb3c5e3)
     ![Screenshot (828)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/ea2ae230-9a19-43a3-b725-9eb444e56690)
       - document.addEventListener("DOMContentLoaded", function() { ... }); merupakan event listener yang akan menjalankan fungsi saat DOM sepenuhnya dimuat
       - Const recipeSearchinput = document.getElementById(“recipeSearch”): untuk mendapatkan elemen input dengan ID “recipeSearch”
-      - const searchResults = document.getElementById("searchResults"); digunakan untuk mendapatkan elemen dengan ID “searchResults” yang digunakan untuk tempat dimana hasil pencarian ditampilkan 
+      - const searchResults = document.getElementById("searchResults"); digunakan untuk mendapatkan elemen dengan ID “searchResults” yang digunakan untuk tempat dimana hasil pencarian            ditampilkan 
       - const catCardList = document.querySelectorAll(".catCardList");  digunakan untuk mengumpulkan daftar elemen yang memiliki kelas “catCardList” berisi tentang kumpulan resep 
       - recipeSearchInput.addEventListener("input", function() { ... }); menambah event listener untuk input pada elemen “recipeSearch”
       - if (searchTerm.length === 0) { jika searchTerm.length ==0  maka searchResults.style.display = "none"; menyembunyikan daftar hadir jika tidak ada di dalam resep pencarian
@@ -214,9 +215,9 @@ PENJELASAN SCRIPT
       - document.getElementById("recipeSearch").style.padding = "10px" digunakan untuk mengatur padding recipeSearch 
       - catCardList.forEach(function(card) { ... }); digunakan untuk melakukan iterasi (perulangan ) melalui setiap resep
       - const h3 = card.querySelector("h3"); mendapatkan elemen judul resep di setiap  resep 
-      - if (recipeTitle.includes(searchTerm)) digunakan jika memeriksa apakah input pencarian yang ada dalam judul resep maka results.push(card.outerHTML) untuk menyimpan HTML dari setiap kartu resep yang cocok dengan pencarian 
-      - if (results.length > 0) jika results.legth>0 maka searchResults.innerHTML = results.join("") menampilkan hasil pencarian ke dalam elemen dengan ID”searchResults” dan searchResults.style.display = "block"; digunakan menampilkan elemen hasil pencarian 
-      - else jika tidak searchResults.innerHTML = "Tidak ada hasil ditemukan."; digunakan menampilkan pesan jika tidak ada hasil yang ditemukan dan searchResults.style.display = "block"; digunakan untuk menampilkan elemen hasil pencarian yang jika tidak ada hasil yang ditemukan
+      - if (recipeTitle.includes(searchTerm)) digunakan jika memeriksa apakah input pencarian yang ada dalam judul resep maka results.push(card.outerHTML) untuk menyimpan HTML dari               setiap kartu resep yang cocok dengan pencarian 
+      - if (results.length > 0) jika results.legth>0 maka searchResults.innerHTML = results.join("") menampilkan hasil pencarian ke dalam elemen dengan ID”searchResults” dan                      searchResults.style.display = "block"; digunakan menampilkan elemen hasil pencarian 
+      - else jika tidak searchResults.innerHTML = "Tidak ada hasil ditemukan."; digunakan menampilkan pesan jika tidak ada hasil yang ditemukan dan searchResults.style.display = "block";         digunakan untuk menampilkan elemen hasil pencarian yang jika tidak ada hasil yang ditemukan
 
 
   
