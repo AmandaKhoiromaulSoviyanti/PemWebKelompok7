@@ -97,7 +97,47 @@ LAMPIRAN: Analisis Model
   - ul merupakan unordered list jenis daftar yang berbentuk poin poin , tidak memiliki urutan khusus biasanya digunakan untuk menampilkan daftar item yang sejajar
   - pada line 16 - 18  merupakan daftar item yang berurutan yang berisi Home,Resep, About yang akan  mengarah ke elemen dengan id “home”, id " Resep", id "About " iyo pada halaman            tersebut  
 
-  
+![Screenshot1 (821)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/96d3a268-f5cf-4d31-9d50-e946be74f642)
+  Codingan diatas merupakan salah satu codingan untuk melihat resep yang ada di dalam halaman index HTML. Berikut penjerlasannya :
+    - section id = “resep” menandakan awal dari bagian “resep” di halaman web yang berisi daftar atau kartu resep yang akan ditampilkan kepada pengguna 
+    - ul class = “catCardList” ul (unordered list) merupakan daftar yang tak berurut yang memiliki class “catCardlist”
+    - li class =”catCardlist” li(list item) yang memiliki class “catCardList”.
+    - div class =”catCard” div yang memiliki class “catCard yang digunakan untuk menampilkan resep tertentu 
+    - a href =”#”  mengarah ke tautan yang kosong 
+    - img src =”fotoResep/nasgor.png” alt=”” merupakan tag gambar (img) yang menampilkan gambar resep nasi goreng.
+    - div class =”lowerCatCard” div yang memiliki class “loweCatCard” yang digunakan untuk menampilkan detail resep lebih lanjut 
+    - h3 Nasi Goreng h3 elemen judul level 3 yang menampilkan judul resep “Nasi Goreng”
+    - p ….kontendeskripsi..p paragraf yang menjelaskan mengenai nasi goreng 
+    - div id="catCardButton" class="button" a href="resepnasgor.html" Lihat Resep a div div dengan id “catCardButton” dan kelas “button” yang berisi tautan “Lihat Resep”. tautan ini akan mengarah ke halaman yang berisi resep nasi goreng secara lebih rinci 
+
+![Screenshot (822)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/ecce0596-d431-4adc-9a8e-4d6397c05bad)
+  - div class = “selengkapnya” merupakan elemen div yang memiliki class “selengkapnya”. elemen div digunakan untuk membuat kotak terpisah dalam dokumen HTML dan digunakan untuk mengatur gaya elemen menggunakan css
+  - a href = “indexresep.html”Selengkapnya… a  merupakan tautan yang memiliki atribut href yang menunjukkan tujuan tautan pada halaman “indexresep.html”. “Selengkapnya…” akan ditampilkan di halaman web sebagai tautan yang dapat di klik oleh pengguna dan beralih ke halaman yang ditentukan dalam herf
+
+![Screenshot (823)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/2811c1a4-99bc-4fde-9fad-f001286bf544)
+ - section id =”about” digunakan untuk menandai awal bagian “about” di halaman web yang berisi mengenai informasi dan juga kontak dan akan digunakan di css
+ - div id = “contact” div yang memiliki id “Contact”. dan id “contact” akan di gunakan di css 
+ - div class = “wrapper” div dengan class “wrapper” yang digunakan untuk mengelompokan elemen dan juga untuk mengatur tata letak atau gaya 
+ - div class = “footer” div dengan class “footer” yang digunakan untuk mengelompokan bagian bawah situs web seperti kontak media sosial dan about  
+ - div class = “footer - section”  div dengan class “footer - section digunakan untuk mengelompokan informasi tertentu dari bagian footer situs web 
+ - h3 About h3 digunakan untuk elemen judul level 3 yang menampilkan “About”
+ - p ….konten deskripsi …p merupakan paragraf yang digunakan untuk menjelaskan informasi mengenai web Selera kita
+ - h3 Contact h3  digunakan untuk elemen judul level 3 yang menampilkan “Contact”
+ - p...konten deskripsi….p merupakan paragraf yang digunakan untuk menampilkan informasi kontak 
+ - h3 Sosial h3  digunakan untuk elemen judul level 3 yang menampilkan “Sosial” 
+ - p …..konten media sosial…p digunakan untuk paragraf yang nantinya akan menampilkan akun sosial media seperti YouTube, Instagram, dan Facebook 
+
+![Screenshot (824)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/296bcfbd-8077-4b94-bf2c-a86a594c6454)
+ - div id = “copyright” div yang memiliki ID “copyright” digunakan untuk mengelompokkan informasi mengenai hak cipta situs web dan id “copyright” yang nantinya akan digunakan di css
+ - div class = “wrapper” div  di dalamnya terdapat  kelas “wrapper” yang nantinya kelas “wrapper” dapat digunakan di css 
+
+
+
+
+
+    
+
+
 
 
 
