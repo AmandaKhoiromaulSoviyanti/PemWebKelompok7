@@ -423,33 +423,33 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - margin-top: 10px; untuk mengatur margin di bagian atas tombol sebesar 10 piksel.
     - !important; Tanda !important digunakan untuk memberikan prioritas tertinggi pada aturan ini,
 
-<img width="323" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/3ccc7f13-3dec-4018-a1e4-7a8279851427"> 
+  <img width="323" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/3ccc7f13-3dec-4018-a1e4-7a8279851427"> 
 
-  - .button:hover: selector pseudo-class yang mengarah pada tombol dengan kelas "button" ketika tombol tersebut sedang dalam keadaan "hover."
-  - background-color: #c90c12; mengubah warna latar belakang tombol menjadi #c90c12 (merah tua) ketika tombol dalam keadaan "hover."
-  - border: none; untuk menghilangkan border (garis tepi) tombol saat dalam keadaan "hover."
-  - border-bottom: solid 1px #000; menambahkan border di bagian bawah tombol dengan ketebalan 1 piksel dan warna #000 (hitam) saat tombol dalam keadaan "hover."
-  - box-shadow: 0 2px 3px #a8a8a8; menambahkan bayangan (shadow). Bayangan ini akan berupa bayangan dengan posisi vertikal 2 piksel, posisi horizontal 0 piksel, dan kabur sejauh 3 piksel, dengan warna #a8a8a8 (abu-abu).
-  - transform: scale(1.04); untuk menggunakan transformasi untuk mengubah skala tombol. Tombol akan diperbesar sebesar 4% dari ukuran aslinya
-  - Prefix transformasi: Beberapa browser mungkin memerlukan prefix tertentu, seperti `-webkit-transform`, `-moz-transform`, `-o-transform`, dan `-ms-transform`, untuk mendukung transformasi
+    - .button:hover: selector pseudo-class yang mengarah pada tombol dengan kelas "button" ketika tombol tersebut sedang dalam keadaan "hover."
+      - background-color: #c90c12; mengubah warna latar belakang tombol menjadi #c90c12 (merah tua) ketika tombol dalam keadaan "hover."
+      - border: none; untuk menghilangkan border (garis tepi) tombol saat dalam keadaan "hover."
+      - border-bottom: solid 1px #000; menambahkan border di bagian bawah tombol dengan ketebalan 1 piksel dan warna #000 (hitam) saat tombol dalam keadaan "hover."
+      - box-shadow: 0 2px 3px #a8a8a8; menambahkan bayangan (shadow). Bayangan ini akan berupa bayangan dengan posisi vertikal 2 piksel, posisi horizontal 0 piksel, dan kabur sejauh 3 piksel, dengan warna #a8a8a8 (abu-abu).
+      - transform: scale(1.04); untuk menggunakan transformasi untuk mengubah skala tombol. Tombol akan diperbesar sebesar 4% dari ukuran aslinya
+      - Prefix transformasi: Beberapa browser mungkin memerlukan prefix tertentu, seperti -webkit-transform, -moz-transform, -o-transform, dan -ms-transform, untuk mendukung transformasi
 
-![Gambar WhatsApp 2023-10-24 pukul 22 47 06_2d3f5904](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/c32198db-3d49-44e1-b7dc-d9faae19a50a)
-  - .button:active: selector pseudo-class yang mengarah pada tombol dengan kelas "button" ketika tombol tersebut sedang dalam keadaan "active," 
-    - background: #000; untuk mengubah warna latar belakang tombol menjadi hitam (#000) ketika tombol dalam keadaan "active" atau saat ditekan oleh pengguna.
-  - .button a: selector yang digunakan untuk menargetkan tautan yang berada di dalam tombol dengan kelas "button."
-    - color: #ffffff; untuk mengatur warna teks tautan dalam tombol menjadi putih (#ffffff).
-    - padding: 7px 30px !important; untuk mengatur ruang dalam (padding) menjadi 7 piksel di atas dan bawah serta 30 piksel di sisi kiri dan kanan. Tanda             !important digunakan untuk memberikan prioritas tertinggi pada aturan ini.
-    - text-decoration: none; untuk menghilangkan dekorasi tautan dalam tombol, seperti garis bawah.
-  - .button a:hover: selector pseudo-class yang mengarah pada tautan dalam tombol dengan kelas "button" ketika tautan tersebut sedang dalam keadaan "hover."
-    - color: #ffffff; untuk mengatur warna teks tautan dalam tombol menjadi putih (#ffffff).
-  - .button:hover: Ini adalah selector pseudo-class yang mengarah pada tombol dengan kelas "button" ketika tombol tersebut sedang dalam keadaan "hover."
-    - color: #fff; untuk mengatur warna teks tautan dalam tombol menjadi putih (#fff).
-  - p: Ini adalah selector elemen yang digunakan untuk menargetkan semua elemen paragraf (p) dalam halaman web.
-    - margin: 10px 0px 10px 0px; untuk mengatur margin pada elemen paragraf menjadi 10 piksel di atas dan bawah, 0 piksel di kanan dan kiri.
-    - padding: 0px 0px 0px 0px; untuk mengatur padding ke 0 piksel di semua sisi (atas, kanan, bawah, kiri), sehingga tidak ada ruang dalam di sekitar elemen paragraf.
-  - .tengah Ini adalah selector kelas yang digunakan untuk menargetkan elemen-elemen yang memiliki kelas "tengah"
-    - text-align: center;mengatur perataan teks di dalam elemen dengan kelas "tengah" menjadi tengah (center). 
-    - width: 100%;untuk mengatur lebar elemen-elemen dengan kelas "tengah" menjadi 100% 
+  ![Gambar WhatsApp 2023-10-24 pukul 22 47 06_2d3f5904](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/c32198db-3d49-44e1-b7dc-d9faae19a50a)
+    - .button:active: selector pseudo-class yang mengarah pada tombol dengan kelas "button" ketika tombol tersebut sedang dalam keadaan "active," 
+      - background: #000; untuk mengubah warna latar belakang tombol menjadi hitam (#000) ketika tombol dalam keadaan "active" atau saat ditekan oleh pengguna.
+    - .button a: selector yang digunakan untuk menargetkan tautan yang berada di dalam tombol dengan kelas "button."
+      - color: #ffffff; untuk mengatur warna teks tautan dalam tombol menjadi putih (#ffffff).
+      - padding: 7px 30px !important; untuk mengatur ruang dalam (padding) menjadi 7 piksel di atas dan bawah serta 30 piksel di sisi kiri dan kanan. Tanda             !important digunakan untuk memberikan prioritas tertinggi pada aturan ini.
+      - text-decoration: none; untuk menghilangkan dekorasi tautan dalam tombol, seperti garis bawah.
+    - .button a:hover: selector pseudo-class yang mengarah pada tautan dalam tombol dengan kelas "button" ketika tautan tersebut sedang dalam keadaan "hover."
+      - color: #ffffff; untuk mengatur warna teks tautan dalam tombol menjadi putih (#ffffff).
+    - .button:hover: Ini adalah selector pseudo-class yang mengarah pada tombol dengan kelas "button" ketika tombol tersebut sedang dalam keadaan "hover."
+      - color: #fff; untuk mengatur warna teks tautan dalam tombol menjadi putih (#fff).
+    - p: Ini adalah selector elemen yang digunakan untuk menargetkan semua elemen paragraf (p) dalam halaman web.
+      - margin: 10px 0px 10px 0px; untuk mengatur margin pada elemen paragraf menjadi 10 piksel di atas dan bawah, 0 piksel di kanan dan kiri.
+      - padding: 0px 0px 0px 0px; untuk mengatur padding ke 0 piksel di semua sisi (atas, kanan, bawah, kiri), sehingga tidak ada ruang dalam di sekitar elemen paragraf.
+    - .tengah Ini adalah selector kelas yang digunakan untuk menargetkan elemen-elemen yang memiliki kelas "tengah"
+      - text-align: center;mengatur perataan teks di dalam elemen dengan kelas "tengah" menjadi tengah (center). 
+      - width: 100%;untuk mengatur lebar elemen-elemen dengan kelas "tengah" menjadi 100% 
 
 
 
