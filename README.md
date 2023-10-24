@@ -111,60 +111,60 @@ LAMPIRAN: Analisis Model
   - div id="catCardButton" class="button" a href="resepnasgor.html" Lihat Resep a div div dengan id “catCardButton” dan kelas “button” yang berisi tautan             “Lihat Resep”. tautan ini akan mengarah ke       halaman yang berisi resep nasi goreng secara lebih rinci 
 
   ![Screenshot (822)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/ecce0596-d431-4adc-9a8e-4d6397c05bad)
-  - div class = “selengkapnya” merupakan elemen div yang memiliki class “selengkapnya”. elemen div digunakan untuk membuat kotak terpisah dalam dokumen HTML dan digunakan untuk mengatur gaya elemen            menggunakan css
-  - a href = “indexresep.html”Selengkapnya… a  merupakan tautan yang memiliki atribut href yang menunjukkan tujuan tautan pada halaman “indexresep.html”. “Selengkapnya…” akan ditampilkan di halaman web sebagai tautan yang dapat di klik oleh pengguna dan beralih ke halaman yang ditentukan dalam herf
+    - div class = “selengkapnya” merupakan elemen div yang memiliki class “selengkapnya”. elemen div digunakan untuk membuat kotak terpisah dalam dokumen HTML dan digunakan untuk mengatur gaya elemen            menggunakan css
+    - a href = “indexresep.html”Selengkapnya… a  merupakan tautan yang memiliki atribut href yang menunjukkan tujuan tautan pada halaman “indexresep.html”. “Selengkapnya…” akan ditampilkan di halaman web sebagai tautan yang dapat di klik oleh pengguna dan beralih ke halaman yang ditentukan dalam herf
 
   ![Screenshot (823)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/2811c1a4-99bc-4fde-9fad-f001286bf544)
- - section id =”about” digunakan untuk menandai awal bagian “about” di halaman web yang berisi mengenai informasi dan juga kontak dan akan digunakan di css
- - div id = “contact” div yang memiliki id “Contact”. dan id “contact” akan di gunakan di css 
- - div class = “wrapper” div dengan class “wrapper” yang digunakan untuk mengelompokan elemen dan juga untuk mengatur tata letak atau gaya 
- - div class = “footer” div dengan class “footer” yang digunakan untuk mengelompokan bagian bawah situs web seperti kontak media sosial dan about  
- - div class = “footer - section”  div dengan class “footer - section digunakan untuk mengelompokan informasi tertentu dari bagian footer situs web 
- - h3 About h3 digunakan untuk elemen judul level 3 yang menampilkan “About”
- - p ….konten deskripsi …p merupakan paragraf yang digunakan untuk menjelaskan informasi mengenai web Selera kita
- - h3 Contact h3  digunakan untuk elemen judul level 3 yang menampilkan “Contact”
- - p...konten deskripsi….p merupakan paragraf yang digunakan untuk menampilkan informasi kontak 
- - h3 Sosial h3  digunakan untuk elemen judul level 3 yang menampilkan “Sosial” 
- - p …..konten media sosial…p digunakan untuk paragraf yang nantinya akan menampilkan akun sosial media seperti YouTube, Instagram, dan Facebook 
+   - section id =”about” digunakan untuk menandai awal bagian “about” di halaman web yang berisi mengenai informasi dan juga kontak dan akan digunakan di css
+   - div id = “contact” div yang memiliki id “Contact”. dan id “contact” akan di gunakan di css 
+   - div class = “wrapper” div dengan class “wrapper” yang digunakan untuk mengelompokan elemen dan juga untuk mengatur tata letak atau gaya 
+   - div class = “footer” div dengan class “footer” yang digunakan untuk mengelompokan bagian bawah situs web seperti kontak media sosial dan about  
+   - div class = “footer - section”  div dengan class “footer - section digunakan untuk mengelompokan informasi tertentu dari bagian footer situs web 
+   - h3 About h3 digunakan untuk elemen judul level 3 yang menampilkan “About”
+   - p ….konten deskripsi …p merupakan paragraf yang digunakan untuk menjelaskan informasi mengenai web Selera kita
+   - h3 Contact h3  digunakan untuk elemen judul level 3 yang menampilkan “Contact”
+   - p...konten deskripsi….p merupakan paragraf yang digunakan untuk menampilkan informasi kontak 
+   - h3 Sosial h3  digunakan untuk elemen judul level 3 yang menampilkan “Sosial” 
+   - p …..konten media sosial…p digunakan untuk paragraf yang nantinya akan menampilkan akun sosial media seperti YouTube, Instagram, dan Facebook 
 
   ![Screenshot (824)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/296bcfbd-8077-4b94-bf2c-a86a594c6454)
- - div id = “copyright” div yang memiliki ID “copyright” digunakan untuk mengelompokkan informasi mengenai hak cipta situs web dan id “copyright” yang nantinya akan digunakan di css
- - div class = “wrapper” div  di dalamnya terdapat  kelas “wrapper” yang nantinya kelas “wrapper” dapat digunakan di css
+    - div id = “copyright” div yang memiliki ID “copyright” digunakan untuk mengelompokkan informasi mengenai hak cipta situs web dan id “copyright” yang nantinya akan digunakan di css
+    - div class = “wrapper” div  di dalamnya terdapat  kelas “wrapper” yang nantinya kelas “wrapper” dapat digunakan di css
 
 - PENJELASAN SCRIPT INDEXRESEP HTML
 
   ![ss indexresep 1](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/389ecf17-7f46-40ea-9039-2c483ee1b332)
-- !DOCTYPE html: merupakan deklarasi tipe dokumen yang memberitahu browser bahwa halaman ini menggunakan versi HTML5.
-- html lang="en" : menandakan awal dari dokumen HTML. Elemen ini juga mengandung atribut ‘lang’ yang menunjukkan bahwa bahasa kontennya adalah bahasa inggris.
-- head merupakan bagian kepala dokumen yang biasanya diisi informasi-informasi mengenai halaman web seperti judul, tautan stylesheet, dan meta informasi:
-- meta charset="UTF-8" : yaitu untuk menentukan pengkodean karakter yang digunakan, dalam hal ini UTF-8
-- meta name="viewport" content="width=device-width, initial-scale=1.0": mendefinisikan cara browser menampilkan halaman pada perangkat dengan berbagai ukuran layar.
-- title>SeleraKita. /title : untuk menentukan judul halaman web yang akan ditampilkan pada tab browser.
-- link rel="stylesheet" href="style.css" : Menghubungkan halaman dengan file stylesheet (CSS) yang bernama “style.css”
+    - !DOCTYPE html: merupakan deklarasi tipe dokumen yang memberitahu browser bahwa halaman ini menggunakan versi HTML5.
+    - html lang="en" : menandakan awal dari dokumen HTML. Elemen ini juga mengandung atribut ‘lang’ yang menunjukkan bahwa bahasa kontennya adalah bahasa inggris.
+    - head merupakan bagian kepala dokumen yang biasanya diisi informasi-informasi mengenai halaman web seperti judul, tautan stylesheet, dan meta informasi:
+    - meta charset="UTF-8" : yaitu untuk menentukan pengkodean karakter yang digunakan, dalam hal ini UTF-8
+    - meta name="viewport" content="width=device-width, initial-scale=1.0": mendefinisikan cara browser menampilkan halaman pada perangkat dengan berbagai ukuran layar.
+     - title>SeleraKita. /title : untuk menentukan judul halaman web yang akan ditampilkan pada tab browser.
+    - link rel="stylesheet" href="style.css" : Menghubungkan halaman dengan file stylesheet (CSS) yang bernama “style.css”
 
   ![ss indexresep 2](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/bc39636d-ac40-4882-a783-1642e1340b1a)
-- body : yaitu bagian tubuh dokumen untuk menempatkan konten utama dari halaman web.
-- nav : bagian navigasi yang berisi menu atau tautan-tautan yang mengarahkan pengguna ke halaman-halaman lain di situs.
-- div class=”navbar” : sebuah div dengan kelas CSS “navbar” yang berisi elemen-elemen terkait navigasi.
-- div class="title" a href='' SeleraKita. /a  /div : sebuah div dengan class CSS “title” yang berisi tautan menuju halaman utama (<a href=''>SeleraKita.</a>).
-- div class="search-bar" : sebuah div dengan class CSS “search-bar” yang berisi elemen pencarian.
-- input type="text" id="recipeSearch" placeholder="Cari resep" : sebuah kotak input teks untuk user memasukkan kata kunci pencarian.
-- div id="searchResults" /div  Sebuah div kosong yang akan digunakan untuk menampilkan hasil pencarian.
+    - body : yaitu bagian tubuh dokumen untuk menempatkan konten utama dari halaman web.
+    - nav : bagian navigasi yang berisi menu atau tautan-tautan yang mengarahkan pengguna ke halaman-halaman lain di situs.
+    - div class=”navbar” : sebuah div dengan kelas CSS “navbar” yang berisi elemen-elemen terkait navigasi.
+    - div class="title" a href='' SeleraKita. /a  /div : sebuah div dengan class CSS “title” yang berisi tautan menuju halaman utama (<a href=''>SeleraKita.</a>).
+    - div class="search-bar" : sebuah div dengan class CSS “search-bar” yang berisi elemen pencarian.
+    - input type="text" id="recipeSearch" placeholder="Cari resep" : sebuah kotak input teks untuk user memasukkan kata kunci pencarian.
+    - div id="searchResults" /div  Sebuah div kosong yang akan digunakan untuk menampilkan hasil pencarian.
 
   ![ss   indexrerep 3](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/23da3263-1252-447b-9a96-46ecbe8e1280)
 
-- section id="resep" : sebuah elemen section dengan ID “resep” yang akan berisi daftar resep.
-- ul class="catCardList" : Sebuah daftar tak terurut (unordered list) dengan class CSS "catCardList" yang akan berisi elemen-elemen resep.
-- li class="catCardList" : Sebuah elemen daftar (list item) dengan class CSS “catCardList”.
-- div class="catCard" : Sebuah div dengan class CSS “catCard” yang akan berisi detail dari resep.
-- a href="#" : Sebuah tautan yang akan mengelompokkan elemen dalam resep.
-- img src="..." alt="..." : Sebuah elemen gambar dengan sumber yan sudah dibuat atau sudah ada dan teks alternatif jika gambar tidak muncul.
-- div class="lowerCatCard" : Sebuah div dengan class CSS “lowerCatCard" yang berisi informasi tambahan tentang resep.
-- h3>... /h3 : Sebuah elemen heading level 3 yang berisi judul resep.
-- p>... /p : Sebuah elemen paragraph yang berisi deskripsi resep.
-- div id="catCardButton" class="button" : Sebuah div dengan id "catCardButton" dan class CSS "button" yang akan berisi tautan untuk melihat resep.
-- a href="..." Lihat Resep /a : Sebuah tombol/ tautan dengan teks "Lihat Resep" dan tautan menuju halaman resep.
-- kemudian penjelasan untuk daftar resep lain yang ada di dalam section penjelasannya sama.
+    - section id="resep" : sebuah elemen section dengan ID “resep” yang akan berisi daftar resep.
+    - ul class="catCardList" : Sebuah daftar tak terurut (unordered list) dengan class CSS "catCardList" yang akan berisi elemen-elemen resep.
+    - li class="catCardList" : Sebuah elemen daftar (list item) dengan class CSS “catCardList”.
+    - div class="catCard" : Sebuah div dengan class CSS “catCard” yang akan berisi detail dari resep.
+    - a href="#" : Sebuah tautan yang akan mengelompokkan elemen dalam resep.
+    - img src="..." alt="..." : Sebuah elemen gambar dengan sumber yan sudah dibuat atau sudah ada dan teks alternatif jika gambar tidak muncul.
+    - div class="lowerCatCard" : Sebuah div dengan class CSS “lowerCatCard" yang berisi informasi tambahan tentang resep.
+    - h3>... /h3 : Sebuah elemen heading level 3 yang berisi judul resep.
+    - p>... /p : Sebuah elemen paragraph yang berisi deskripsi resep.
+    - div id="catCardButton" class="button" : Sebuah div dengan id "catCardButton" dan class CSS "button" yang akan berisi tautan untuk melihat resep.
+    - a href="..." Lihat Resep /a : Sebuah tombol/ tautan dengan teks "Lihat Resep" dan tautan menuju halaman resep.
+    - kemudian penjelasan untuk daftar resep lain yang ada di dalam section penjelasannya sama.
 
   ![image](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/7a619ef7-a61b-4a1e-8534-a359248773db)
     - div class="Back" : Sebuah div dengan kelas CSS "Back" yang berisi tautan kembali ke halaman utama.
