@@ -17,7 +17,7 @@
 
 
 <div align = "center">
-<h1>PENDAHULUAN </h1>
+##1. PENDAHULUAN
 </div>
 
 - TUJUAN
@@ -31,7 +31,7 @@ saran : Dokumentasi SRS Website Resep Makanan ini digunakan unuk memberikan info
 Perangkat lunak yang akan dikembangakan adalah Website Resep makanan yaitu Selera Kita yang dapat digunakan atau diakses oleh semua orang.
 
 <div align = "center">
-<h1>DESKRIPSI KEBUTUHAN FUNGSIONAL </h1>
+##2. DESKRIPSI KEBUTUHAN FUNGSIONAL
 </div>
 
 - PERSPEKTIF PRODUK
@@ -86,7 +86,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   - Koneksi internet untuk dapat terhubung ke server.
 
 <div align = "center" >
-<h1> DESAIN ANTAR MUKA</h1>
+##3. DESAIN ANTAR MUKA
 </div>
 
 - Halaman Home
@@ -102,7 +102,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 ![image](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/76683d4d-774f-4bc9-af18-886aec50a7d8)
 
 <div align = "center">
-<h1> LAMPIRAN: ANALISIS MODEL </h1>
+##4. LAMPIRAN: ANALISIS MODEL
 </div>
 
 - Flowchart
@@ -118,7 +118,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   ![Aktivity diagram web drawio](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/0bbe7b5a-b81a-4791-a71e-e38d1dcab2a6)
 
 <div align = "center">
-<h1> PENJELASAN SCRIPT </h1>
+##5. PENJELASAN SCRIPT
 </div>
 
 - PEJELASAN SCRIPT INDEX HTML
