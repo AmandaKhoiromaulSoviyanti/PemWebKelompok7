@@ -6,14 +6,14 @@
 <P>2. Amanda Khoiroma'ul S (22091397063) </P> 
 <P>3. Shabrina Zahra A     (22091397066) </P> 
 
-<h1>DAFTAR ISI</h1>
+<h1>Daftar Isi </h1>
 </div>
 
-1. Pendahuluan
-2. Deskripsi Kebutuhan Fungsional
-3. Desain Antar Muka
-4. Lampiran Analisis Model
-5. Penjelasan Script 
+1. PENDAHULUAN 
+2. DESKRIPSI KEBUTUHAN FUNGSIONAL
+3. DESAIN ANTAR MUKA
+4. LAMPIRAN ANALISIS MODEL
+5. PENJELASAN SCRIPT 
 
 
 <h1>PENDAHULUAN </h1>
