@@ -9,6 +9,12 @@
 <h1>DAFTAR ISI</h1>
 </div>
 
+1. Pendahuluan
+2. Deskripsi Kebutuhan Fungsional
+3. Desain Antar Muka
+4. Lampiran Analisis Model
+5. Penjelasan Script 
+
 
 <h1>PENDAHULUAN </h1>
 
