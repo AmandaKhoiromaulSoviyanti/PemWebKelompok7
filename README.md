@@ -9,12 +9,13 @@
 <h1>Daftar Isi </h1>
 </div>
 
-
+<details open >
 1. PENDAHULUAN 
 2. DESKRIPSI KEBUTUHAN FUNGSIONAL
 3. DESAIN ANTAR MUKA
 4. LAMPIRAN ANALISIS MODEL
 5. PENJELASAN SCRIPT 
+</details>
 
 <div align = "center">
 <h1>PENDAHULUAN </h1>
