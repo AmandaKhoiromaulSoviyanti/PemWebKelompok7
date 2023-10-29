@@ -89,16 +89,16 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 <h1> DESAIN ANTAR MUKA</h1>
 </div>
 
-- Halaman Awal Website 
+- Halaman Home
 ![Screenshot (841)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/4a95ce7a-1815-46c8-bc2f-fad5e64a31cd)
 
-- Tampilan About 
+- Tampilan Resep
 ![Screenshot (833)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/6e409aff-e4f1-41d1-a8e6-a21a5dd47835)
 
-- Halaman Kedua Website 
+- Halaman About
 ![Screenshot (834)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/13e60758-0d7a-49f6-bdbd-564d0cac4f7b)
 
-- Halaman Resep Website
+- Halaman Detail Resep
 ![image](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/76683d4d-774f-4bc9-af18-886aec50a7d8)
 
 <div align = "center">
