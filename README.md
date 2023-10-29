@@ -20,25 +20,25 @@
 <h1>PENDAHULUAN </h1>
 </div>
 
-<h2> 1.1 TUJUAN </h2>
+## 1.1 TUJUAN
 Dokumen ini merupakan Spesifikasi untuk membangun website yang efisien. Tujuan penulisan dokumen ini dengan judul “Website Resep Makanan : Selera Kita” adalah untuk mengidentifikasi dan memberikan informasi dasar yang harus dipenuhi oleh perangkat lunak yang akan dikembangkan. Dokumen ini juga memastikan bahwa pengembang website paham dan jelas tentang apa yang diharapkan dari perangkat lunak  yang dikembangkan. SKPL menjadi panduan yang berguna untuk pengembang dalam mengembangakan website dengan efesien.
 
-1.2 AUDIENS YANG DITUJU DAN PEMBACA YANG DISARANKAN 
+## 1.2 AUDIENS YANG DITUJU DAN PEMBACA YANG DISARANKAN 
 Audiens : Audiens yang dituju yaitu para pecinta masakan kuliner, pecinta makanan sehat, dan ibu rumah tangga yang tertark untuk mendapatkan berbagai informasi dan resep masakkan yang mudah dan dapat dibuat sendiri.
 saran : Dokumentasi SRS Website Resep Makanan ini digunakan unuk memberikan informasi kepada audiens tentang resep - resep makanan. Oleh karena itu, kami menyarankan para audiens membaca dokumen SRS ini dengan cermat.
 
-1.3 RUANG LINGKUP 
+## 1.3 RUANG LINGKUP 
 Perangkat lunak yang akan dikembangakan adalah Website Resep makanan yaitu Selera Kita yang dapat digunakan atau diakses oleh semua orang.
 
 <div align = "center">
 <h1>DESKRIPSI KEBUTUHAN FUNGSIONAL </h1>
 </div>
 
-2.1 PERSPEKTIF PRODUK
+## 2.1 PERSPEKTIF PRODUK
 Website resep makanan "Selera Kita" yaitu sebuah website yang menampilkan berbagai resep makanan. Website ini dirancang dengan tujuan untuk menginspirasi dan membantu pengguna dalam mempersiapkan hidangan yang lezat dan memuaskan. Website ini memiliki tata letak dan desain yang muda untuk dinavigasi oleh user
 Setiap resep dalam website ini disertai dengan deskripsi yang rinci, termasuk bahan - bahan yang diperlukan dan langkah - langkah memasak yang mudah untuk dipahami. Setiap resep dilengkapi dengan gambar - gambar berkualitas dari hidangan yang sudah jadi. Gambar - gambar ini memungkinkan user untuk memvisualisasikan hasil akhir dan memberikan motivasi untuk mencoba.
 
-2.2 FUNGSI PRODUK
+## 2.2 FUNGSI PRODUK
 Website Resep Makanan "Selera Kita" memiliki beragam fungsi. berikut merupakan beberapa fungsi dari website Resep Makanan Selera Kita :
   - Website Resep Makanan " Selera Kita" dapat memberikan informasi yang inspirasi untuk memasak dan juga 
     dapat mencoba hidangan baru.
@@ -48,7 +48,7 @@ Website Resep Makanan "Selera Kita" memiliki beragam fungsi. berikut merupakan b
   - Website Resep Makanan " Selera Kita" juga dapat menjadi sarana pembelajaran dan juga mengembangakan 
     keterampilan memasak.
 
-2.3 KARAKTERISTIK PENGGUNA
+## 2.3 KARAKTERISTIK PENGGUNA
 Karakteristik pengguna yang menggunakan perangkat lunak Task Submission yaitu:
   - Pengguna
     
@@ -58,7 +58,7 @@ Karakteristik pengguna yang menggunakan perangkat lunak Task Submission yaitu:
     
     c. Memahami cara kerja perangkat elektronik yang digunakan
 
-2.4 LINGKUNGAN OPERASI
+## 2.4 LINGKUNGAN OPERASI
 Software Website resep makanan dapat dijalankan pada:
   - Windows
     - Windows 7,8,8.1,10
@@ -71,15 +71,15 @@ Software Website resep makanan dapat dijalankan pada:
   - Ios
      - iOS 9, 10, 11, 12, 13, 14, 15, atau yang lebih baru
       
-2.5 KENDALA DESAIN DAN IMPLEMENTASI
+## 2.5 KENDALA DESAIN DAN IMPLEMENTASI
 Kendala yang dialami dalam proses pembuatan desain dan implementasi website Resep Makanan “Selera Kita” yaitu:
   - Mengalami kesulitan dalam menemukan ide dan desain website yang pas.
   - Kurangnya pengetahuan teknis dalam mengembangakan website, sehingga kesulitan dalam merancang dan juga mengimplementasikan fitur yang ada.
 
-2.6 DOKUMENTASI PENGGUNA
+## 2.6 DOKUMENTASI PENGGUNA
 Dokumen untuk membantu pengguna menggunakan website resep makanan “Selera Kita” ini terbuka untuk umum dan dapat diakses melalui web Browser, Google Chrome, Firefox, Microsoft Edge dsb.
 
-2.7 ASUMSI DAN KETERGANTUNGAN
+## 2.7 ASUMSI DAN KETERGANTUNGAN
 Kebutuhan dari website resep makanan “Selera Kita” adalah:
   - Adanya perangkat keras yang mampu mengoperasikan Website resep makanan "Selera Kita"
   - Adanya perangkat lunak yang mampu mengoperasikan Website resep makanan “Selera Kita”
@@ -89,16 +89,16 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 <h1> DESAIN ANTAR MUKA</h1>
 </div>
 
-3.1 Halaman Awal Website 
+## 3.1 Halaman Awal Website 
 ![Screenshot (841)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/4a95ce7a-1815-46c8-bc2f-fad5e64a31cd)
 
-3.2 Tampilan About 
+## 3.2 Tampilan About 
 ![Screenshot (833)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/6e409aff-e4f1-41d1-a8e6-a21a5dd47835)
 
-3.3 Halaman Kedua Website 
+## 3.3 Halaman Kedua Website 
 ![Screenshot (834)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/13e60758-0d7a-49f6-bdbd-564d0cac4f7b)
 
-3.4 Halaman Resep Website
+## 3.4 Halaman Resep Website
 ![image](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/76683d4d-774f-4bc9-af18-886aec50a7d8)
 
 <div align = "center">
@@ -121,7 +121,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 <h1> PENJELASAN SCRIPT </h1>
 </div>
 
-5.1 PEJELASAN SCRIPT INDEX HTML
+## 5.1 PEJELASAN SCRIPT INDEX HTML
 
   ![Screenshot1 (816)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/785a3f90-0788-4bf7-8ea0-790a0a752ddc)
   - DOCTYPE html digunakan untuk mendeklarasikan atau memberi tau browser bahwa halaman ini merupakan halaman dokumen html5
@@ -176,7 +176,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - div id = “copyright” div yang memiliki ID “copyright” digunakan untuk mengelompokkan informasi mengenai hak cipta situs web dan id “copyright” yang nantinya akan digunakan di css
     - div class = “wrapper” div  di dalamnya terdapat  kelas “wrapper” yang nantinya kelas “wrapper” dapat digunakan di css
 
-5.2 PENJELASAN SCRIPT INDEXRESEP HTML
+## 5.2 PENJELASAN SCRIPT INDEXRESEP HTML
 
   ![ss indexresep 1](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/389ecf17-7f46-40ea-9039-2c483ee1b332)
     - !DOCTYPE html: merupakan deklarasi tipe dokumen yang memberitahu browser bahwa halaman ini menggunakan versi HTML5.
@@ -216,7 +216,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - a href="index.html" Back to Home /a : Sebuah tombol/ tautan menuju halaman utama dengan teks "Back to Home".
     - script src="Script.js"  /script : Sebuah skrip JavaScript yang akan dijalankan oleh browser untuk memberikan/ memanggil fungsionalitas tambahan.
 
-5.3 PENJELASAN SCRIPT STYLERESEP CSS
+## 5.3 PENJELASAN SCRIPT STYLERESEP CSS
 
   ![ss styleresep](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/a4d35607-84d6-41fa-b8cd-9a11aa498d71)
 
@@ -244,7 +244,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
       - border-radius: 10px; Memberikan sudut melengkung pada elemen dengan kelas "kotakresep", sehingga memiliki tampilan lebih estetis.
       - box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Memberikan efek bayangan pada elemen dengan kelas "kotakresep". Efek bayangan adalah bayangan lembut yang memberikan kedalaman dan dimensi pada elemen.
 
-5.4 PENJELASAN SCRIPT JS
+## 5.4 PENJELASAN SCRIPT JS
   ![Screenshot (827)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/97fccc33-7ac2-4ec3-a7a5-aac39eb3c5e3)
   ![Screenshot (828)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/ea2ae230-9a19-43a3-b725-9eb444e56690)
   
@@ -263,7 +263,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - if (results.length > 0) jika results.legth>0 maka searchResults.innerHTML = results.join("") menampilkan hasil pencarian ke dalam elemen dengan ID”searchResults” dan searchResults.style.display = "block"; digunakan menampilkan elemen hasil pencarian 
     - else jika tidak searchResults.innerHTML = "Tidak ada hasil ditemukan."; digunakan menampilkan pesan jika tidak ada hasil yang ditemukan dan searchResults.style.display = "block"; digunakan untuk menampilkan elemen hasil pencarian yang jika tidak ada hasil yang ditemukan
 
-5.5 PENJELASAN SCRIPT STYLE.CSS
+## 5.5 PENJELASAN SCRIPT STYLE.CSS
   
   ![Gambar WhatsApp 2023-10-24 pukul 22 57 15_15c14877](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/0973086c-7a48-4cca-8e31-341321ea9ff2)
    - (*) adalah aturan CSS yang didefinisikan dibawahnya dan akan berlaku untuk semua elemen HTML pada halaman web.
@@ -577,7 +577,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - #searchResults a:hover digunakan untuk menargetkan elemen tautan (link) yang berada dalam elemen dengan ID "searchResults" ketika tautan dihover (diklik).
       - background-color: #364f6b; digunakan untuk mengatur latar belakang elemen tautan menjadi #364f6b (biru tua)
 
-5.6 PENJELASAN SCRIPT RESEP
+## 5.6 PENJELASAN SCRIPT RESEP
 
   ![Screenshot (838)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/6439b2de-29c8-4645-b35d-84045dba053a)
     - !DOCTYPE html digunakan untuk mendeklarasikan atau memberi tau browser bahwa halaman ini merupakan halaman dokumen html5
