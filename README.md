@@ -26,7 +26,7 @@ Dokumen ini merupakan Spesifikasi untuk membangun website yang efisien. Tujuan p
 
 - AUDIENS YANG DITUJU DAN PEMBACA YANG DISARANKAN 
 Audiens : Audiens yang dituju yaitu para pecinta masakan kuliner, pecinta makanan sehat, dan ibu rumah tangga yang tertark untuk mendapatkan berbagai informasi dan resep masakkan yang mudah dan dapat dibuat sendiri.
-saran : Dokumentasi SRS Website Resep Makanan ini digunakan unuk memberikan informasi kepada audiens tentang resep - resep makanan. Oleh karena itu, kami menyarankan para audiens membaca dokumen SRS ini dengan cermat.
+Saran : Dokumentasi SRS Website Resep Makanan ini digunakan unuk memberikan informasi kepada audiens tentang resep - resep makanan. Oleh karena itu, kami menyarankan para audiens membaca dokumen SRS ini dengan cermat.
 
 - RUANG LINGKUP 
 Perangkat lunak yang akan dikembangakan adalah Website Resep makanan yaitu Selera Kita yang dapat digunakan atau diakses oleh semua orang.
@@ -53,11 +53,11 @@ Website Resep Makanan "Selera Kita" memiliki beragam fungsi. berikut merupakan b
 Karakteristik pengguna yang menggunakan perangkat lunak Task Submission yaitu:
   - Pengguna
     
-    a. Memiliki perangkat elektronik (Handphone/CP)
+    - Memiliki perangkat elektronik (Handphone/CP)
     
-    b. Memiliki akses internet
+    - Memiliki akses internet
     
-    c. Memahami cara kerja perangkat elektronik yang digunakan
+    - Memahami cara kerja perangkat elektronik yang digunakan
 
 - LINGKUNGAN OPERASI
 Software Website resep makanan dapat dijalankan pada:
