@@ -185,19 +185,23 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 
   ![Screenshot (824)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/296bcfbd-8077-4b94-bf2c-a86a594c6454)
   
-    - div id = “copyright” div yang memiliki ID “copyright” digunakan untuk mengelompokkan informasi mengenai hak cipta situs web dan id “copyright” yang nantinya akan digunakan di css
-    - div class = “wrapper” div  di dalamnya terdapat  kelas “wrapper” yang nantinya kelas “wrapper” dapat digunakan di css
+   - div id = “copyright” div yang memiliki ID “copyright” digunakan untuk mengelompokkan informasi mengenai hak cipta situs web dan
+      id “copyright” yang nantinya akan digunakan di css
+   - div class = “wrapper” div  di dalamnya terdapat  kelas “wrapper” yang nantinya kelas “wrapper” dapat digunakan di css
 
 **5.2 PENJELASAN SCRIPT INDEXRESEP HTML**
 
   ![ss indexresep 1](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/389ecf17-7f46-40ea-9039-2c483ee1b332)
   
     - !DOCTYPE html: merupakan deklarasi tipe dokumen yang memberitahu browser bahwa halaman ini menggunakan versi HTML5.
-    - html lang="en" : menandakan awal dari dokumen HTML. Elemen ini juga mengandung atribut ‘lang’ yang menunjukkan bahwa bahasa kontennya adalah bahasa inggris.
-    - head merupakan bagian kepala dokumen yang biasanya diisi informasi-informasi mengenai halaman web seperti judul, tautan stylesheet, dan meta informasi:
+    - html lang="en" : menandakan awal dari dokumen HTML. Elemen ini juga mengandung atribut ‘lang’ yang menunjukkan bahwa bahasa
+      kontennya adalah bahasa inggris.
+    - head merupakan bagian kepala dokumen yang biasanya diisi informasi-informasi mengenai halaman web seperti judul, tautan stylesheet, 
+      dan meta informasi:
     - meta charset="UTF-8" : yaitu untuk menentukan pengkodean karakter yang digunakan, dalam hal ini UTF-8
-    - meta name="viewport" content="width=device-width, initial-scale=1.0": mendefinisikan cara browser menampilkan halaman pada perangkat dengan berbagai ukuran layar.
-     - title>SeleraKita. /title : untuk menentukan judul halaman web yang akan ditampilkan pada tab browser.
+    - meta name="viewport" content="width=device-width, initial-scale=1.0": mendefinisikan cara browser menampilkan halaman pada 
+      perangkat dengan berbagai ukuran layar.
+    - title>SeleraKita. /title : untuk menentukan judul halaman web yang akan ditampilkan pada tab browser.
     - link rel="stylesheet" href="style.css" : Menghubungkan halaman dengan file stylesheet (CSS) yang bernama “style.css”
 
   ![ss indexresep 2](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/bc39636d-ac40-4882-a783-1642e1340b1a)
@@ -205,27 +209,33 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - body : yaitu bagian tubuh dokumen untuk menempatkan konten utama dari halaman web.
     - nav : bagian navigasi yang berisi menu atau tautan-tautan yang mengarahkan pengguna ke halaman-halaman lain di situs.
     - div class=”navbar” : sebuah div dengan kelas CSS “navbar” yang berisi elemen-elemen terkait navigasi.
-    - div class="title" a href='' SeleraKita. /a  /div : sebuah div dengan class CSS “title” yang berisi tautan menuju halaman utama (a href=''>SeleraKita. /a).
+    - div class="title" a href='' SeleraKita. /a  /div : sebuah div dengan class CSS “title” 
+      yang berisi tautan menuju halaman utama (a href=''>SeleraKita. /a).
     - div class="search-bar" : sebuah div dengan class CSS “search-bar” yang berisi elemen pencarian.
-    - input type="text" id="recipeSearch" placeholder="Cari resep" : sebuah kotak input teks untuk user memasukkan kata kunci pencarian.
+    - input type="text" id="recipeSearch" placeholder="Cari resep" : sebuah kotak input teks untuk user
+      memasukkan kata kunci pencarian.
     - div id="searchResults" /div  Sebuah div kosong yang akan digunakan untuk menampilkan hasil pencarian.
 
   ![ss   indexrerep 3](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/23da3263-1252-447b-9a96-46ecbe8e1280)
 
     - section id="resep" : sebuah elemen section dengan ID “resep” yang akan berisi daftar resep.
-    - ul class="catCardList" : Sebuah daftar tak terurut (unordered list) dengan class CSS "catCardList" yang akan berisi elemen-elemen resep.
+    - ul class="catCardList" : Sebuah daftar tak terurut (unordered list) dengan class CSS "catCardList"
+      yang akan berisi elemen-elemen resep.
     - li class="catCardList" : Sebuah elemen daftar (list item) dengan class CSS “catCardList”.
     - div class="catCard" : Sebuah div dengan class CSS “catCard” yang akan berisi detail dari resep.
     - a href="#" : Sebuah tautan yang akan mengelompokkan elemen dalam resep.
-    - img src="..." alt="..." : Sebuah elemen gambar dengan sumber yan sudah dibuat atau sudah ada dan teks alternatif jika gambar tidak muncul.
+    - img src="..." alt="..." : Sebuah elemen gambar dengan sumber yan sudah dibuat atau sudah ada dan
+      teks alternatif jika gambar tidak muncul.
     - div class="lowerCatCard" : Sebuah div dengan class CSS “lowerCatCard" yang berisi informasi tambahan tentang resep.
     - h3>... /h3 : Sebuah elemen heading level 3 yang berisi judul resep.
     - p>... /p : Sebuah elemen paragraph yang berisi deskripsi resep.
-    - div id="catCardButton" class="button" : Sebuah div dengan id "catCardButton" dan class CSS "button" yang akan berisi tautan untuk melihat resep.
+    - div id="catCardButton" class="button" : Sebuah div dengan id "catCardButton" dan class CSS "button" yang akan
+      berisi tautan untuk melihat resep.
     - a href="..." Lihat Resep /a : Sebuah tombol/ tautan dengan teks "Lihat Resep" dan tautan menuju halaman resep.
     - kemudian penjelasan untuk daftar resep lain yang ada di dalam section penjelasannya sama.
 
   ![image](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/7a619ef7-a61b-4a1e-8534-a359248773db)
+  
     - div class="Back" : Sebuah div dengan kelas CSS "Back" yang berisi tautan kembali ke halaman utama.
     - a href="index.html" Back to Home /a : Sebuah tombol/ tautan menuju halaman utama dengan teks "Back to Home".
     - script src="Script.js"  /script : Sebuah skrip JavaScript yang akan dijalankan oleh browser untuk memberikan/ memanggil fungsionalitas tambahan.
@@ -236,8 +246,10 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 
   Script styleresep.css diatas merupakan CSS untuk bagian dalam HTML setiap resep
     - body: Gaya untuk elemen <body> di halaman HTML masing-masing resep
-      - font-family: "Open-sans", sans-serif; : mengatur jenis font yang akan digunakan dalam elemen body. Disini menggunaka font "Open-sans", jika tidak tersedia, maka menggunakan font sans-serif default.
-      - margin: 0 auto; : Memberikan margin pada sisi kiri dan kanan elemen body sehingga konten akan terpusat di tengah halaman. Nol pada sisi atas dan bawah.
+      - font-family: "Open-sans", sans-serif; : mengatur jenis font yang akan digunakan dalam elemen body.
+        Disini menggunaka font "Open-sans", jika tidak tersedia, maka menggunakan font sans-serif default.
+      - margin: 0 auto; : Memberikan margin pada sisi kiri dan kanan elemen body sehingga konten akan terpusat di tengah halaman.
+        Nol pada sisi atas dan bawah.
       - max-width: 800px; : Menentukan lebar maksimum elemen body, sehingga konten tidak melebar terlalu lebar pada layar besar.
       - padding: 20px; : Memberikan ruang padding sebesar 20 piksel di sekitar konten di dalam elemen body.
       - background-color: #364f6b; : Memberikan warna latar belakang untuk seluruh halaman dengan kode warna #364f6b (biru tua).
@@ -256,27 +268,35 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
       - background-color: #fff; Memberikan warna latar belakang putih untuk elemen dengan kelas "kotakresep".
       - padding: 20px; Memberikan ruang padding sebesar 20 piksel di sekitar konten di dalam elemen dengan kelas "kotakresep".
       - border-radius: 10px; Memberikan sudut melengkung pada elemen dengan kelas "kotakresep", sehingga memiliki tampilan lebih estetis.
-      - box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Memberikan efek bayangan pada elemen dengan kelas "kotakresep". Efek bayangan adalah bayangan lembut yang memberikan kedalaman dan dimensi pada elemen.
+      - box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Memberikan efek bayangan pada elemen dengan kelas "kotakresep". Efek bayangan adalah bayangan
+        lembut yang memberikan kedalaman dan dimensi pada elemen.
 
 **5.4 PENJELASAN SCRIPT JS**
 
   ![Screenshot (827)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/97fccc33-7ac2-4ec3-a7a5-aac39eb3c5e3)
   ![Screenshot (828)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/ea2ae230-9a19-43a3-b725-9eb444e56690)
   
-    - document.addEventListener("DOMContentLoaded", function() { ... }); merupakan event listener yang akan menjalankan fungsi saat DOM sepenuhnya dimuat
+    - document.addEventListener("DOMContentLoaded", function() { ... }); merupakan event listener yang akan menjalankan 
+      fungsi saat DOM sepenuhnya dimuat
     - Const recipeSearchinput = document.getElementById(“recipeSearch”): untuk mendapatkan elemen input dengan ID “recipeSearch”
-    - const searchResults = document.getElementById("searchResults"); digunakan untuk mendapatkan elemen dengan ID “searchResults” yang digunakan untuk tempat dimana hasil pencarian ditampilkan 
-    - const catCardList = document.querySelectorAll(".catCardList");  digunakan untuk mengumpulkan daftar elemen yang memiliki kelas “catCardList” berisi tentang kumpulan resep 
+    - const searchResults = document.getElementById("searchResults"); digunakan untuk mendapatkan elemen dengan ID 
+      “searchResults” yang digunakan untuk tempat dimana hasil pencarian ditampilkan 
+    - const catCardList = document.querySelectorAll(".catCardList");  digunakan untuk mengumpulkan daftar elemen yang 
+      memiliki kelas “catCardList” berisi tentang kumpulan resep 
     - recipeSearchInput.addEventListener("input", function() { ... }); menambah event listener untuk input pada elemen “recipeSearch”
-    - if (searchTerm.length === 0) { jika searchTerm.length ==0  maka searchResults.style.display = "none"; menyembunyikan daftar hadir jika tidak ada di dalam resep pencarian
+    - if (searchTerm.length === 0) { jika searchTerm.length ==0  maka searchResults.style.display = "none"; menyembunyikan 
+      daftar hadir jika tidak ada di dalam resep pencarian
     - return; digunakan untuk mengakhiri eksekusi fungsi saat ini dan mengembalikan kontrol ke pemanggil fungsi
     - document.getElementById("recipeSearch").style.width = "500px" digunakan untuk mengatur lebar recipeSearch 
     - document.getElementById("recipeSearch").style.padding = "10px" digunakan untuk mengatur padding recipeSearch 
     - catCardList.forEach(function(card) { ... }); digunakan untuk melakukan iterasi (perulangan ) melalui setiap resep
     - const h3 = card.querySelector("h3"); mendapatkan elemen judul resep di setiap  resep 
-    - if (recipeTitle.includes(searchTerm)) digunakan jika memeriksa apakah input pencarian yang ada dalam judul resep maka results.push(card.outerHTML) untuk menyimpan HTML dari setiap kartu resep yang cocok dengan pencarian 
-    - if (results.length > 0) jika results.legth>0 maka searchResults.innerHTML = results.join("") menampilkan hasil pencarian ke dalam elemen dengan ID”searchResults” dan searchResults.style.display = "block"; digunakan menampilkan elemen hasil pencarian 
-    - else jika tidak searchResults.innerHTML = "Tidak ada hasil ditemukan."; digunakan menampilkan pesan jika tidak ada hasil yang ditemukan dan searchResults.style.display = "block"; digunakan untuk menampilkan elemen hasil pencarian yang jika tidak ada hasil yang ditemukan
+    - if (recipeTitle.includes(searchTerm)) digunakan jika memeriksa apakah input pencarian yang ada dalam judul resep maka results.push(card.outerHTML) 
+      untuk menyimpan HTML dari setiap kartu resep yang cocok dengan pencarian 
+    - if (results.length > 0) jika results.legth>0 maka searchResults.innerHTML = results.join("") menampilkan hasil pencarian ke dalam elemen dengan 
+      ID”searchResults” dan searchResults.style.display = "block"; digunakan menampilkan elemen hasil pencarian 
+    - else jika tidak searchResults.innerHTML = "Tidak ada hasil ditemukan."; digunakan menampilkan pesan jika tidak ada hasil yang 
+      ditemukan dan searchResults.style.display = "block"; digunakan untuk menampilkan elemen hasil pencarian yang jika tidak ada hasil yang ditemukan
 
 **5.5 PENJELASAN SCRIPT STYLE.CSS**
   
@@ -286,8 +306,8 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
    - {}  digunakan untuk mengelompokkan aturan CSS.
    - text-decoration: none; digunakan untuk menghilangkan dekorasi teks seperti underline pada tautan link
      - margin: 0px; digunakan untuk mengatur margin(ruang pada sekitar elemen) elemen HTML menjadi 0 piksel atau tidak ada jarak tambahan
-     - padding: 0px; digunakan untuk mengatur padding (ruang disekitar konten dalam elemen HTML yang memisahkan konten dari batas elemen) menjadi 0 piksel atau tidak ada   
-    ruang tambahan.
+     - padding: 0px; digunakan untuk mengatur padding (ruang disekitar konten dalam elemen HTML yang memisahkan konten dari batas elemen)
+       menjadi 0 piksel atau tidak ada ruang tambahan.
      - body merupakan selektor yang digunakan untuk menargetkan elemen <body>  dalam HTML
      - font-family: ‘Open Sans’,sans-serif; digunakan untuk mengatur jenis huruf open sans dengan cadangan sans-serif
    - navbar merupakan selektor class yang digunakan untuk menargetkan elemen yang memiliki kelas ‘navbar’
@@ -313,12 +333,14 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - margin: auto; digunakan untuk mengatur elemen ‘nav’ menjadi auto
     - display: flex; digunakan untuk mengatur ‘nav’ menggunakan model tata letak flexbox (penataan elemen dalam 1 baris atau kolom)
     - line-height: 80px; digunakan untuk mengatur tinggi baru menjadi 80 piksel 
-    - position: #sticky; digunakan untuk mengatur posisi ‘nav’ menjadi sticky atau melekat di bagian atas jendela browser saat user memindah halaman
+    - position: #sticky; digunakan untuk mengatur posisi ‘nav’ menjadi sticky atau melekat di bagian atas jendela browser saat
+      user memindah halaman
     - position: -webkit-sticky; digunakan untuk mendukung pada browser berbasis webkit (seperti safari)
     - top: 0; berarti elemen ‘nav’ akan selalu melekat pada bagian atas elemen yang menjadi induknya 
     - background: #FFFFFF; digunakan untuk mengatur latar belakang elemen ‘nav’ menjadi putih
     - z-index: 1; digunakan untuk mengatur z-index ‘nav’ menjadi 1 
-    - border-bottom: 1px solid #364f6b;  digunakan untuk menambahkan garis bawah pada elemen ‘nav’ yang memiliki ketebalan 1 piksel dan warna solid dengan kode warna #364f6b
+    - border-bottom: 1px solid #364f6b;  digunakan untuk menambahkan garis bawah pada elemen ‘nav’ yang memiliki ketebalan 1 piksel
+      dan warna solid dengan kode warna #364f6b
  
   <img width="349" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/b75f00c6-be1b-4d5b-8f8c-74e1a03bdcb2"> 
 
@@ -326,7 +348,8 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - list-style-type: none; digunakan untuk menghilangkan  tanda pada item daftar list pada elemen ‘ul’
     - margin: 0; digunakan untuk mengatur elemen ‘ul’ menjadi 0 piksel
     - padding: 0; digunakan untuk mengatur padding pada elemen ‘ul’  menjadi 0 piksel
-    - overflow: hidden; untuk mengatur perilaku overflow elemen ‘ul’ menjadi hidden. jika elemen ‘ul’ melebihi batas ukuran, maka iss batas tsb akan tidak terlihat
+    - overflow: hidden; untuk mengatur perilaku overflow elemen ‘ul’ menjadi hidden. jika elemen ‘ul’ melebihi batas ukuran,
+      maka iss batas tsb akan tidak terlihat
     - nav ul li merupakan selektor gabungan yang mengarah pada elemen ‘li’ yang berada dalam elemen ‘ul’ yang terdapat dalam elemen ‘nav’
     - float: left; digunakan untuk mengatur elemen ‘li’ supaya melayang pada sisi kiri
   - nav ul li a merupakan selektor gabungan yang mengarah pada tautan yang berada pada elemen ‘li’ yang berada dalam ‘ul’ yang berada pada ‘nav’
@@ -387,8 +410,10 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - background: #e9e9e9; untuk mengatur warna background menjadi abu-abu tua
     - padding: 5px 5px; digunakan untuk mengatur padding menjadi 5 piksel pada sisi atas, bawah, kanan, dan kiri
     - height: 200px; untuk mengatur tinggi elemen menjadi 200 piksel
-    - -webkit-transition: all 0.6s ease; , -moz-transition: all 0.6s ease;, -o-transition: all 0.6s ease;, transition:  all 0.6s ease; untuk mengatur transisi yang berdurasi 0.6 detik dengan efek ease yang memberikan perubahan yang halus dan lambat
-  - div.lowerCatCard:hover  merupakan selector pseudo-class yang mengarah pada elemen <div> yang memiliki kelas "lowerCatCard" ketika elemen sedang dalam keadaan "hover."
+    - -webkit-transition: all 0.6s ease; , -moz-transition: all 0.6s ease;, -o-transition: all 0.6s ease;, transition:  all 0.6s ease;
+       untuk mengatur transisi yang berdurasi 0.6 detik dengan efek ease yang memberikan perubahan yang halus dan lambat
+  - div.lowerCatCard:hover  merupakan selector pseudo-class yang mengarah pada elemen <div> yang memiliki kelas "lowerCatCard" ketika
+     elemen sedang dalam keadaan "hover."
     - Pseudo-class :hover digunakan untuk menargetkan elemen ketika pengguna mengarahkan kursor mouse ke atasnya.
     - opacity: 0.95; untuk mengatur tingkat kejernihan elemen "lowerCatCard" ketika dalam keadaan "hover." dengan nilai 0.95
     - bottom: 0; untuk mengatur posisi bagian bawah menjadi 0piksel
@@ -396,15 +421,18 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 
   <img width="364" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/de4a8ab9-8a6f-4c21-8370-a8c310514f33"> 
 
-  - div.lowerCatCard:hover merupakan selector yang mengarah pada elemen div yang memiliki kelas "lowerCatCard" yang berada dalam elemen div yang memiliki kelas "catCard." Dalam HTML, ini mengacu pada elemen-elemen "lowerCatCard" yang ada sebagai anak dari elemen "catCard."
+  - div.lowerCatCard:hover merupakan selector yang mengarah pada elemen div yang memiliki kelas "lowerCatCard" yang berada dalam
+    elemen div yang memiliki kelas "catCard." Dalam HTML, ini mengacu pada elemen-elemen "lowerCatCard" yang ada sebagai anak dari elemen "catCard."
     - left: 0; untuk mengatur posisi kiri menjadi 0 piksel
     - bottom: -3%; mengatur posisi bawah menjadi -3% dari tinggi elemen
     - width: 215px; untuk mengatur lebar menajdi 215 piksel
-  - div.catCard:hover div.lowerCatCard  selector yang mengarah pada elemen <div> yang memiliki kelas "lowerCatCard" yang berada di dalam elemen <div> yang memiliki kelas "catCard.". Diterapkan ketika elemen "catCard" sedang dalam keadaan "hover
+  - div.catCard:hover div.lowerCatCard  selector yang mengarah pada elemen div yang memiliki kelas "lowerCatCard" yang berada di dalam elemen
+    div yang memiliki kelas "catCard.". Diterapkan ketika elemen "catCard" sedang dalam keadaan "hover
     - bottom: 0; mengatur posisi bawah menjadi 0 piksel
     - li.catCardList digunakan untuk menargetkan elemen <li> yang memiliki kelas "catCardList."
     - width:225px; mengatur lebar elemen menajdi 225 piksel
-    - display: inline-block; mengatur elemen <li> dengan kelas "catCardList" untuk ditampilkan sebagai inline-block, membuat elemen berperilaku seperti elemen inline, tetapi dengan kemampuan untuk mengatur lebar dan tinggi serta menerima margin.
+    - display: inline-block; mengatur elemen <li> dengan kelas "catCardList" untuk ditampilkan sebagai inline-block, membuat elemen
+      berperilaku seperti elemen inline, tetapi dengan kemampuan untuk mengatur lebar dan tinggi serta menerima margin.
     - margin-right: 19px; untuk mengatur margin sebelah kanan menjadi 19 piksel
     - margin-top: 25px; untuk mengatur margin bagian atas menjadi 25 piksel
   - li.catCardList-last selector kelas yang digunakan untuk menargetkan elemen dengan kelas "catCardList-last."
@@ -419,7 +447,8 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 
   <img width="383" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/355bf13c-ae7c-4877-9893-df262fd4d53f"> 
 
-    - div.lowerCatCard:hover #catCardButton selector yang mengarah pada elemen dengan id "catCardButton" ketika elemen "lowerCatCard"  dalam elemen "catCard" sedang dalam keadaan "hover."
+    - div.lowerCatCard:hover #catCardButton selector yang mengarah pada elemen dengan id "catCardButton" ketika elemen "lowerCatCard"  
+      dalam elemen "catCard" sedang dalam keadaan "hover."
       - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
     - .catCard img digunakan untuk menargetkan gambar-gambar yang berada dalam elemen
       - border: 1px solid #dddddd; untuk mengatur ketebalan border menjadi 1 piksel dengan warna abu-abu muda
@@ -438,14 +467,16 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - font-size: 1.3em; mengatur ukuran font menjadi 1.3 em, membuat teks lebih besar dari ukuran font standar.
     - text-decoration: none; menghilangkan dekorasi tautan, seperti garis bawah yang umumnya muncul pada tautan.
     - color: #364f6b; mengatur warna teks menjadi #364f6b (biru tua).
-  - .selengkapnya a:hover selector pseudo-class yang mengarah pada tautan dalam elemen "selengkapnya" ketika tautan tersebut sedang dalam keadaan "hover."
+  - .selengkapnya a:hover selector pseudo-class yang mengarah pada tautan dalam elemen "selengkapnya" ketika tautan
+    tersebut sedang dalam keadaan "hover."
     - color: white; mengubah teks tautan menjadi warna putih
     - background-color: #364f6b;  mengubah warna latar belakang tautan menjadi #364f6b (biru tua) 
 
   <img width="354" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/655a2972-0696-481b-904b-e293902d39ad"> 
 
   - button digunakan untuk menargetkan tombol yang memiliki class "button."
-    - cursor: pointer mengatur tampilan kursor mouse saat berada di atas tombol. "pointer" mengubah kursor menjadi ikon tangan, menandakan bahwa tombol tersebut dapat diklik.
+    - cursor: pointer mengatur tampilan kursor mouse saat berada di atas tombol. "pointer" mengubah kursor menjadi ikon tangan,
+      menandakan bahwa tombol tersebut dapat diklik.
     - font-size: 14px mengatur ukuran font menjadi 14 piksel.
     - color: #ffffff; mengatur warna teks pada tombol menjadi putih.
     - padding: 7px 10px  mengatur ruang dalam (padding) tombol sebesar 7 piksel di atas dan bawah serta 10 piksel di sisi kiri dan kanan.
@@ -465,9 +496,11 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
       - background-color: #c90c12; mengubah warna latar belakang tombol menjadi #c90c12 (merah tua) ketika tombol dalam keadaan "hover."
       - border: none; untuk menghilangkan border (garis tepi) tombol saat dalam keadaan "hover."
       - border-bottom: solid 1px #000; menambahkan border di bagian bawah tombol dengan ketebalan 1 piksel dan warna #000 (hitam) saat tombol dalam keadaan "hover."
-      - box-shadow: 0 2px 3px #a8a8a8; menambahkan bayangan (shadow). Bayangan ini akan berupa bayangan dengan posisi vertikal 2 piksel, posisi horizontal 0 piksel, dan kabur sejauh 3 piksel, dengan warna #a8a8a8 (abu-abu).
+      - box-shadow: 0 2px 3px #a8a8a8; menambahkan bayangan (shadow). Bayangan ini akan berupa bayangan dengan posisi vertikal 2 piksel, 
+        posisi horizontal 0 piksel, dan kabur sejauh 3 piksel, dengan warna #a8a8a8 (abu-abu).
       - transform: scale(1.04); untuk menggunakan transformasi untuk mengubah skala tombol. Tombol akan diperbesar sebesar 4% dari ukuran aslinya
-      - Prefix transformasi: Beberapa browser mungkin memerlukan prefix tertentu, seperti -webkit-transform, -moz-transform, -o-transform, dan -ms-transform, untuk mendukung transformasi
+      - Prefix transformasi: Beberapa browser mungkin memerlukan prefix tertentu, seperti -webkit-transform, -moz-transform, -o-transform,
+        dan -ms-transform, untuk mendukung transformasi
 
   ![Gambar WhatsApp 2023-10-24 pukul 22 47 06_2d3f5904](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/c32198db-3d49-44e1-b7dc-d9faae19a50a)
   
@@ -613,19 +646,23 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - meta name = “viewport” content=”width=device-width initial-scale = 1.0” digunakan untuk mengontrol tampilan halaman di perangkat dengan mengatur tampilan lebar dan mengatur skala awal 
     - meta http - equiv =”X-UA-Compatible” content = “ie=edge” digunakan untuk mengintruksi browser untuk menggunakan mode rendering terbaru yang terbaru yang tersedia 
     - title RESEP MAKANAN title digunakan untuk menetapkan judul halaman yang akan ditampilkan di tab atau judul jendela browser
-    - link rel=”stylesheet” href=”style.css” digunakan untuk menautkan file stylesheet yang disebut “style.css” sehingga mudah untuk memodifikasi tata letak halaman dengan mengedit file CSS terpisah
+    - link rel=”stylesheet” href=”style.css” digunakan untuk menautkan file stylesheet yang disebut “style.css” sehingga mudah untuk
+      memodifikasi tata letak halaman dengan mengedit file CSS terpisah
 
 
   ![Screenshot (839)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/3bd836d8-9ac1-481e-958d-5bf996a8ba9e)
   ![Screenshot (840)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/275fe063-0b2f-4d48-99b7-95871825fd51)
 
     - body menandakan awal dari elemen tubuh dari elemen halaman HTML 
-    - div class “kotakresep” merupakan elemen div dengan kelas “kotakresep” yang berfungsi untuk mengelompokkan elemen - elemen resep Rawon. kotakresep juga berfungsi untuk pemanggilan class di css
+    - div class “kotakresep” merupakan elemen div dengan kelas “kotakresep” yang berfungsi untuk mengelompokkan elemen - elemen resep Rawon. 
+      kotakresep juga berfungsi untuk pemanggilan class di css
     - h1 Resep Rawon h1, h1 menandakan judul utama yang menampilkan teks “Rawon”
-    - img scr = “fotoResep/Rawon.png” alt  = “rawon.png” img digunakan untuk elemen gambar yang menampilkan rawon,src merupakan menunjukkan lokasi file gambar, dan alt memberikan deskripsi alternatif untuk gambar
+    - img scr = “fotoResep/Rawon.png” alt  = “rawon.png” img digunakan untuk elemen gambar yang menampilkan rawon,src 
+      merupakan menunjukkan lokasi file gambar, dan alt memberikan deskripsi alternatif untuk gambar
     - p ….. p merupakan elemen paragraf yang memberikan deskripsi tentang resep rawon
     - ol digunakan untuk menandai awal dari daftar yang terurut (ordered list )
-    - li> ….li  merupakan elemen daftar list item yang mewakili setiap bahan yang dibutuhkan dalam resep setelah itu, pola yang sama diulangi pada bagian “bumbu halus”, “bahan pelengkap” dan “cara membuat rawon”
+    - li> ….li  merupakan elemen daftar list item yang mewakili setiap bahan yang dibutuhkan dalam resep setelah itu,
+      pola yang sama diulangi pada bagian “bumbu halus”, “bahan pelengkap” dan “cara membuat rawon”
     
 
 
