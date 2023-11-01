@@ -100,25 +100,25 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 **3.2 Tampilan Resep**
 ![Screenshot (833)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/6e409aff-e4f1-41d1-a8e6-a21a5dd47835)
 
-- Halaman About
+**3.3 Halaman About**
 ![Screenshot (834)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/13e60758-0d7a-49f6-bdbd-564d0cac4f7b)
 
-- Halaman Detail Resep
+**3.4 Halaman Detail Resep**
 ![image](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/76683d4d-774f-4bc9-af18-886aec50a7d8)
 
 <div align = "center">
 <h1>4. LAMPIRAN: ANALISIS MODEL</h1>
 </div>
 
-- Flowchart
+**4.1 Flowchart**
 
    ![FlowchartFix](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/376d8df4-e950-4074-9dbf-475e2d659067)
 
-- Use Case
+**4.2 Use Case**
 
   ![UsecaseWeb](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/54342a16-064d-47d8-a2f0-79a568da5b28)
 
-- Activity Diagram
+**4.3 Activity Diagram**
 
   ![Aktivity diagram web drawio](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/0bbe7b5a-b81a-4791-a71e-e38d1dcab2a6)
 
@@ -126,7 +126,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   <h1>5. PENJELASAN SCRIPT</h1>
 </div>
 
-- PEJELASAN SCRIPT INDEX HTML
+**5.1PEJELASAN SCRIPT INDEX HTML**
 
   ![Screenshot1 (816)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/785a3f90-0788-4bf7-8ea0-790a0a752ddc)
   - DOCTYPE html digunakan untuk mendeklarasikan atau memberi tau browser bahwa halaman ini merupakan halaman dokumen html5
@@ -181,7 +181,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - div id = “copyright” div yang memiliki ID “copyright” digunakan untuk mengelompokkan informasi mengenai hak cipta situs web dan id “copyright” yang nantinya akan digunakan di css
     - div class = “wrapper” div  di dalamnya terdapat  kelas “wrapper” yang nantinya kelas “wrapper” dapat digunakan di css
 
-- PENJELASAN SCRIPT INDEXRESEP HTML
+**5.2 PENJELASAN SCRIPT INDEXRESEP HTML**
 
   ![ss indexresep 1](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/389ecf17-7f46-40ea-9039-2c483ee1b332)
     - !DOCTYPE html: merupakan deklarasi tipe dokumen yang memberitahu browser bahwa halaman ini menggunakan versi HTML5.
@@ -221,7 +221,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - a href="index.html" Back to Home /a : Sebuah tombol/ tautan menuju halaman utama dengan teks "Back to Home".
     - script src="Script.js"  /script : Sebuah skrip JavaScript yang akan dijalankan oleh browser untuk memberikan/ memanggil fungsionalitas tambahan.
 
-- PENJELASAN SCRIPT STYLERESEP CSS
+**5.3 PENJELASAN SCRIPT STYLERESEP CSS**
 
   ![ss styleresep](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/a4d35607-84d6-41fa-b8cd-9a11aa498d71)
 
@@ -249,7 +249,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
       - border-radius: 10px; Memberikan sudut melengkung pada elemen dengan kelas "kotakresep", sehingga memiliki tampilan lebih estetis.
       - box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Memberikan efek bayangan pada elemen dengan kelas "kotakresep". Efek bayangan adalah bayangan lembut yang memberikan kedalaman dan dimensi pada elemen.
 
-- PENJELASAN SCRIPT JS
+**5.4 PENJELASAN SCRIPT JS**
   ![Screenshot (827)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/97fccc33-7ac2-4ec3-a7a5-aac39eb3c5e3)
   ![Screenshot (828)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/ea2ae230-9a19-43a3-b725-9eb444e56690)
   
@@ -268,7 +268,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - if (results.length > 0) jika results.legth>0 maka searchResults.innerHTML = results.join("") menampilkan hasil pencarian ke dalam elemen dengan ID”searchResults” dan searchResults.style.display = "block"; digunakan menampilkan elemen hasil pencarian 
     - else jika tidak searchResults.innerHTML = "Tidak ada hasil ditemukan."; digunakan menampilkan pesan jika tidak ada hasil yang ditemukan dan searchResults.style.display = "block"; digunakan untuk menampilkan elemen hasil pencarian yang jika tidak ada hasil yang ditemukan
 
-- PENJELASAN SCRIPT STYLE.CSS
+**5.5 PENJELASAN SCRIPT STYLE.CSS**
   
   ![Gambar WhatsApp 2023-10-24 pukul 22 57 15_15c14877](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/0973086c-7a48-4cca-8e31-341321ea9ff2)
    - (*) adalah aturan CSS yang didefinisikan dibawahnya dan akan berlaku untuk semua elemen HTML pada halaman web.
@@ -582,7 +582,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - #searchResults a:hover digunakan untuk menargetkan elemen tautan (link) yang berada dalam elemen dengan ID "searchResults" ketika tautan dihover (diklik).
       - background-color: #364f6b; digunakan untuk mengatur latar belakang elemen tautan menjadi #364f6b (biru tua)
 
-- PENJELASAN SCRIPT RESEP
+**5.6 PENJELASAN SCRIPT RESEP**
 
   ![Screenshot (838)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/6439b2de-29c8-4645-b35d-84045dba053a)
     - !DOCTYPE html digunakan untuk mendeklarasikan atau memberi tau browser bahwa halaman ini merupakan halaman dokumen html5
