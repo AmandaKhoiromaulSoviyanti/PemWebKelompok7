@@ -45,12 +45,12 @@ Setiap resep dalam website ini disertai dengan deskripsi yang rinci, termasuk ba
 - FUNGSI PRODUK
 
 Website Resep Makanan "Selera Kita" memiliki beragam fungsi. berikut merupakan beberapa fungsi dari website Resep Makanan Selera Kita :
-  - Website Resep Makanan " Selera Kita" dapat memberikan informasi yang inspirasi untuk memasak dan juga 
+    - Website Resep Makanan " Selera Kita" dapat memberikan informasi yang inspirasi untuk memasak dan juga 
     dapat mencoba hidangan baru.
-  - Website Resep Makanan " Selera Kita" ini memberikan panduan memasak langkah demi langkah dalam 
+    - Website Resep Makanan " Selera Kita" ini memberikan panduan memasak langkah demi langkah dalam 
     menghidangkan masakkan yang dipilih yang dapat membantu pengguna yang kurang berpengalaman dalam 
     memasak
-  - Website Resep Makanan " Selera Kita" juga dapat menjadi sarana pembelajaran dan juga mengembangakan 
+    - Website Resep Makanan " Selera Kita" juga dapat menjadi sarana pembelajaran dan juga mengembangakan 
     keterampilan memasak.
 
 - KARAKTERISTIK PENGGUNA
