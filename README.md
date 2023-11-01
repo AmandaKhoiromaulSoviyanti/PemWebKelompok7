@@ -206,69 +206,70 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 
   ![ss indexresep 2](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/bc39636d-ac40-4882-a783-1642e1340b1a)
   
-    - body : yaitu bagian tubuh dokumen untuk menempatkan konten utama dari halaman web.
-    - nav : bagian navigasi yang berisi menu atau tautan-tautan yang mengarahkan pengguna ke halaman-halaman lain di situs.
-    - div class=”navbar” : sebuah div dengan kelas CSS “navbar” yang berisi elemen-elemen terkait navigasi.
-    - div class="title" a href='' SeleraKita. /a  /div : sebuah div dengan class CSS “title” 
+   - body : yaitu bagian tubuh dokumen untuk menempatkan konten utama dari halaman web.
+   - nav : bagian navigasi yang berisi menu atau tautan-tautan yang mengarahkan pengguna ke halaman-halaman lain di situs.
+   - div class=”navbar” : sebuah div dengan kelas CSS “navbar” yang berisi elemen-elemen terkait navigasi.
+   - div class="title" a href='' SeleraKita. /a  /div : sebuah div dengan class CSS “title” 
       yang berisi tautan menuju halaman utama (a href=''>SeleraKita. /a).
-    - div class="search-bar" : sebuah div dengan class CSS “search-bar” yang berisi elemen pencarian.
-    - input type="text" id="recipeSearch" placeholder="Cari resep" : sebuah kotak input teks untuk user
+   - div class="search-bar" : sebuah div dengan class CSS “search-bar” yang berisi elemen pencarian.
+   - input type="text" id="recipeSearch" placeholder="Cari resep" : sebuah kotak input teks untuk user
       memasukkan kata kunci pencarian.
-    - div id="searchResults" /div  Sebuah div kosong yang akan digunakan untuk menampilkan hasil pencarian.
+   - div id="searchResults" /div  Sebuah div kosong yang akan digunakan untuk menampilkan hasil pencarian.
 
   ![ss   indexrerep 3](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/23da3263-1252-447b-9a96-46ecbe8e1280)
 
-    - section id="resep" : sebuah elemen section dengan ID “resep” yang akan berisi daftar resep.
-    - ul class="catCardList" : Sebuah daftar tak terurut (unordered list) dengan class CSS "catCardList"
+   - section id="resep" : sebuah elemen section dengan ID “resep” yang akan berisi daftar resep.
+   - ul class="catCardList" : Sebuah daftar tak terurut (unordered list) dengan class CSS "catCardList"
       yang akan berisi elemen-elemen resep.
-    - li class="catCardList" : Sebuah elemen daftar (list item) dengan class CSS “catCardList”.
-    - div class="catCard" : Sebuah div dengan class CSS “catCard” yang akan berisi detail dari resep.
-    - a href="#" : Sebuah tautan yang akan mengelompokkan elemen dalam resep.
-    - img src="..." alt="..." : Sebuah elemen gambar dengan sumber yan sudah dibuat atau sudah ada dan
+   - li class="catCardList" : Sebuah elemen daftar (list item) dengan class CSS “catCardList”.
+   - div class="catCard" : Sebuah div dengan class CSS “catCard” yang akan berisi detail dari resep.
+   - a href="#" : Sebuah tautan yang akan mengelompokkan elemen dalam resep.
+   - img src="..." alt="..." : Sebuah elemen gambar dengan sumber yan sudah dibuat atau sudah ada dan
       teks alternatif jika gambar tidak muncul.
-    - div class="lowerCatCard" : Sebuah div dengan class CSS “lowerCatCard" yang berisi informasi tambahan tentang resep.
-    - h3>... /h3 : Sebuah elemen heading level 3 yang berisi judul resep.
-    - p>... /p : Sebuah elemen paragraph yang berisi deskripsi resep.
-    - div id="catCardButton" class="button" : Sebuah div dengan id "catCardButton" dan class CSS "button" yang akan
+   - div class="lowerCatCard" : Sebuah div dengan class CSS “lowerCatCard" yang berisi informasi tambahan tentang resep.
+   - h3>... /h3 : Sebuah elemen heading level 3 yang berisi judul resep.
+   - p>... /p : Sebuah elemen paragraph yang berisi deskripsi resep.
+   - div id="catCardButton" class="button" : Sebuah div dengan id "catCardButton" dan class CSS "button" yang akan
       berisi tautan untuk melihat resep.
-    - a href="..." Lihat Resep /a : Sebuah tombol/ tautan dengan teks "Lihat Resep" dan tautan menuju halaman resep.
-    - kemudian penjelasan untuk daftar resep lain yang ada di dalam section penjelasannya sama.
+   - a href="..." Lihat Resep /a : Sebuah tombol/ tautan dengan teks "Lihat Resep" dan tautan menuju halaman resep.
+   - kemudian penjelasan untuk daftar resep lain yang ada di dalam section penjelasannya sama.
 
   ![image](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/7a619ef7-a61b-4a1e-8534-a359248773db)
   
-    - div class="Back" : Sebuah div dengan kelas CSS "Back" yang berisi tautan kembali ke halaman utama.
-    - a href="index.html" Back to Home /a : Sebuah tombol/ tautan menuju halaman utama dengan teks "Back to Home".
-    - script src="Script.js"  /script : Sebuah skrip JavaScript yang akan dijalankan oleh browser untuk memberikan/ memanggil fungsionalitas tambahan.
+   - div class="Back" : Sebuah div dengan kelas CSS "Back" yang berisi tautan kembali ke halaman utama.
+   - a href="index.html" Back to Home /a : Sebuah tombol/ tautan menuju halaman utama dengan teks "Back to Home".
+   - script src="Script.js"  /script : Sebuah skrip JavaScript yang akan dijalankan oleh browser untuk memberikan/ memanggil
+      fungsionalitas tambahan.
 
 **5.3 PENJELASAN SCRIPT STYLERESEP CSS**
 
   ![ss styleresep](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/a4d35607-84d6-41fa-b8cd-9a11aa498d71)
 
   Script styleresep.css diatas merupakan CSS untuk bagian dalam HTML setiap resep
-    - body: Gaya untuk elemen <body> di halaman HTML masing-masing resep
-      - font-family: "Open-sans", sans-serif; : mengatur jenis font yang akan digunakan dalam elemen body.
+  - body: Gaya untuk elemen <body> di halaman HTML masing-masing resep
+     - font-family: "Open-sans", sans-serif; : mengatur jenis font yang akan digunakan dalam elemen body.
         Disini menggunaka font "Open-sans", jika tidak tersedia, maka menggunakan font sans-serif default.
-      - margin: 0 auto; : Memberikan margin pada sisi kiri dan kanan elemen body sehingga konten akan terpusat di tengah halaman.
+     - margin: 0 auto; : Memberikan margin pada sisi kiri dan kanan elemen body sehingga konten akan terpusat di tengah halaman.
         Nol pada sisi atas dan bawah.
-      - max-width: 800px; : Menentukan lebar maksimum elemen body, sehingga konten tidak melebar terlalu lebar pada layar besar.
-      - padding: 20px; : Memberikan ruang padding sebesar 20 piksel di sekitar konten di dalam elemen body.
-      - background-color: #364f6b; : Memberikan warna latar belakang untuk seluruh halaman dengan kode warna #364f6b (biru tua).
-    - h1: Gaya untuk elemen heading level 1 (h1).
-      - text-align: center;: Mengatur teks pada heading untuk berada di tengah.
-      - color: #364f6b;: Mengatur warna teks pada heading dengan kode warna #364f6b (biru tua).
-    - img: Gaya untuk elemen gambar (img).
-      - width: 300px; Menentukan lebar gambar sebesar 300 piksel.
-      - height: 20pc; Menentukan tinggi gambar sebesar 20 pica (1 pica = 12 piksel).
-      - margin-left: auto; Meletakkan gambar di bagian kiri halaman (auto untuk mengatur otomatis).
-      - margin-right: auto; Meletakkan gambar di bagian kanan halaman (auto untuk mengatur otomatis).
-      - display: block; Menjadikan gambar sebagai blok elemen, sehingga akan menempati seluruh lebar yang tersedia.
-    - .kotakresep: Gaya untuk elemen dengan kelas CSS "kotakresep".
-      - max-width: 800px; Menentukan lebar maksimum dari elemen dengan kelas "kotakresep" menjadi 800 piksel.
-      - margin: 0 auto; Mengatur elemen dengan kelas "kotakresep" menjadi terpusat di tengah halaman.
-      - background-color: #fff; Memberikan warna latar belakang putih untuk elemen dengan kelas "kotakresep".
-      - padding: 20px; Memberikan ruang padding sebesar 20 piksel di sekitar konten di dalam elemen dengan kelas "kotakresep".
-      - border-radius: 10px; Memberikan sudut melengkung pada elemen dengan kelas "kotakresep", sehingga memiliki tampilan lebih estetis.
-      - box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Memberikan efek bayangan pada elemen dengan kelas "kotakresep". Efek bayangan adalah bayangan
+     - max-width: 800px; : Menentukan lebar maksimum elemen body, sehingga konten tidak melebar terlalu lebar pada layar besar.
+     - padding: 20px; : Memberikan ruang padding sebesar 20 piksel di sekitar konten di dalam elemen body.
+     - background-color: #364f6b; : Memberikan warna latar belakang untuk seluruh halaman dengan kode warna #364f6b (biru tua).
+  - h1: Gaya untuk elemen heading level 1 (h1).
+     - text-align: center;: Mengatur teks pada heading untuk berada di tengah.
+     - color: #364f6b;: Mengatur warna teks pada heading dengan kode warna #364f6b (biru tua).
+  - img: Gaya untuk elemen gambar (img).
+     - width: 300px; Menentukan lebar gambar sebesar 300 piksel.
+     - height: 20pc; Menentukan tinggi gambar sebesar 20 pica (1 pica = 12 piksel).
+     - margin-left: auto; Meletakkan gambar di bagian kiri halaman (auto untuk mengatur otomatis).
+     - margin-right: auto; Meletakkan gambar di bagian kanan halaman (auto untuk mengatur otomatis).
+     - display: block; Menjadikan gambar sebagai blok elemen, sehingga akan menempati seluruh lebar yang tersedia.
+  - .kotakresep: Gaya untuk elemen dengan kelas CSS "kotakresep".
+     - max-width: 800px; Menentukan lebar maksimum dari elemen dengan kelas "kotakresep" menjadi 800 piksel.
+     - margin: 0 auto; Mengatur elemen dengan kelas "kotakresep" menjadi terpusat di tengah halaman.
+     - background-color: #fff; Memberikan warna latar belakang putih untuk elemen dengan kelas "kotakresep".
+     - padding: 20px; Memberikan ruang padding sebesar 20 piksel di sekitar konten di dalam elemen dengan kelas "kotakresep".
+     - border-radius: 10px; Memberikan sudut melengkung pada elemen dengan kelas "kotakresep", sehingga memiliki tampilan lebih estetis.
+     - box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Memberikan efek bayangan pada elemen dengan kelas "kotakresep". Efek bayangan adalah bayangan
         lembut yang memberikan kedalaman dan dimensi pada elemen.
 
 **5.4 PENJELASAN SCRIPT JS**
