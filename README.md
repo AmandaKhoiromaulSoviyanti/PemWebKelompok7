@@ -94,31 +94,31 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   <h1>3. DESAIN ANTAR MUKA</h1>
 </div>
 
-**3.1 Halaman Home**
+**3.1 HALAMAN HOME**
 ![Screenshot (841)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/4a95ce7a-1815-46c8-bc2f-fad5e64a31cd)
 
-**3.2 Tampilan Resep**
+**3.2 TAMPILAN RESEP**
 ![Screenshot (833)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/6e409aff-e4f1-41d1-a8e6-a21a5dd47835)
 
-**3.3 Halaman About**
+**3.3 HALAMAN ABOUT**
 ![Screenshot (834)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/13e60758-0d7a-49f6-bdbd-564d0cac4f7b)
 
-**3.4 Halaman Detail Resep**
+**3.4 HALAMAN DETAIL RESEP**
 ![image](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/76683d4d-774f-4bc9-af18-886aec50a7d8)
 
 <div align = "center">
 <h1>4. LAMPIRAN: ANALISIS MODEL</h1>
 </div>
 
-**4.1 Flowchart**
+**4.1 FLOWCHART**
 
    ![FlowchartFix](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/376d8df4-e950-4074-9dbf-475e2d659067)
 
-**4.2 Use Case**
+**4.2 USE CASE**
 
   ![UsecaseWeb](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/54342a16-064d-47d8-a2f0-79a568da5b28)
 
-**4.3 Activity Diagram**
+**4.3 ACTIVITY DIAGRAM**
 
   ![Aktivity diagram web drawio](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/0bbe7b5a-b81a-4791-a71e-e38d1dcab2a6)
 
@@ -126,18 +126,20 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   <h1>5. PENJELASAN SCRIPT</h1>
 </div>
 
-**5.1PEJELASAN SCRIPT INDEX HTML**
+**5.1 PEJELASAN SCRIPT INDEX HTML**
 
   ![Screenshot1 (816)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/785a3f90-0788-4bf7-8ea0-790a0a752ddc)
+  
   - DOCTYPE html digunakan untuk mendeklarasikan atau memberi tau browser bahwa halaman ini merupakan halaman dokumen html5
   - html lang = “en”  menunjukkan bahwa bahasa yang digunakan pada halaman merupakan bahasa inggris 
   - head digunakan untuk menandakan bahwa awal dari kepala dokumen HTML.
-  - meta charset = “UTF - 8” digunakan untuk memberi tahu browser bahwa dokumen yang digunakan menggunakan set karakter UTF - 8 yang merupakan standar umum untuk     encoding karakter.
-  - meta name = “viewport” content=”width=device-width initial-scale = 1.0” digunakan untuk mengontrol tampilan halaman di perangkat dengan mengatur tampilan         lebar dan mengatur skala     awal 
+  - meta charset = “UTF - 8” digunakan untuk memberi tahu browser bahwa dokumen yang digunakan menggunakan set karakter UTF - 8 yang merupakan standar umum untuk encoding karakter.
+  - meta name = “viewport” content=”width=device-width initial-scale = 1.0” digunakan untuk mengontrol tampilan halaman di perangkat dengan mengatur tampilan lebar dan mengatur skala     awal 
   - title SeleraKita. title digunakan untuk menetapkan judul dokumen yang nantinya akan muncul di web browser 
-  - link rel=”stylesheet” href=”style.css” digunakan untuk menautkan file stylesheet yang disebut “style.css” sehingga mudah untuk memodifikasi tata letak            halaman dengan mengedit file CSS terpisah
+  - link rel=”stylesheet” href=”style.css” digunakan untuk menautkan file stylesheet yang disebut “style.css” sehingga mudah untuk memodifikasi tata letak halaman dengan mengedit file CSS terpisah
 
   ![Screenshot1 (817)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/bd3c5ccb-2110-4ae3-9638-0dfab31c0468)
+  
   -  body menandakan awal dari elemen tubuh dari elemen halaman HTML 
   - nav menunjukkan bahwa bagian ini merupakan bagian navigasi dari halaman web
   - div class = “navbar” div merupakan elemen divisi yang mempunyai class “navbar” yang digunakan  untuk mengelompokkan elemen navigasi dan class “navbar” nantinya akan digunakan di css
@@ -147,6 +149,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   - pada line 16 - 18  merupakan daftar item yang berurutan yang berisi Home,Resep, About yang akan  mengarah ke elemen dengan id “home”, id " Resep", id "About      pada halaman tersebut  
 
   ![Screenshot1 (821)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/96d3a268-f5cf-4d31-9d50-e946be74f642)
+  
   Script diatas merupakan salah satu codingan untuk melihat resep yang ada di dalam halaman index HTML. Berikut penjerlasannya :
   - section id = “resep” menandakan awal dari bagian “resep” di halaman web yang berisi daftar atau kartu resep yang akan ditampilkan kepada pengguna 
   - ul class = “catCardList” ul (unordered list) merupakan daftar yang tak berurut yang memiliki class “catCardlist”
@@ -157,9 +160,10 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   - div class =”lowerCatCard” div yang memiliki class “loweCatCard” yang digunakan untuk menampilkan detail resep lebih lanjut 
   - h3 Nasi Goreng h3 elemen judul level 3 yang menampilkan judul resep “Nasi Goreng”
   - p ….kontendeskripsi..p paragraf yang menjelaskan mengenai nasi goreng 
-  - div id="catCardButton" class="button" a href="resepnasgor.html" Lihat Resep a div div dengan id “catCardButton” dan kelas “button” yang berisi tautan             “Lihat Resep”. tautan ini akan mengarah ke       halaman yang berisi resep nasi goreng secara lebih rinci 
+  - div id="catCardButton" class="button" a href="resepnasgor.html" Lihat Resep a div div dengan id “catCardButton” dan kelas “button” yang berisi tautan “Lihat Resep”. tautan ini akan mengarah ke halaman yang berisi resep nasi goreng secara lebih rinci 
 
   ![Screenshot (822)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/ecce0596-d431-4adc-9a8e-4d6397c05bad)
+  
     - div class = “selengkapnya” merupakan elemen div yang memiliki class “selengkapnya”. elemen div digunakan untuk membuat kotak terpisah dalam dokumen HTML dan digunakan untuk mengatur gaya elemen            menggunakan css
     - a href = “indexresep.html”Selengkapnya… a  merupakan tautan yang memiliki atribut href yang menunjukkan tujuan tautan pada halaman “indexresep.html”. “Selengkapnya…” akan ditampilkan di halaman web sebagai tautan yang dapat di klik oleh pengguna dan beralih ke halaman yang ditentukan dalam herf
 
@@ -178,12 +182,14 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
    - p …..konten media sosial…p digunakan untuk paragraf yang nantinya akan menampilkan akun sosial media seperti YouTube, Instagram, dan Facebook 
 
   ![Screenshot (824)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/296bcfbd-8077-4b94-bf2c-a86a594c6454)
+  
     - div id = “copyright” div yang memiliki ID “copyright” digunakan untuk mengelompokkan informasi mengenai hak cipta situs web dan id “copyright” yang nantinya akan digunakan di css
     - div class = “wrapper” div  di dalamnya terdapat  kelas “wrapper” yang nantinya kelas “wrapper” dapat digunakan di css
 
 **5.2 PENJELASAN SCRIPT INDEXRESEP HTML**
 
   ![ss indexresep 1](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/389ecf17-7f46-40ea-9039-2c483ee1b332)
+  
     - !DOCTYPE html: merupakan deklarasi tipe dokumen yang memberitahu browser bahwa halaman ini menggunakan versi HTML5.
     - html lang="en" : menandakan awal dari dokumen HTML. Elemen ini juga mengandung atribut ‘lang’ yang menunjukkan bahwa bahasa kontennya adalah bahasa inggris.
     - head merupakan bagian kepala dokumen yang biasanya diisi informasi-informasi mengenai halaman web seperti judul, tautan stylesheet, dan meta informasi:
@@ -193,6 +199,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
     - link rel="stylesheet" href="style.css" : Menghubungkan halaman dengan file stylesheet (CSS) yang bernama “style.css”
 
   ![ss indexresep 2](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/bc39636d-ac40-4882-a783-1642e1340b1a)
+  
     - body : yaitu bagian tubuh dokumen untuk menempatkan konten utama dari halaman web.
     - nav : bagian navigasi yang berisi menu atau tautan-tautan yang mengarahkan pengguna ke halaman-halaman lain di situs.
     - div class=”navbar” : sebuah div dengan kelas CSS “navbar” yang berisi elemen-elemen terkait navigasi.
@@ -250,6 +257,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
       - box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Memberikan efek bayangan pada elemen dengan kelas "kotakresep". Efek bayangan adalah bayangan lembut yang memberikan kedalaman dan dimensi pada elemen.
 
 **5.4 PENJELASAN SCRIPT JS**
+
   ![Screenshot (827)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/97fccc33-7ac2-4ec3-a7a5-aac39eb3c5e3)
   ![Screenshot (828)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/ea2ae230-9a19-43a3-b725-9eb444e56690)
   
@@ -271,6 +279,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 **5.5 PENJELASAN SCRIPT STYLE.CSS**
   
   ![Gambar WhatsApp 2023-10-24 pukul 22 57 15_15c14877](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/0973086c-7a48-4cca-8e31-341321ea9ff2)
+  
    - (*) adalah aturan CSS yang didefinisikan dibawahnya dan akan berlaku untuk semua elemen HTML pada halaman web.
    - {}  digunakan untuk mengelompokkan aturan CSS.
    - text-decoration: none; digunakan untuk menghilangkan dekorasi teks seperti underline pada tautan link
@@ -459,11 +468,12 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
       - Prefix transformasi: Beberapa browser mungkin memerlukan prefix tertentu, seperti -webkit-transform, -moz-transform, -o-transform, dan -ms-transform, untuk mendukung transformasi
 
   ![Gambar WhatsApp 2023-10-24 pukul 22 47 06_2d3f5904](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/c32198db-3d49-44e1-b7dc-d9faae19a50a)
+  
     - .button:active: selector pseudo-class yang mengarah pada tombol dengan kelas "button" ketika tombol tersebut sedang dalam keadaan "active," 
       - background: #000; untuk mengubah warna latar belakang tombol menjadi hitam (#000) ketika tombol dalam keadaan "active" atau saat ditekan oleh pengguna.
     - .button a: selector yang digunakan untuk menargetkan tautan yang berada di dalam tombol dengan kelas "button."
       - color: #ffffff; untuk mengatur warna teks tautan dalam tombol menjadi putih (#ffffff).
-      - padding: 7px 30px !important; untuk mengatur ruang dalam (padding) menjadi 7 piksel di atas dan bawah serta 30 piksel di sisi kiri dan kanan. Tanda             !important digunakan untuk memberikan prioritas tertinggi pada aturan ini.
+      - padding: 7px 30px !important; untuk mengatur ruang dalam (padding) menjadi 7 piksel di atas dan bawah serta 30 piksel di sisi kiri dan kanan. Tanda !important digunakan untuk memberikan prioritas tertinggi pada aturan ini.
       - text-decoration: none; untuk menghilangkan dekorasi tautan dalam tombol, seperti garis bawah.
     - .button a:hover: selector pseudo-class yang mengarah pada tautan dalam tombol dengan kelas "button" ketika tautan tersebut sedang dalam keadaan "hover."
       - color: #ffffff; untuk mengatur warna teks tautan dalam tombol menjadi putih (#ffffff).
@@ -477,6 +487,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
       - width: 100%;untuk mengatur lebar elemen-elemen dengan kelas "tengah" menjadi 100%
         
   ![Gambar WhatsApp 2023-10-24 pukul 22 47 05_7d896b53](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/50607cd0-c0c3-4b9d-a7e5-d2803a3ec6d3)
+  
     - #contact: selector ID yang digunakan untuk menargetkan elemen dengan ID "contact" dalam halaman web.
       - background: #dedede;: Properti CSS ini mengatur warna latar belakang elemen dengan ID "contact" menjadi #dedede (abu-abu muda).
       - padding: 50px 0px 50px 0px;mengatur padding menjadi 50 piksel di atas dan bawah, dan 0 piksel adalah padding di kanan dan kiri.
@@ -499,6 +510,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
       - line-height: 50px; untuk mengatur jarak antar baris menajdi 50 piksel
         
   ![Gambar WhatsApp 2023-10-24 pukul 22 47 07_f1050294](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/ac0615e2-31f1-43f9-9ebd-d8b9304acac7)
+  
     - .Back adalah selector kelas yang digunakan untuk menargetkan elemen-elemen dengan kelas "Back" 
       - display: flex;untuk mengatur elemen-elemen dengan kelas "Back" untuk menggunakan model tata letak Flexbox. 
       - justify-content: center;untuk mengatur penataan elemen-elemen secara horizontal sehingga terpusat
@@ -518,6 +530,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
       - background-color: #364f6b; untuk mengubah warna latar belakang tautan menjadi #364f6b (biru tua)
 
   ![Gambar WhatsApp 2023-10-24 pukul 23 38 27_5cd53fa1](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/5f92130c-0657-4586-af5d-5c2be249be0c)
+  
     - .search-bar adalah selector kelas yang digunakan untuk menargetkan elemen dengan kelas "search-bar"
       - display: flex; digunakan untuk mengatur elemen dengan kelas "search-bar" untuk menggunakan model tata letak Flexbox.
       - align-items: center; digunakan untuk mengatur penataan elemen-elemen secara vertikal sehingga elemen "search-bar" terpusat secara vertikal
@@ -536,9 +549,12 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
       - border-radius: 25px;untuk mengatur sudut border elemen sehingga memiliki sudut yang membulat (border-radius) sebesar 25 piksel.
       - width: 100%;: Properti CSS ini mengatur lebar elemen input menjadi 100%
       - background: transparent;: Properti CSS ini mengatur latar belakang elemen input menjadi transparan
-    - .search-bar input[type="text"]::placeholder merupakan selector pseudo-element yang digunakan untuk menargetkan teks placeholder (teks panduan) pada elemen        - input dengan tipe "text" yang berada dalam elemen 
+    - .search-bar input[type="text"]::placeholder merupakan selector pseudo-element yang digunakan untuk menargetkan teks placeholder (teks panduan) pada elemen        
+    - input dengan tipe "text" yang berada dalam elemen 
       - color: #777;untuk mengatur warna teks placeholder menjadi #777 (abu-abu tua).
+      
   ![Gambar WhatsApp 2023-10-24 pukul 23 40 26_f258a045](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/4990001c-9eba-4ff0-9aa2-0f9c0cc700a3)
+  
     - .search-bar button merupakan selector yang digunakan untuk menargetkan elemen tombol
       - background-color: 364f6b; digubnakan untukmengatur warna latar belakang tombol menjadi #364f6b (biru tua).
       - color: #fff; digunakan mengatur warna teks tombol menjadi putih (#fff).
@@ -551,6 +567,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
       - cursor: pointer; untuk mengubah kursor mouse menjadi ikon tangan ketika diarahkan ke tombol, menunjukkan bahwa tombol dapat diklik.
 
   ![Gambar WhatsApp 2023-10-24 pukul 23 41 17_e3fd3e74](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/678134f2-44fa-4881-bdb2-f8b30fab110d)
+  
     - #searchResults digunakan untuk menargetkan elemen dengan ID "searchResults"
       - background-color: #fff; untuk mengatur warna latar belakang elemen "searchResults" menjadi putih (#fff).
       - border: 2px solid #364f6b; untuk mengatur garis pinggir dengan ketebalan 2 piksel dan warna #364f6b (biru tua).
@@ -563,6 +580,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
       - display: none; untuk mengatur elemen untuk dapat disembunyikan secara default (display: none).
       - z-index: 1 digunakan untuk mengatur z-indeks elemen "searchResults" menjadi 1. 
       - top: 60px; digunakan untuk mengatur posisi elemen sejauh 60 piksel dari atas. 
+      
   ![Gambar WhatsApp 2023-10-24 pukul 23 44 44_9de77778](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/c864a777-00f8-4a1a-9b36-34ac89319e76)
 
     - searchResults a digunakan untuk menargetkan elemen tautan (link) yang berada dalam elemen 
@@ -585,6 +603,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 **5.6 PENJELASAN SCRIPT RESEP**
 
   ![Screenshot (838)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/6439b2de-29c8-4645-b35d-84045dba053a)
+  
     - !DOCTYPE html digunakan untuk mendeklarasikan atau memberi tau browser bahwa halaman ini merupakan halaman dokumen html5
     - html lang = “en”  menunjukkan bahwa bahasa yang digunakan pada halaman merupakan bahasa inggris 
     - head digunakan untuk menandakan bahwa awal dari kepala dokumen HTML.
