@@ -277,26 +277,26 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
   ![Screenshot (827)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/97fccc33-7ac2-4ec3-a7a5-aac39eb3c5e3)
   ![Screenshot (828)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/ea2ae230-9a19-43a3-b725-9eb444e56690)
   
-    - document.addEventListener("DOMContentLoaded", function() { ... }); merupakan event listener yang akan menjalankan 
+  - document.addEventListener("DOMContentLoaded", function() { ... }); merupakan event listener yang akan menjalankan 
       fungsi saat DOM sepenuhnya dimuat
-    - Const recipeSearchinput = document.getElementById(“recipeSearch”): untuk mendapatkan elemen input dengan ID “recipeSearch”
-    - const searchResults = document.getElementById("searchResults"); digunakan untuk mendapatkan elemen dengan ID 
+  - Const recipeSearchinput = document.getElementById(“recipeSearch”): untuk mendapatkan elemen input dengan ID “recipeSearch”
+  - const searchResults = document.getElementById("searchResults"); digunakan untuk mendapatkan elemen dengan ID 
       “searchResults” yang digunakan untuk tempat dimana hasil pencarian ditampilkan 
-    - const catCardList = document.querySelectorAll(".catCardList");  digunakan untuk mengumpulkan daftar elemen yang 
+  - const catCardList = document.querySelectorAll(".catCardList");  digunakan untuk mengumpulkan daftar elemen yang 
       memiliki kelas “catCardList” berisi tentang kumpulan resep 
-    - recipeSearchInput.addEventListener("input", function() { ... }); menambah event listener untuk input pada elemen “recipeSearch”
-    - if (searchTerm.length === 0) { jika searchTerm.length ==0  maka searchResults.style.display = "none"; menyembunyikan 
+  - recipeSearchInput.addEventListener("input", function() { ... }); menambah event listener untuk input pada elemen “recipeSearch”
+  - if (searchTerm.length === 0) { jika searchTerm.length ==0  maka searchResults.style.display = "none"; menyembunyikan 
       daftar hadir jika tidak ada di dalam resep pencarian
-    - return; digunakan untuk mengakhiri eksekusi fungsi saat ini dan mengembalikan kontrol ke pemanggil fungsi
-    - document.getElementById("recipeSearch").style.width = "500px" digunakan untuk mengatur lebar recipeSearch 
-    - document.getElementById("recipeSearch").style.padding = "10px" digunakan untuk mengatur padding recipeSearch 
-    - catCardList.forEach(function(card) { ... }); digunakan untuk melakukan iterasi (perulangan ) melalui setiap resep
-    - const h3 = card.querySelector("h3"); mendapatkan elemen judul resep di setiap  resep 
-    - if (recipeTitle.includes(searchTerm)) digunakan jika memeriksa apakah input pencarian yang ada dalam judul resep maka results.push(card.outerHTML) 
+  - return; digunakan untuk mengakhiri eksekusi fungsi saat ini dan mengembalikan kontrol ke pemanggil fungsi
+  - document.getElementById("recipeSearch").style.width = "500px" digunakan untuk mengatur lebar recipeSearch 
+  - document.getElementById("recipeSearch").style.padding = "10px" digunakan untuk mengatur padding recipeSearch 
+  - catCardList.forEach(function(card) { ... }); digunakan untuk melakukan iterasi (perulangan ) melalui setiap resep
+  - const h3 = card.querySelector("h3"); mendapatkan elemen judul resep di setiap  resep 
+  - if (recipeTitle.includes(searchTerm)) digunakan jika memeriksa apakah input pencarian yang ada dalam judul resep maka results.push(card.outerHTML) 
       untuk menyimpan HTML dari setiap kartu resep yang cocok dengan pencarian 
-    - if (results.length > 0) jika results.legth>0 maka searchResults.innerHTML = results.join("") menampilkan hasil pencarian ke dalam elemen dengan 
+  - if (results.length > 0) jika results.legth>0 maka searchResults.innerHTML = results.join("") menampilkan hasil pencarian ke dalam elemen dengan 
       ID”searchResults” dan searchResults.style.display = "block"; digunakan menampilkan elemen hasil pencarian 
-    - else jika tidak searchResults.innerHTML = "Tidak ada hasil ditemukan."; digunakan menampilkan pesan jika tidak ada hasil yang 
+  - else jika tidak searchResults.innerHTML = "Tidak ada hasil ditemukan."; digunakan menampilkan pesan jika tidak ada hasil yang 
       ditemukan dan searchResults.style.display = "block"; digunakan untuk menampilkan elemen hasil pencarian yang jika tidak ada hasil yang ditemukan
 
 **5.5 PENJELASAN SCRIPT STYLE.CSS**
@@ -448,15 +448,15 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 
   <img width="383" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/355bf13c-ae7c-4877-9893-df262fd4d53f"> 
 
-    - div.lowerCatCard:hover #catCardButton selector yang mengarah pada elemen dengan id "catCardButton" ketika elemen "lowerCatCard"  
+  - div.lowerCatCard:hover #catCardButton selector yang mengarah pada elemen dengan id "catCardButton" ketika elemen "lowerCatCard"  
       dalam elemen "catCard" sedang dalam keadaan "hover."
-      - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
-    - .catCard img digunakan untuk menargetkan gambar-gambar yang berada dalam elemen
-      - border: 1px solid #dddddd; untuk mengatur ketebalan border menjadi 1 piksel dengan warna abu-abu muda
-      - width: 219px; untuk mngatur lebar gambar menjadi 219 piksel
-      - height: 198px; untuk mengatur tinggi gambar menjadi 198 piksel
-    - .catCard img:hover merupakan selector pseudo-class yang mengarah pada gambar dalam elemen "catCard" ketika gambar tersebut sedang dalam keadaan "hover."
-      - border: 1px solid #bababa; untuk mengubah tampilan border  menjadi 1 piksel dengan solid warna abu-abu muda
+    - bottom: 5px; untuk mengatur posisi bawah elemen menjadi 5piksel dari tepi bawah
+  - .catCard img digunakan untuk menargetkan gambar-gambar yang berada dalam elemen
+    - border: 1px solid #dddddd; untuk mengatur ketebalan border menjadi 1 piksel dengan warna abu-abu muda
+    - width: 219px; untuk mngatur lebar gambar menjadi 219 piksel
+    - height: 198px; untuk mengatur tinggi gambar menjadi 198 piksel
+  - .catCard img:hover merupakan selector pseudo-class yang mengarah pada gambar dalam elemen "catCard" ketika gambar tersebut sedang dalam keadaan "hover."
+    - border: 1px solid #bababa; untuk mengubah tampilan border  menjadi 1 piksel dengan solid warna abu-abu muda
  
   <img width="385" alt="image" src="https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124517725/09434dac-2181-40fa-b39c-c26ef4c4789d"> 
 
