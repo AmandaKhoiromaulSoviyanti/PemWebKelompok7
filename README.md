@@ -164,8 +164,10 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 
   ![Screenshot (822)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/ecce0596-d431-4adc-9a8e-4d6397c05bad)
   
-    - div class = “selengkapnya” merupakan elemen div yang memiliki class “selengkapnya”. elemen div digunakan untuk membuat kotak terpisah dalam dokumen HTML dan digunakan untuk mengatur gaya elemen            menggunakan css
-    - a href = “indexresep.html”Selengkapnya… a  merupakan tautan yang memiliki atribut href yang menunjukkan tujuan tautan pada halaman “indexresep.html”. “Selengkapnya…” akan ditampilkan di halaman web sebagai tautan yang dapat di klik oleh pengguna dan beralih ke halaman yang ditentukan dalam herf
+  - div class = “selengkapnya” merupakan elemen div yang memiliki class “selengkapnya”. elemen div digunakan untuk membuat kotak terpisah dalam dokumen HTML
+  dan digunakan untuk mengatur gaya elemen menggunakan css
+  - a href = “indexresep.html”Selengkapnya… a  merupakan tautan yang memiliki atribut href yang menunjukkan tujuan tautan pada halaman “indexresep.html”.
+    “Selengkapnya…” akan ditampilkan di halaman web sebagai tautan yang dapat di klik oleh pengguna dan beralih ke halaman yang ditentukan dalam herf
 
   ![Gambar WhatsApp 2023-10-24 pukul 21 20 11_3d2b8b09](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/01e44e97-d647-48bb-8ed0-a7364a605435)
 
