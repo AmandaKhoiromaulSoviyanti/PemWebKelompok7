@@ -43,7 +43,6 @@ Website resep makanan "Selera Kita" yaitu sebuah website yang menampilkan berbag
 Setiap resep dalam website ini disertai dengan deskripsi yang rinci, termasuk bahan - bahan yang diperlukan dan langkah - langkah memasak yang mudah untuk dipahami. Setiap resep dilengkapi dengan gambar - gambar berkualitas dari hidangan yang sudah jadi. Gambar - gambar ini memungkinkan user untuk memvisualisasikan hasil akhir dan memberikan motivasi untuk mencoba.
 
 - FUNGSI PRODUK
-
 Website Resep Makanan "Selera Kita" memiliki beragam fungsi. berikut merupakan beberapa fungsi dari website Resep Makanan Selera Kita :
   - Website Resep Makanan " Selera Kita" dapat memberikan informasi yang inspirasi untuk memasak dan juga dapat mencoba hidangan baru.
   - Website Resep Makanan " Selera Kita" ini memberikan panduan memasak langkah demi langkah dalam menghidangkan masakkan yang dipilih yang dapat membantu pengguna yang kurang         
@@ -51,7 +50,6 @@ Website Resep Makanan "Selera Kita" memiliki beragam fungsi. berikut merupakan b
   - Website Resep Makanan " Selera Kita" juga dapat menjadi sarana pembelajaran dan juga mengembangakan keterampilan memasak.
 
 - KARAKTERISTIK PENGGUNA
-
 Karakteristik pengguna yang menggunakan perangkat lunak Task Submission yaitu:
   - Pengguna
     
@@ -62,7 +60,6 @@ Karakteristik pengguna yang menggunakan perangkat lunak Task Submission yaitu:
     - Memahami cara kerja perangkat elektronik yang digunakan
 
 - LINGKUNGAN OPERASI
-
 Software Website resep makanan dapat dijalankan pada:
   - Windows
     - Windows 7,8,8.1,10
@@ -76,17 +73,14 @@ Software Website resep makanan dapat dijalankan pada:
      - iOS 9, 10, 11, 12, 13, 14, 15, atau yang lebih baru
       
 - KENDALA DESAIN DAN IMPLEMENTASI
-
 Kendala yang dialami dalam proses pembuatan desain dan implementasi website Resep Makanan “Selera Kita” yaitu:
   - Mengalami kesulitan dalam menemukan ide dan desain website yang pas.
   - Kurangnya pengetahuan teknis dalam mengembangakan website, sehingga kesulitan dalam merancang dan juga mengimplementasikan fitur yang ada.
 
 - DOKUMENTASI PENGGUNA
-
 Dokumen untuk membantu pengguna menggunakan website resep makanan “Selera Kita” ini terbuka untuk umum dan dapat diakses melalui web Browser, Google Chrome, Firefox, Microsoft Edge dsb.
 
 - ASUMSI DAN KETERGANTUNGAN
-
 Kebutuhan dari website resep makanan “Selera Kita” adalah:
   - Adanya perangkat keras yang mampu mengoperasikan Website resep makanan "Selera Kita"
   - Adanya perangkat lunak yang mampu mengoperasikan Website resep makanan “Selera Kita”
