@@ -26,12 +26,11 @@ Dokumen ini merupakan Spesifikasi untuk membangun website yang efisien. Tujuan p
 
 **1.2 AUDIENS YANG DITUJU DAN PEMBACA YANG DISARANKAN** 
 
-Audiens : Audiens yang dituju yaitu para pecinta masakan kuliner, pecinta makanan sehat, dan ibu rumah tangga yang tertark untuk mendapatkan berbagai informasi dan resep masakkan yang mudah dan dapat dibuat sendiri.
-Saran : Dokumentasi SRS Website Resep Makanan ini digunakan unuk memberikan informasi kepada audiens tentang resep - resep makanan. Oleh karena itu, kami menyarankan para audiens membaca dokumen SRS ini dengan cermat.
+Audiens yang dituju yaitu para pecinta masakan kuliner, pecinta makanan sehat, dan ibu rumah tangga yang tertarik untuk mendapatkan berbagai informasi dan resep masakkan yang mudah dan dapat dibuat sendiri. Dokumentasi SRS Website Resep Makanan ini digunakan unuk memberikan informasi kepada audiens tentang resep - resep makanan. Selain itu, kami berharap website ini dapat menjadi inspirasi bagi setiap audiens dalam mencari resep hidangan. Oleh karena itu, kami menyarankan para audiens membaca dokumen SRS ini dengan cermat.
 
 **1.3 RUANG LINGKUP** 
 
-Perangkat lunak yang akan dikembangakan adalah Website Resep makanan yaitu Selera Kita yang dapat digunakan atau diakses oleh semua orang.
+Website "Selera Kita" merupakan website yang berfokus pada resep masakkan. Website ini menyajikan informasi megenai bberagam resep masakkan dari bahan - bahan hingga panduan memasak. Hal ini bertujuan untuk membantu mempermudah para pengguna dan pembaca dalam memasak suatu hidangan. 
 
 <div align = "center">
   <h1>2. DESKRIPSI KEBUTUHAN FUNGSIONAL</h1>
@@ -85,6 +84,7 @@ Kendala yang dialami dalam proses pembuatan desain dan implementasi website Rese
 Dokumen untuk membantu pengguna menggunakan website resep makanan “Selera Kita” ini terbuka untuk umum dan dapat diakses melalui web Browser, Google Chrome, Firefox, Microsoft Edge dsb.
 
 **2.7 ASUMSI DAN KETERGANTUNGAN**
+
 Kebutuhan dari website resep makanan “Selera Kita” adalah:
   - Adanya perangkat keras yang mampu mengoperasikan Website resep makanan "Selera Kita"
   - Adanya perangkat lunak yang mampu mengoperasikan Website resep makanan “Selera Kita”
@@ -98,17 +98,25 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 
 ![Screenshot (841)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/4a95ce7a-1815-46c8-bc2f-fad5e64a31cd)
 
+Dihalaman home ini terdapat logo website "SELERA KITA", dan  navigasi home,resep,about yang dapat di pilih oleh pengguna untuk melihat home,resep dan about
+
 **3.2 TAMPILAN RESEP**
 
 ![Screenshot (833)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/6e409aff-e4f1-41d1-a8e6-a21a5dd47835)
+
+Ditampilan resep terdapat beberapa resep makanan yang nnatinya dapat di pilih dan di lihat oleh pengguna.
 
 **3.3 HALAMAN ABOUT**
 
 ![Screenshot (834)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/13e60758-0d7a-49f6-bdbd-564d0cac4f7b)
 
+Ditampilan about pengguna dapat melihat penjelasan mengenai website, contact dan juga sosial media dari selera kita. 
+
 **3.4 HALAMAN DETAIL RESEP**
 
 ![image](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/124539993/76683d4d-774f-4bc9-af18-886aec50a7d8)
+
+Dihalaman resep ini menampilkan resep masakkan yang detail , dari bahan - bahan dan cara membuat. 
 
 <div align = "center">
 <h1>4. LAMPIRAN: ANALISIS MODEL</h1>
