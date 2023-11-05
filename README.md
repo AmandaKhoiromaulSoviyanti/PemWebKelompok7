@@ -12,7 +12,7 @@
 1. [PENDAHULUAN](#1-pendahuluan) 
 2. [DESKRIPSI KEBUTUHAN FUNGSIONAL](#2-deskripsi-kebutuhan-fungsional)
 3. [DESAIN ANTAR MUKA](#3-desain-antar-muka)
-4. [LAMPIRAN ANALISIS MODEL](#4-lampiran-analisis-model)
+4. [ANALISIS MODEL](#4-analisis-model)
 5. [PENJELASAN SCRIPT](#5-penjelasan-script) 
 
 
@@ -119,7 +119,7 @@ Ditampilan about pengguna dapat melihat penjelasan mengenai website, contact dan
 Dihalaman resep ini menampilkan resep masakkan yang detail , dari bahan - bahan dan cara membuat. 
 
 <div align = "center">
-<h1>4. LAMPIRAN: ANALISIS MODEL</h1>
+<h1>4. ANALISIS MODEL</h1>
 </div>
 
 **4.1 FLOWCHART**
