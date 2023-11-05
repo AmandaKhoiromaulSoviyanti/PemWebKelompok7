@@ -99,7 +99,7 @@ Kebutuhan dari website resep makanan “Selera Kita” adalah:
 
 ![Screenshot (841)](https://github.com/AmandaKhoiromaulSoviyanti/PemWebKelompok7/assets/117991094/4a95ce7a-1815-46c8-bc2f-fad5e64a31cd)
 
-Dihalaman home ini terdapat logo website "SELERA KITA", dan  navigasi home,resep,about yang dapat di pilih oleh pengguna untuk melihat home,resep dan about
+Dihalaman home ini terdapat logo website "SELERA KITA", dan  navigasi home,resep,about yang dapat di pilih oleh pengguna untuk melihat home,resep dan about dari website "Selera KIta"
 
 **3.2 TAMPILAN RESEP**
 
