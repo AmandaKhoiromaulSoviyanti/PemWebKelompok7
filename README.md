@@ -61,6 +61,7 @@ Karakteristik pengguna yang menggunakan perangkat lunak Task Submission yaitu:
     - Memahami cara kerja perangkat elektronik yang digunakan
 
 **2.4 LINGKUNGAN OPERASI**
+
 Software Website resep makanan dapat dijalankan pada:
   - Windows
     - Windows 7,8,8.1,10
